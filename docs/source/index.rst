@@ -20,4 +20,4 @@ Contents
 
    usage
    api
-   Releasenotes5_3
+   IBIS-suite Release Notes 5.3 (fixed)
