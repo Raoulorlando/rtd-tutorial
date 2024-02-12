@@ -3,11 +3,11 @@
 # -- Project information
 
 project = 'Pizza'
-copyright = '2023, Graziella'
+copyright = '2023, R'
 author = 'Cook'
 
 release = '0.1'
-version = '0.1.0'
+version = '0.1.2'
 
 # -- General configuration
 
