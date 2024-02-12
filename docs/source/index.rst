@@ -21,4 +21,4 @@ Contents
    usage
    api
    How-to
-   <IBIS-suite Release Notes 5.3 (fixed)>
+   :doc:`IBIS-suite Release Notes 5.3 (fixed)`
