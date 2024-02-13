@@ -5,7 +5,7 @@
 -   [Settings](#GeneralSettings)
 -   [Thresholds](#thresholds)
 -   [Operations](#operations)
--   [Modules](#modules)
+-   [Modules](#module)
 
 (introduction)=
 ## <span id="Introductie"></span>Introduction
@@ -131,7 +131,7 @@ last import, and updates the staging area.
 **Export**  
 Processes all pending exports in the connected system.
 
-(modules)=
+(module)=
 ## <span id="Modules"></span>Modules
 
 Below table displays the modules are available in a standard
