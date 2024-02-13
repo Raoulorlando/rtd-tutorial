@@ -1,11 +1,11 @@
 # <span id="index"></span>ABAC Connectors
 
--   [Introduction](#Introductie)
--   [Staging area](#StagingArea)
+-   [Introduction](#introduction)
+-   [Staging area](#staging-area)
 -   [Settings](#GeneralSettings)
--   [Thresholds](#Thresholds)
--   [Operations](#Operations)
--   [Modules](#Modules)
+-   [Thresholds](#thresholds)
+-   [Operations](#operations)
+-   [Modules](#modules)
 
 
 ## <span id="Introductie"></span>Introduction
