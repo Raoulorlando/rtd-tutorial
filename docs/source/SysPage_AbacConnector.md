@@ -1,4 +1,4 @@
-##### <span id="index"></span>ABAC Connectors
+# <span id="index"></span>ABAC Connectors
 
 -   [Introduction](#Introductie)
 -   [Staging area](#StagingArea)
@@ -7,7 +7,7 @@
 -   [Operations](#Operations)
 -   [Modules](#Modules)
 
-#### <span id="Introductie"></span>Introduction
+## <span id="Introductie"></span>Introduction
 
 The ABAC connector framework enables membership enforcement in external
 systems. The connector uses vendor-specific modules for communication
@@ -18,7 +18,7 @@ a custom module can be developed.
 The connector framework works with staging area objects, targets and
 roles. For readability we will refer to them as groups, users and roles.
 
-#### <span id="StagingArea"></span>Staging area
+## <span id="StagingArea"></span>Staging area
 
 Each connector contains a staging area for intermediate storage of
 objects.  
@@ -26,7 +26,7 @@ For more information how to use the staging area, see the
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_AbacStagingArea">Staging Area</a> documentation
 
-#### <span id="GeneralSettings"></span>Settings
+## <span id="GeneralSettings"></span>Settings
 
 **Orientation**  
 Determines which type of objects are managed by this connector:
@@ -69,7 +69,7 @@ connected system (for example, a UPN).
 In case a target should be added to a group but the External ID cannot
 be determined, the target will be skipped.
 
-#### <span id="Thresholds"></span>Thresholds
+## <span id="Thresholds"></span>Thresholds
 
 Thresholds can be used to abort processing when certain limits are
 reached. To configure thresholds, open the Thresholds tab of the
@@ -114,7 +114,7 @@ and:
 
 [Top](#index)
 
-#### <span id="Operations"></span>Operations
+## <span id="Operations"></span>Operations
 
 **Sync**  
 Calculates members for groups, and stages the necessary export changes
@@ -130,7 +130,7 @@ last import, and updates the staging area.
 **Export**  
 Processes all pending exports in the connected system.
 
-#### <span id="Modules"></span>Modules
+## <span id="Modules"></span>Modules
 
 Below table displays the modules are available in a standard
 installation.
