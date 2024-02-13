@@ -137,13 +137,13 @@ Processes all pending exports in the connected system.
 Below table displays the modules are available in a standard
 installation.
 
-| Module                          | Full Import              | Delta Import |
-|---------------------------------|:------------------------:|:------------:|
-| Microsoft Active Directory      | X                        | X            |
-| Microsoft Entra Id              | X                        | X            |
-| Google Groups                   | X                        |              |
-| Google Calendar                 | X                        |              |
-| Google Mailbox                  | X                        |              |
+| Module                          | Full Import | Delta Import |
+|---------------------------------|-------------|--------------|
+| Microsoft Active Directory      | X           | X            |
+| Microsoft Entra Id              | X           | X            |
+| Google Groups                   | X           |              |
+| Google Calendar                 | X           |              |
+| Google Mailbox                  | X           |              |
 
   
 
