@@ -1,6 +1,6 @@
 # <span id="index"></span>ABAC Connectors
 
--   :ref:`Introduction`
+-   :ref:``Introduction``
 -   [Staging area](#staging-area)
 -   [Settings](#settings)
 -   [Thresholds](#thresholds)
