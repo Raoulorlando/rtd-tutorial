@@ -1,13 +1,13 @@
 # <span id="index"></span>ABAC Connectors
 
--   :ref:`Introduction`
+-   :ref:`ABAC Introduction`
 -   [Staging area](#staging-area)
 -   [Settings](#settings)
 -   [Thresholds](#thresholds)
 -   [Operations](#operations)
 -   [Modules](#modules)
 
-.. _Introduction:
+.. _ABAC Introduction:
 ## <span id="Introductie"></span>Introduction
 
 The ABAC connector framework enables membership enforcement in external
