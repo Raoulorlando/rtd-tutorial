@@ -137,54 +137,13 @@ Processes all pending exports in the connected system.
 Below table displays the modules are available in a standard
 installation.
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 40%" />
-<col style="width: 50%" />
-<col style="width: 10%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Module</th>
-<th class="text-center">Full Import</th>
-<th class="text-center">Delta Import</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="javascript:void(0)" class="help-trigger"
-data-helpkey="AbacConnector_ActiveDirectory">Microsoft Active
-Directory</a></td>
-<td><p><strong>X</strong></p></td>
-<td><p><strong>X</strong></p></td>
-</tr>
-<tr class="even">
-<td><a href="javascript:void(0)" class="help-trigger"
-data-helpkey="AbacConnector_MicrosoftEntraId">Microsoft Entra
-Id</a></td>
-<td class="text-center"><p><strong>X</strong></p></td>
-<td class="text-center"><p><strong>X</strong></p></td>
-</tr>
-<tr class="odd">
-<td><a href="javascript:void(0)" class="help-trigger"
-data-helpkey="AbacConnector_GoogleGroup">Google Groups</a></td>
-<td class="text-center"><p><strong>X</strong></p></td>
-<td class="text-center"><p><strong></strong></p></td>
-</tr>
-<tr class="even">
-<td><a href="javascript:void(0)" class="help-trigger"
-data-helpkey="AbacConnector_GoogleCalendar">Google Calendar</a></td>
-<td class="text-center"><p><strong>X</strong></p></td>
-<td class="text-center"><p><strong></strong></p></td>
-</tr>
-<tr class="odd">
-<td><a href="javascript:void(0)" class="help-trigger"
-data-helpkey="AbacConnector_GoogleMailbox">Google Mailbox</a></td>
-<td class="text-center"><p><strong>X</strong></p></td>
-<td class="text-center"><p><strong></strong></p></td>
-</tr>
-</tbody>
-</table>
+| Module                          | Full Import              | Delta Import |
+|---------------------------------|:------------------------:|:------------:|
+| Microsoft Active Directory      | X                        | X            |
+| Microsoft Entra Id              | X                        | X            |
+| Google Groups                   | X                        |              |
+| Google Calendar                 | X                        |              |
+| Google Mailbox                  | X                        |              |
 
   
 
