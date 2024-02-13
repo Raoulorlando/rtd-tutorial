@@ -2,10 +2,10 @@
 
 -   [Introduction](#Introductie)
 -   [Staging area](#StagingArea)
--   [Settings](#generalsettings)
--   [Thresholds](#thresholds)
--   [Operations](#operations)
--   [Modules](#modules)
+-   [Settings](#GeneralSettings)
+-   [Thresholds](#Thresholds)
+-   [Operations](#Operations)
+-   [Modules](#Modules)
 
 
 ## <span id="Introductie"></span>Introduction
