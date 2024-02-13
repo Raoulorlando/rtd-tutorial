@@ -151,6 +151,11 @@ installation.
 </tr>
 </thead>
 <tbody>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
 <tr class="odd">
 <td><a href="javascript:void(0)" class="help-trigger"
 data-helpkey="AbacConnector_ActiveDirectory">Microsoft Active
