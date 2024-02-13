@@ -1,11 +1,11 @@
 # <span id="index"></span>ABAC Connectors
 
--   [Introduction](#introduction)
+-   :ref:`Introduction`
 -   [Staging area](#staging-area)
 -   [Settings](#settings)
 -   [Thresholds](#thresholds)
 -   [Operations](#operations)
--   [Modules](#modules)
+-   :ref:`Modules` 
 
 ## <span id="Introductie"></span>Introduction
 
