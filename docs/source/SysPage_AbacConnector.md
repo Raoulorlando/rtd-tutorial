@@ -138,11 +138,6 @@ Below table displays the modules are available in a standard
 installation.
 
 <table class="table table-bordered">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
 <thead class="thead-light">
 <tr class="header">
 <th>Module</th>
@@ -151,11 +146,6 @@ installation.
 </tr>
 </thead>
 <tbody>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
 <tr class="odd">
 <td><a href="javascript:void(0)" class="help-trigger"
 data-helpkey="AbacConnector_ActiveDirectory">Microsoft Active
@@ -167,26 +157,26 @@ Directory</a></td>
 <td><a href="javascript:void(0)" class="help-trigger"
 data-helpkey="AbacConnector_MicrosoftEntraId">Microsoft Entra
 Id</a></td>
-<td><p><strong>X</strong></p></td>
-<td><p><strong>X</strong></p></td>
+<td class="text-center"><p><strong>X</strong></p></td>
+<td class="text-center"><p><strong>X</strong></p></td>
 </tr>
 <tr class="odd">
 <td><a href="javascript:void(0)" class="help-trigger"
 data-helpkey="AbacConnector_GoogleGroup">Google Groups</a></td>
-<td><p><strong>X</strong></p></td>
-<td><p><strong></strong></p></td>
+<td class="text-center"><p><strong>X</strong></p></td>
+<td class="text-center"><p><strong></strong></p></td>
 </tr>
 <tr class="even">
 <td><a href="javascript:void(0)" class="help-trigger"
 data-helpkey="AbacConnector_GoogleCalendar">Google Calendar</a></td>
-<td><p><strong>X</strong></p></td>
-<td><p><strong></strong></p></td>
+<td class="text-center"><p><strong>X</strong></p></td>
+<td class="text-center"><p><strong></strong></p></td>
 </tr>
 <tr class="odd">
 <td><a href="javascript:void(0)" class="help-trigger"
 data-helpkey="AbacConnector_GoogleMailbox">Google Mailbox</a></td>
-<td><p><strong>X</strong></p></td>
-<td><p><strong></strong></p></td>
+<td class="text-center"><p><strong>X</strong></p></td>
+<td class="text-center"><p><strong></strong></p></td>
 </tr>
 </tbody>
 </table>
