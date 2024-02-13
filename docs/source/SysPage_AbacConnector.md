@@ -138,6 +138,11 @@ Below table displays the modules are available in a standard
 installation.
 
 <table class="table table-bordered">
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 50%" />
+<col style="width: 10%" />
+</colgroup>
 <thead class="thead-light">
 <tr class="header">
 <th>Module</th>
