@@ -8,5 +8,5 @@
 
 
 .. include:: SysPage_AbacConnector.md
-    :parser: myst_parser
+    :parser: myst_parser.sphinx_
     
