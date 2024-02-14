@@ -1,5 +1,8 @@
 # <span id="index"></span>ABAC Connectors
 
+.. autosummary::
+   :toctree: generated
+   
 -   [Introduction](#introduction)
 -   [Staging area](#stagingarea)
 -   [Settings](#GeneralSettings)
