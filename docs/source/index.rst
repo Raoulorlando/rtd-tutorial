@@ -17,7 +17,7 @@ Contents
 --------
 
 .. toctree::
-   SysPage_AbacConnector
+   AbacConnector
    SysPage_BackgroundTasks
    SysPage_Connector
    SysPage_Cryptography
