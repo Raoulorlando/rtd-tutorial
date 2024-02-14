@@ -1,4 +1,4 @@
-##### Google Mailbox
+##### Google Group
 
 The Google Mailbox module synchronizes Google Group memberships
 
