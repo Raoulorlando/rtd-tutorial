@@ -17,7 +17,6 @@ Contents
 --------
 
 .. toctree::
-   :titlesonly:
    AbacConnector
    SysPage_BackgroundTasks
    SysPage_Connector
