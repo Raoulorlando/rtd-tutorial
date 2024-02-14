@@ -16,20 +16,20 @@ how to :ref:`installation` the project.
 Contents
 --------
 
-
-..    AbacConnector
-..    SysPage_BackgroundTasks
-..    SysPage_Connector
-..    SysPage_Cryptography
-..    SysPage_DataSet
-..    SysPage_IbisQueue
-..    SysPage_ImportExport
-..    SysPage_LiveLog
-..    SysPage_Localization
-..    SysPage_Logging
-..    SysPage_MessageCenter
-..    SysPage_Reporting
-..    SysPage_RunProfile
-..    SysPage_Search
-..    SysPage_SysGeneralSettings
-..    SysPage_Workflow
+.. toctree::
+   AbacConnector
+   SysPage_BackgroundTasks
+   SysPage_Connector
+   SysPage_Cryptography
+   SysPage_DataSet
+   SysPage_IbisQueue
+   SysPage_ImportExport
+   SysPage_LiveLog
+   SysPage_Localization
+   SysPage_Logging
+   SysPage_MessageCenter
+   SysPage_Reporting
+   SysPage_RunProfile
+   SysPage_Search
+   SysPage_SysGeneralSettings
+   SysPage_Workflow
