@@ -1,8 +1,15 @@
 # <span id="index"></span>ABAC Connectors
 
-.. autosummary::
-   :toctree: generated
+
+.. toctree:: 
+    :hidden:
+    SysPage_AbacConnector
+    AbacConnector_GoogleCalendar
+    AbacConnector_GoogleGroup
+    AbacConnector_GoogleMailbox
+    AbacConnector_MicrosoftEntraId
    
+
 -   [Introduction](#introduction)
 -   [Staging area](#stagingarea)
 -   [Settings](#GeneralSettings)
