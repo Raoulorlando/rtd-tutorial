@@ -1,5 +1,4 @@
 .. toctree::
-  :hidden:
   AbacConnector/AbacConnector_GoogleCalendar
   AbacConnector/AbacConnector_GoogleGroup
   AbacConnector/AbacConnector_GoogleMailbox
