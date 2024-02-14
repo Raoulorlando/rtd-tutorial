@@ -19,7 +19,18 @@ Contents
 .. toctree::
 
    SysPage_AbacConnector
-   SysPage_AbacConnector/AbacConnector_GoogleCalendar
-   SysPage_AbacConnector/AbacConnector_GoogleGroup
-   SysPage_AbacConnector/AbacConnector_GoogleMailbox
-   SysPage_AbacConnector/AbacConnector_MicrosoftEntraId
+   SysPage_BackgroundTasks
+   SysPage_Connector
+   SysPage_Cryptography
+   SysPage_DataSet
+   SysPage_IbisQueue
+   SysPage_ImportExport
+   SysPage_LiveLog
+   SysPage_Localization
+   SysPage_Logging
+   SysPage_MessageCenter
+   SysPage_Reporting
+   SysPage_RunProfile
+   SysPage_Search
+   SysPage_SysGeneralSettings
+   SysPage_Workflow
