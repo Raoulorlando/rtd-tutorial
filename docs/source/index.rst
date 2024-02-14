@@ -17,8 +17,12 @@ Contents
 --------
 
 .. toctree::
-   :includehidden:
-   AbacConnector
+   SysPage_AbacConnector
+   SysPage_AbacConnector/AbacConnector_GoogleCalendar
+   SysPage_AbacConnector/AbacConnector_GoogleGroup
+   SysPage_AbacConnector/AbacConnector_GoogleMailbox
+   SysPage_AbacConnector/AbacConnector_MicrosoftEntraId
+
    SysPage_BackgroundTasks
    SysPage_Connector
    SysPage_Cryptography
