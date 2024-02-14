@@ -1,8 +1,9 @@
 .. toctree::
-  AbacConnector/AbacConnector_GoogleCalendar
-  AbacConnector/AbacConnector_GoogleGroup
-  AbacConnector/AbacConnector_GoogleMailbox
-  AbacConnector/AbacConnector_MicrosoftEntraId
+    :hidden:
+    AbacConnector_GoogleCalendar
+    AbacConnector_GoogleGroup
+    AbacConnector_GoogleMailbox
+    AbacConnector_MicrosoftEntraId
 
 
 .. include:: SysPage_AbacConnector.md
