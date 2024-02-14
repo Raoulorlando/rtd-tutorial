@@ -18,7 +18,8 @@ Contents
 
 .. toctree::
 
-   usage
-   api
-   How-to
    SysPage_AbacConnector
+   SysPage_AbacConnector/AbacConnector_GoogleCalendar
+   SysPage_AbacConnector/AbacConnector_GoogleGroup
+   SysPage_AbacConnector/AbacConnector_GoogleMailbox
+   SysPage_AbacConnector/AbacConnector_MicrosoftEntraId
