@@ -1,0 +1,10 @@
+root: index.rst
+subtrees:
+- entries:
+  - file: SysPage_AbacConnector
+    subtrees:
+    - entries:
+      - file: AbacConnector_GoogleCalendar
+      - file: AbacConnector_GoogleGroup
+      - file: AbacConnector_GoogleMailbox
+      - file: AbacConnector_MicrosoftEntraId
