@@ -1,12 +1,12 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / Booq
 
-##### Booq
+# Booq
 
 The Booq connector module enables user maintenance
 (create/update/delete) in Booq.
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <colgroup>

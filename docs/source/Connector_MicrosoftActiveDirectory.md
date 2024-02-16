@@ -1,20 +1,20 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / Active Directory
 
-##### Active Directory Connector
+# Active Directory Connector
 
 The Active Directory module communicates with Microsoft Active
 Directory. The module supports import and export of ***User*** and
 ***Group*** objects.
 
-#### Primary key
+## Primary key
 
 The primary key for objects delivered by this module is the
 ***objectGUID*** property. The value of this property is the string
 representation of the Active Directory objectGUID attribute, which is a
 Guid.
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <colgroup>
@@ -121,7 +121,7 @@ example:</p>
 </thead>
 &#10;</table>
 
-#### Password management
+## Password management
 
 The Active Directory module can set the password of the user object
 <u>on creation</u> of the object.
@@ -132,7 +132,7 @@ an export flow (provision only) with the password to property:
 
 -   *\_param\_password*
 
-#### Disable an account
+## Disable an account
 
 To disable an account, set an export attribute flow to the attribute:
 
@@ -149,7 +149,7 @@ an aliasDossier, is:
 
 **{?{?{\_09\_41\_Alias\_DatumEindeGeldigheid},dateistodayorfuture},iif(false,True,False)}**
 
-#### Destination container
+## Destination container
 
 The destination container should be set through an export flow to
 attribute:
@@ -159,7 +159,7 @@ attribute:
 The value of this attribute should be the distinguished name of an
 Active Directory container.
 
-#### Object rename (move)
+## Object rename (move)
 
 The connector will move a user object when one of the following
 conditions are satisfied:
@@ -167,7 +167,7 @@ conditions are satisfied:
 -   The property **cn** is changed by an export flow
 -   The property **\_param\_container** is changed by an export flow
 
-#### Communications
+## Communications
 
 In order to function correctly, the following TCP/IP ports should be
 open between the IBIS server and the configured Active Director domain

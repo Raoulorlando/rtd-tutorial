@@ -1,12 +1,12 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / IBIS API
 
-##### IBIS
+# IBIS
 
 The IBIS connector module supports import and export of data from and to
 another IBIS instance through the ODATA API.
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <colgroup>

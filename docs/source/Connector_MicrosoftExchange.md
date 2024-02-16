@@ -1,7 +1,7 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / Microsoft Exchange
 
-##### Exchange Connector
+# Exchange Connector
 
 This module communicates with Microsoft Exchange Server and Office 365  
 The following infrastructure types are supported:
@@ -10,7 +10,7 @@ The following infrastructure types are supported:
 -   Hybrid - Local users with Office 365 mailboxes
 -   Office 365 - All users and mailboxes are contained in Office 365
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <colgroup>
@@ -102,7 +102,7 @@ imported, and will be left alone on export.</p></td>
 </tbody>
 </table>
 
-#### Password management
+## Password management
 
 The Exchange module can set the password of the user object <u>on
 creation</u> of the object.
@@ -114,7 +114,7 @@ an unauthorized message. To export the password, create an export flow
 
 -   *\_param\_password*
 
-#### SMTP address handling
+## SMTP address handling
 
 The module is capable of managing SMTP addresses through the
 ***EmailAddresses*** property.  
@@ -139,7 +139,7 @@ according to IBIS.
     where the primary address type identifier will be in uppercase
     (SMTP), and all other in lowercase (smtp)
 
-#### Communications
+## Communications
 
 In order to function correctly, the following TCP/IP ports should be
 open between the IBIS server and the Exchange host

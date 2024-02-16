@@ -1,7 +1,7 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / ABAC
 
-##### ABAC
+# ABAC
 
 The ABAC module supports import- and export of ABAC targets.
 
@@ -12,7 +12,7 @@ ABAC will reload the criteria for a target after each successful export.
 In order to trigger a successful export, you can for example flow a
 ModifieDate value to one of the extension attributes of the target.
 
-#### Module parameters
+## Module parameters
 
 <table class="table table-bordered">
 <thead class="thead-light">

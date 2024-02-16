@@ -1,12 +1,12 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / Microsoft Graph
 
-##### Microsoft Graph
+# Microsoft Graph
 
 The Microsoft Graph connector supports all CRUD operations on the
 Microsoft Graph API.
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <colgroup>

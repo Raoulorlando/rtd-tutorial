@@ -1,7 +1,7 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / Flat File (CSV)
 
-##### Flat File (CSV)
+# Flat File (CSV)
 
 The CSV connector is capable of reading from- and writing to character
 separated text files. the module supports import and export operations.
@@ -14,7 +14,7 @@ If the data in a colum contains the text qualifier itself (for example,
 the text qualifier is **‘**, en the data is **Dhr. A in 't Veld**), the
 qualifier should be escaped by duplicating it (**Dhr. A in 't Veld**).
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <thead class="thead-light">

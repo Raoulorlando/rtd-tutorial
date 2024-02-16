@@ -2,12 +2,12 @@
 data-helpkey="SysPage_Connector">Connectors</a> / Facility<sup>2</sup>
 Wish
 
-##### Facility<sup>2</sup> Wish
+# Facility<sup>2</sup> Wish
 
 The Wish connector is capable of reading from- and writing to the Wish
 API.
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <colgroup>
@@ -55,7 +55,7 @@ translation to</p></th>
 </thead>
 &#10;</table>
 
-#### Function code translation
+## Function code translation
 
 The Wish connector is capable of translating function codes to a desired
 Wish format. In order to achieve this, you need to create a CSV file

@@ -1,7 +1,7 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / Google Workspace
 
-##### Google Workspace (Google Api)
+# Google Workspace (Google Api)
 
 The Google Workspace connector supports the following actions:
 
@@ -12,7 +12,7 @@ The Google Workspace connector supports the following actions:
 -   Provision groups
 -   Deprovision groups
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <thead class="thead-light">
@@ -45,7 +45,7 @@ e-mail address is the same as this domain.</p></th>
 </thead>
 &#10;</table>
 
-#### AppSettings
+## AppSettings
 
 Parameter
 

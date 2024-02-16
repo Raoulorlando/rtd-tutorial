@@ -1,12 +1,12 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / NetIQ eDirectory
 
-##### NetIQ eDirectory
+# NetIQ eDirectory
 
 The eDirectory module is capable of importing and exporting data to
 NetIQ eDirectory by using the LDAP protocol.
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <colgroup>
@@ -92,7 +92,7 @@ name.</p>
 </thead>
 &#10;</table>
 
-#### Destination container
+## Destination container
 
 The destination container should be set through an export flow to
 attribute:

@@ -1,20 +1,20 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / Afas
 
-##### Afas
+# Afas
 
 The Afas module communicates with Afas Online through an *Afas Get
 Connector*. The module supports Full Import only because Afas does not
 provide a delta mechanism. Exporting data to Afas should be done by
 using the IBIS workflow engine.
 
-#### Primary key
+## Primary key
 
 The primary key for objects delivered by this module is stored in the
 \_***PrimaryKey*** property. The value of this property is calculated
 during import using the ***Primary key expression*** parameter.
 
-#### Module parameters
+## Module parameters
 
 <table class="table table-bordered">
 <colgroup>

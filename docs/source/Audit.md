@@ -1,4 +1,4 @@
-##### <span id="index"></span>Audit configuration
+# <span id="index"></span>Audit configuration
 
 All user actions on IBIS objects can be audited. IBIS supports the
 following audit actions.

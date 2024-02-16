@@ -1,12 +1,12 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / Coda
 
-##### Coda
+# Coda
 
 The Coda connector is capable of importing users from and exporting
 users to Unit4 Coda using the Coda SOAP/XML webservice.
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <thead class="thead-light">
