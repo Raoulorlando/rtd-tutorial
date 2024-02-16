@@ -1,4 +1,6 @@
 root: index.rst
+options:
+  titlesonly: True
 subtrees:
 - entries:
   - file: SysPage_AbacConnector
