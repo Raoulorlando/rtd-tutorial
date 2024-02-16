@@ -28,7 +28,7 @@ For more information how to use the staging area, see the
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_AbacStagingArea">Staging Area</a> documentation
 
-::rubric::## <span id="GeneralSettings"></span>Settings
+## <span id="GeneralSettings"></span>Settings
 
 **Orientation**  
 Determines which type of objects are managed by this connector:
@@ -71,7 +71,7 @@ connected system (for example, a UPN).
 In case a target should be added to a group but the External ID cannot
 be determined, the target will be skipped.
 
-::rubric:: ## <span id="Thresholds"></span>Thresholds
+## <span id="Thresholds"></span>Thresholds
 
 Thresholds can be used to abort processing when certain limits are
 reached. To configure thresholds, open the Thresholds tab of the
