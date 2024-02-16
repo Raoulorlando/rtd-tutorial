@@ -9,7 +9,7 @@
 -   [Modules](#modules)
 
 (introduction)=
-::rubric:: ## <span id="Introductie"></span>Introduction
+## <span id="Introductie"></span>Introduction
 
 The ABAC connector framework enables membership enforcement in external
 systems. The connector uses vendor-specific modules for communication
@@ -20,7 +20,7 @@ a custom module can be developed.
 The connector framework works with staging area objects, targets and
 roles. For readability we will refer to them as groups, users and roles.
 
-::rubric:: ## <span id="StagingArea"></span>Staging area
+## <span id="StagingArea"></span>Staging area
 
 Each connector contains a staging area for intermediate storage of
 objects.  
@@ -116,7 +116,7 @@ and:
 
 [Top](#index)
 
-::rubric:: ## <span id="Operations"></span>Operations
+## <span id="Operations"></span>Operations
 
 **Sync**  
 Calculates members for groups, and stages the necessary export changes
