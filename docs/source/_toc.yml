@@ -4,7 +4,6 @@ subtrees:
   - file: Audit.md
   - file: SysPage_AbacConnector.md
     subtrees:
-    :maxdepth: 1
     - entries:
       - file: AbacConnector_GoogleCalendar.md
       - file: AbacConnector_GoogleGroup.md
@@ -15,7 +14,6 @@ subtrees:
   - file: Syspage_Connector_Image.md
   - file: Syspage_Connector.md
     subtrees:
-    :maxdepth: 1
     - entries:
       - file: Connector_ABAC.md
       - file: Connector_Afas.md
@@ -57,7 +55,6 @@ subtrees:
   - file: SysPage_Reporting.md
   - file: SysPage_RunProfile.md
     subtrees:
-    :maxdepth: 1
     - entries:
       - file: SysPage_RunProfile_Settings.md
   - file: SysPage_Search.md
