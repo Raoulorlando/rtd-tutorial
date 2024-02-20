@@ -1,68 +1,66 @@
 root: index.rst
 subtrees:
--entries:
-  - file: Documentatie
-  subtrees:
-  - entries:
-    - file: Audit
-    - file: SysPage_AbacConnector
-      subtrees:
-      - entries:
-        - file: AbacConnector_GoogleCalendar
-        - file: AbacConnector_GoogleGroup
-        - file: AbacConnector_GoogleMailbox
-        - file: AbacConnector_MicrosoftEntraId
-    - file: Syspage_AbacStagingArea
-    - file: Syspage_BackgroundTasks
-    - file: Syspage_Connector_Image
-    - file: Syspage_Connector
-      subtrees:
-      - entries:
-        - file: Connector_ABAC
-        - file: Connector_Afas
-        - file: Connector_Aspos
-        - file: Connector_Booq
-        - file: Connector_Cash360
-        - file: Connector_Coda
-        - file: Connector_eDirectory
-        - file: Connector_Facility2WISH
-        - file: Connector_FlatFile(CSV)
-        - file: Connector_GoogleWorkspace
-        - file: Connector_IBISAPI
-        - file: Connector_MicrosoftActiveDirectory
-        - file: Connector_MicrosoftExchange
-        - file: Connector_MicrosoftGraph
-        - file: Connector_MicrosoftSQLServer
-        - file: Connector_Mobaro
-        - file: Connector_PeopleInc
-        - file: Connector_PowerShell
-        - file: Connector_RaetIAM
-        - file: Connector_SAPSuccessFactors
-        - file: Connector_SAPUser
-        - file: Connector_SCIMV2
-        - file: Connector_ServiceSites
-        - file: Connnector_SimonsVossLSM
-        - file: Connector_SmartQ
-        - file: Connector_Topdesk
-        - file: Connector_TreeManager
-        - file: Connector_Youforce
-        - file: Connector_ZO
-    - file: SysPage_Cryptography
-    - file: SysPage_DataSet
-    - file: SysPage_IbisQueue
-    - file: SysPage_ImportExport
-    - file: SysPage_LiveLog
-    - file: SysPage_Localization
-    - file: SysPage_Logging
-    - file: SysPage_MessageCenter
-    - file: SysPage_Reporting
-    - file: SysPage_RunProfile
-      subtrees:
-      - entries:
-        - file: SysPage_RunProfile_Settings
-    - file: SysPage_Search
-    - file: SysPage_StagingArea
-    - file: SysPage_SysGeneralSettings
-    - file: SysPage_Workflow
-    :glob: 
-        
+
+- entries:
+  - file: Audit
+  - file: SysPage_AbacConnector
+    subtrees:
+    - entries:
+      - file: AbacConnector_GoogleCalendar
+      - file: AbacConnector_GoogleGroup
+      - file: AbacConnector_GoogleMailbox
+      - file: AbacConnector_MicrosoftEntraId
+  - file: Syspage_AbacStagingArea
+  - file: Syspage_BackgroundTasks
+  - file: Syspage_Connector_Image
+  - file: Syspage_Connector
+    subtrees:
+    - entries:
+      - file: Connector_ABAC
+      - file: Connector_Afas
+      - file: Connector_Aspos
+      - file: Connector_Booq
+      - file: Connector_Cash360
+      - file: Connector_Coda
+      - file: Connector_eDirectory
+      - file: Connector_Facility2WISH
+      - file: Connector_FlatFile(CSV)
+      - file: Connector_GoogleWorkspace
+      - file: Connector_IBISAPI
+      - file: Connector_MicrosoftActiveDirectory
+      - file: Connector_MicrosoftExchange
+      - file: Connector_MicrosoftGraph
+      - file: Connector_MicrosoftSQLServer
+      - file: Connector_Mobaro
+      - file: Connector_PeopleInc
+      - file: Connector_PowerShell
+      - file: Connector_RaetIAM
+      - file: Connector_SAPSuccessFactors
+      - file: Connector_SAPUser
+      - file: Connector_SCIMV2
+      - file: Connector_ServiceSites
+      - file: Connnector_SimonsVossLSM
+      - file: Connector_SmartQ
+      - file: Connector_Topdesk
+      - file: Connector_TreeManager
+      - file: Connector_Youforce
+      - file: Connector_ZO
+  - file: SysPage_Cryptography
+  - file: SysPage_DataSet
+  - file: SysPage_IbisQueue
+  - file: SysPage_ImportExport
+  - file: SysPage_LiveLog
+  - file: SysPage_Localization
+  - file: SysPage_Logging
+  - file: SysPage_MessageCenter
+  - file: SysPage_Reporting
+  - file: SysPage_RunProfile
+    subtrees:
+    - entries:
+      - file: SysPage_RunProfile_Settings
+  - file: SysPage_Search
+  - file: SysPage_StagingArea
+  - file: SysPage_SysGeneralSettings
+  - file: SysPage_Workflow
+  - glob: Documentatie
+      
