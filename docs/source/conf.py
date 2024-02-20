@@ -20,6 +20,7 @@ extensions = [
     'myst_parser',
     'sphinx_external_toc',
 ]
+external_toc_exclude_missing = True
 
 
 intersphinx_mapping = {
