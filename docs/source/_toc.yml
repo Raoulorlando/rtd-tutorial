@@ -1,6 +1,8 @@
 root: index.rst
 subtrees:
-- entries:
+- maxdepth: 1
+  entries:
+  
   - file: Documentatie/Audit
   - file: Documentatie/SysPage_AbacConnector
     subtrees:
