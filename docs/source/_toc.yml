@@ -1,6 +1,5 @@
 root: index.rst
 subtrees:
-
 - entries:
   - file: Audit
   - file: SysPage_AbacConnector
@@ -62,5 +61,4 @@ subtrees:
   - file: SysPage_StagingArea
   - file: SysPage_SysGeneralSettings
   - file: SysPage_Workflow
-  - glob: Documentatie
       
