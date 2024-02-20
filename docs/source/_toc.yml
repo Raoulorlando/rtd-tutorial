@@ -60,5 +60,5 @@ subtrees:
   - file: SysPage_Search
   - file: SysPage_StagingArea
   - file: SysPage_SysGeneralSettings
-  - file: SysPage_Workflow
+  - file: Documentatie/SysPage_Workflow
       
