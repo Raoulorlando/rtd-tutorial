@@ -1,6 +1,7 @@
 root: index.rst
 subtrees:
 - maxdepth: 1
+  titlesonly: True
   entries:
   
   - file: Documentatie/Audit
