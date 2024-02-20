@@ -1,64 +1,64 @@
 root: index.rst
 subtrees:
 - entries:
-  - file: Audit
-  - file: SysPage_AbacConnector
+  - file: Documentatie/Audit
+  - file: Documentatie/SysPage_AbacConnector
     subtrees:
     - entries:
-      - file: AbacConnector_GoogleCalendar
-      - file: AbacConnector_GoogleGroup
-      - file: AbacConnector_GoogleMailbox
-      - file: AbacConnector_MicrosoftEntraId
-  - file: Syspage_AbacStagingArea
-  - file: Syspage_BackgroundTasks
-  - file: Syspage_Connector_Image
-  - file: Syspage_Connector
+      - file: Documentatie/AbacConnector_GoogleCalendar
+      - file: Documentatie/AbacConnector_GoogleGroup
+      - file: Documentatie/AbacConnector_GoogleMailbox
+      - file: Documentatie/AbacConnector_MicrosoftEntraId
+  - file: Documentatie/Syspage_AbacStagingArea
+  - file: Documentatie/Syspage_BackgroundTasks
+  - file: Documentatie/Syspage_Connector_Image
+  - file: Documentatie/Syspage_Connector
     subtrees:
     - entries:
-      - file: Connector_ABAC
-      - file: Connector_Afas
-      - file: Connector_Aspos
-      - file: Connector_Booq
-      - file: Connector_Cash360
-      - file: Connector_Coda
-      - file: Connector_eDirectory
-      - file: Connector_Facility2WISH
-      - file: Connector_FlatFile(CSV)
-      - file: Connector_GoogleWorkspace
-      - file: Connector_IBISAPI
-      - file: Connector_MicrosoftActiveDirectory
-      - file: Connector_MicrosoftExchange
-      - file: Connector_MicrosoftGraph
-      - file: Connector_MicrosoftSQLServer
-      - file: Connector_Mobaro
-      - file: Connector_PeopleInc
-      - file: Connector_PowerShell
-      - file: Connector_RaetIAM
-      - file: Connector_SAPSuccessFactors
-      - file: Connector_SAPUser
-      - file: Connector_SCIMV2
-      - file: Connector_ServiceSites
-      - file: Connnector_SimonsVossLSM
-      - file: Connector_SmartQ
-      - file: Connector_Topdesk
-      - file: Connector_TreeManager
-      - file: Connector_Youforce
-      - file: Connector_ZO
-  - file: SysPage_Cryptography
-  - file: SysPage_DataSet
-  - file: SysPage_IbisQueue
-  - file: SysPage_ImportExport
-  - file: SysPage_LiveLog
-  - file: SysPage_Localization
-  - file: SysPage_Logging
-  - file: SysPage_MessageCenter
-  - file: SysPage_Reporting
-  - file: SysPage_RunProfile
+      - file: Documentatie/Connector_ABAC
+      - file: Documentatie/Connector_Afas
+      - file: Documentatie/Connector_Aspos
+      - file: Documentatie/Connector_Booq
+      - file: Documentatie/Connector_Cash360
+      - file: Documentatie/Connector_Coda
+      - file: Documentatie/Connector_eDirectory
+      - file: Documentatie/Connector_Facility2WISH
+      - file: Documentatie/Connector_FlatFile(CSV)
+      - file: Documentatie/Connector_GoogleWorkspace
+      - file: Documentatie/Connector_IBISAPI
+      - file: Documentatie/Connector_MicrosoftActiveDirectory
+      - file: Documentatie/Connector_MicrosoftExchange
+      - file: Documentatie/Connector_MicrosoftGraph
+      - file: Documentatie/Connector_MicrosoftSQLServer
+      - file: Documentatie/Connector_Mobaro
+      - file: Documentatie/Connector_PeopleInc
+      - file: Documentatie/Connector_PowerShell
+      - file: Documentatie/Connector_RaetIAM
+      - file: Documentatie/Connector_SAPSuccessFactors
+      - file: Documentatie/Connector_SAPUser
+      - file: Documentatie/Connector_SCIMV2
+      - file: Documentatie/Connector_ServiceSites
+      - file: Documentatie/Connnector_SimonsVossLSM
+      - file: Documentatie/Connector_SmartQ
+      - file: Documentatie/Connector_Topdesk
+      - file: Documentatie/Connector_TreeManager
+      - file: Documentatie/Connector_Youforce
+      - file: Documentatie/Connector_ZO
+  - file: Documentatie/SysPage_Cryptography
+  - file: Documentatie/SysPage_DataSet
+  - file: Documentatie/SysPage_IbisQueue
+  - file: Documentatie/SysPage_ImportExport
+  - file: Documentatie/SysPage_LiveLog
+  - file: Documentatie/SysPage_Localization
+  - file: Documentatie/SysPage_Logging
+  - file: Documentatie/SysPage_MessageCenter
+  - file: Documentatie/SysPage_Reporting
+  - file: Documentatie/SysPage_RunProfile
     subtrees:
     - entries:
-      - file: SysPage_RunProfile_Settings
-  - file: SysPage_Search
-  - file: SysPage_StagingArea
-  - file: SysPage_SysGeneralSettings
+      - file: Documentatie/SysPage_RunProfile_Settings
+  - file: Documentatie/SysPage_Search
+  - file: Documentatie/SysPage_StagingArea
+  - file: Documentatie/SysPage_SysGeneralSettings
   - file: Documentatie/SysPage_Workflow
       
