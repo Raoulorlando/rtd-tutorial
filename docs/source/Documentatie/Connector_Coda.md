@@ -8,41 +8,14 @@ users to Unit4 Coda using the Coda SOAP/XML webservice.
 
 ## Parameters
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Parameter</th>
-<th class="text-center">Required</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Url</p></td>
-<td><p><strong>X</strong></p></td>
-<td><p>The URL of the Coda endpoint</p></td>
-</tr>
-<tr class="even">
-<td><p>Username</p></td>
-<td><p><strong>X</strong></p></td>
-<td><p>The username of the account to use when connecting to
-Coda</p></td>
-</tr>
-<tr class="odd">
-<td><p>Password</p></td>
-<td><p><strong>X</strong></p></td>
-<td><p>The password for the above user account</p></td>
-</tr>
-<tr class="even">
-<td><p>Company code</p></td>
-<td><p><strong>X</strong></p></td>
-<td><p>The code of the company to manage</p></td>
-</tr>
-<tr class="odd">
-<td><p>Template user</p></td>
-<td></td>
-<td><p>The username of the user to use as a template for new
-users</p></td>
-</tr>
-</tbody>
-</table>
+|     Parameter    | Required |                                Description                               |
+|:----------------:|:--------:|:------------------------------------------------------------------------:|
+| Url              | X        | The URL of the Coda endpoint                                             |
+| Username         | X        | The username of the account to use when connecting to Coda               |
+| Password         | X        | The password for the above user account                                  |
+| Company code     | X        | The code of the company to manage                                        |
+| Template user    |          | The username of the user to use as a template for new users              |
+| Store location   | X        | The resource URI for stores. For example:   partner/onboarding/v1/stores |
+| RowFilter fields |          |                                                                          |
+|  RowFilter types |          |                                                                          |
+| RowFilter values |          |                                                                          |

@@ -9,51 +9,17 @@ API.
 
 ## Parameters
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Parameter</th>
-<th class="text-center">Required</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>API URL</p></th>
-<th><p><strong>X</strong></p></th>
-<th><p>The URL of the Wish system, without /API.<br />
-<br />
-For example: https://wish3-api-test.facility2.nl</p></th>
-</tr>
-<tr class="header">
-<th><p>Username</p></th>
-<th><p><strong>X</strong></p></th>
-<th><p>The username of the account to use when accessing the
-API</p></th>
-</tr>
-<tr class="odd">
-<th><p>Password</p></th>
-<th><p><strong>X</strong></p></th>
-<th><p>The password of above username</p></th>
-</tr>
-<tr class="header">
-<th><p>Translation file for function codes</p></th>
-<th><p><strong> </strong></p></th>
-<th><p>Optional, the full path of a semicolon separated textfile (CSV)
-which contains function code translations. See chapter 9.8.1 for
-details.</p></th>
-</tr>
-<tr class="odd">
-<th><p>Target property for function code</p></th>
-<th><p><strong> </strong></p></th>
-<th><p>Optional, the target property to apply the function code
-translation to</p></th>
-</tr>
-</thead>
-&#10;</table>
+|              Parameter              | Required |                                                                Description                                                                |
+|:-----------------------------------:|:--------:|:-----------------------------------------------------------------------------------------------------------------------------------------:|
+|               API URL               |     X    |                       The URL of the Wish system, without /API.    For example: https://wish3-api-test.facility2.nl                       |
+|               Username              |     X    |                                         The username of the account to use when accessing the API                                         |
+|               Password              |     X    |                                                       The password of above username                                                      |
+| Translation file for function codes |          | Optional, the full path of a semicolon separated textfile (CSV) which contains function code translations. See chapter 9.8.1 for details. |
+|  Target property for function code  |          |                                  Optional, the target property to apply the function code translation to                                  |
+| Store location                      | X        | The resource URI for stores. For example:   partner/onboarding/v1/stores                                                                  |
+|           RowFilter fields          |          |                                                                                                                                           |
+|           RowFilter types           |          |                                                                                                                                           |
+|           RowFilter values          |          |                                                                                                                                           |
 
 ## Function code translation
 
