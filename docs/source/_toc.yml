@@ -47,6 +47,9 @@ subtrees:
       - file: Documentatie/Connector_TreeManager
       - file: Documentatie/Connector_Youforce
       - file: Documentatie/Connector_ZO
+  - file: Documentatie/HelpPageDataResolutionAndFunctions
+  - file: Documentatie/HelpPageODataApi
+  - file: Documentatie/Page
   - file: Documentatie/SysPage_Cryptography
   - file: Documentatie/SysPage_DataSet
   - file: Documentatie/SysPage_IbisQueue
@@ -64,6 +67,6 @@ subtrees:
   - file: Documentatie/SysPage_StagingArea
   - file: Documentatie/SysPage_SysGeneralSettings
   - file: Documentatie/SysPage_Workflow
-  - file: Documentatie/HelpPageDataResolutionAndFunctions
-  - file: Documentatie/HelpPageODataApi
+
+
       
