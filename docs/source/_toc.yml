@@ -47,6 +47,10 @@ subtrees:
       - file: Documentatie/Connector_TreeManager
       - file: Documentatie/Connector_Youforce
       - file: Documentatie/Connector_ZO
+      - file: Documentatie/SysPage_RunProfile
+      subtrees:
+      - entries:
+        - file: Documentatie/SysPage_RunProfile_Settings
   - file: Documentatie/HelpPageDataResolutionAndFunctions
   - file: Documentatie/HelpPageODataApi
   - file: Documentatie/Page
@@ -59,10 +63,7 @@ subtrees:
   - file: Documentatie/SysPage_Logging
   - file: Documentatie/SysPage_MessageCenter
   - file: Documentatie/SysPage_Reporting
-  - file: Documentatie/SysPage_RunProfile
-    subtrees:
-    - entries:
-      - file: Documentatie/SysPage_RunProfile_Settings
+  
   - file: Documentatie/SysPage_Search
   - file: Documentatie/SysPage_StagingArea
   - file: Documentatie/SysPage_SysGeneralSettings
