@@ -1,4 +1,4 @@
-##### <span id="index"></span>IBIS Queue
+# <span id="index"></span>IBIS Queue
 
 The IBIS queue is a intermediate storage area used for RESTful data
 processing. Unlike the staging area where it deals with connector data,

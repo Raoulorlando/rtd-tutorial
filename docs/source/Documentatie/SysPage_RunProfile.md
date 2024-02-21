@@ -1,7 +1,7 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / Run profiles
 
-##### <span id="index"></span>Run profiles
+# <span id="index"></span>Run profiles
 
 Run profiles provide the ability to execute operations in a sequential
 order at predefined time intervals.

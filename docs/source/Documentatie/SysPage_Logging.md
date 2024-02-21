@@ -1,4 +1,4 @@
-##### <span id="index"></span>Logging
+# <span id="index"></span>Logging
 
 Logging is handled by Log4net and written to the IBIS database in the
 table dbo.Logentry. The log level is set to INFO by default, which means

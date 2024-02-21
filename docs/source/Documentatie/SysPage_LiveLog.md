@@ -1,6 +1,6 @@
 <span class="badge rounded-pill bg-info">Administrator only</span>
 
-##### <span id="index"></span>Live log
+# <span id="index"></span>Live log
 
 The Live log page shows real-time logs of the IBIS application as they
 occur.

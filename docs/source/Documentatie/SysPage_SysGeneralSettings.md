@@ -1,4 +1,4 @@
-##### <span id="index"></span>IBIS settings
+# <span id="index"></span>IBIS settings
 
 IBIS settings are used to configure settings like:
 

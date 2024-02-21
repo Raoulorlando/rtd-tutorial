@@ -1,4 +1,4 @@
-##### <span id="index"></span>Search
+# <span id="index"></span>Search
 
 The (universal) Search page allows the user to search for identities,
 employees, user accounts and more, all in one place.

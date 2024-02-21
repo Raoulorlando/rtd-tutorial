@@ -1,4 +1,4 @@
-##### <span id="index"></span>Cryptography
+# <span id="index"></span>Cryptography
 
 IBIS uses the Reindael encryption mechanism to hash and/or encrypt
 sensitive data like passwords and plugin settings.

@@ -1,4 +1,4 @@
-##### <span id="index"></span>IBIS Configuration Import/Export
+# <span id="index"></span>IBIS Configuration Import/Export
 
 It's possible to export an IBIS configuration and import it in another
 environment. This may prove useful for keeping an OTAP environment in

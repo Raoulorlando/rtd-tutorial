@@ -1,4 +1,4 @@
-##### <span id="index"></span>Localization
+# <span id="index"></span>Localization
 
 While the IBIS UI was initialy developed for the dutch language, we are
 currently in the process of adding english translations. Besides

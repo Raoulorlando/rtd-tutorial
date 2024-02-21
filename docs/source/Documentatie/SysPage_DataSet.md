@@ -1,6 +1,6 @@
 <span class="badge rounded-pill bg-info">Administrator only</span>
 
-##### DataSets
+# DataSets
 
 Documentation and examples for the use of datasets, in combination with
 dynamic fields, workflows and more.

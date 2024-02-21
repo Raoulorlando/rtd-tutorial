@@ -1,4 +1,4 @@
-##### <span id="index"></span>Message center
+# <span id="index"></span>Message center
 
 The Message center is the default startpage of IBIS. Relevant messages
 for the user will be shown here.

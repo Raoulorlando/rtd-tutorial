@@ -1,4 +1,4 @@
-##### <span id="index"></span>Reporting
+# <span id="index"></span>Reporting
 
 The IBIS Reporting feature enables the export of tabular (IBIS) data to
 CSV, HTML or JSON.  

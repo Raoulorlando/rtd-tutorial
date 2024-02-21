@@ -1,7 +1,7 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / Staging area
 
-##### Staging area
+# Staging area
 
 Each connector contains a staging area for intermediate storage of
 objects.
