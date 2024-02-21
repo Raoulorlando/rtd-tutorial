@@ -64,4 +64,6 @@ subtrees:
   - file: Documentatie/SysPage_StagingArea
   - file: Documentatie/SysPage_SysGeneralSettings
   - file: Documentatie/SysPage_Workflow
+  - file: Documentatie/HelpPageDataResolutionAndFunctions
+  - file: Documentatie/HelpPageODataApi
       
