@@ -1,4 +1,4 @@
-## OData API
+# OData API
 
 Documentation and examples for the use of the IBIS REST API. This API
 makes use of the Open Data Protocol (ODATA).
@@ -116,7 +116,7 @@ class="img-fluid my-4 border" />
 
 ## HTTP methods
 
-#### GET
+### GET
 
 The GET method is used to retrieve objects from the API.
 
@@ -136,7 +136,7 @@ succesful.
 
 When an object does not exist, a 404 statuscode will be returned.
 
-###### Examples
+#### Examples
 
 <table class="table table-bordered">
 <colgroup>
@@ -167,7 +167,7 @@ When an object does not exist, a 404 statuscode will be returned.
 </thead>
 &#10;</table>
 
-#### DELETE
+### DELETE
 
 The DELETE method is used to remove an object from the system. This
 method should be performed on the resource URI followed by the object
@@ -181,7 +181,7 @@ deletion.
 In case the delete failed, a relevant HTTP statuscode and errormessage
 will be returned.
 
-###### Examples
+##### Examples
 
 <table class="table table-bordered">
 <colgroup>
@@ -204,7 +204,7 @@ will be returned.
 </thead>
 &#10;</table>
 
-#### PUT
+### PUT
 
 The PUT method is used to update an existing object. The PUT method
 should be performed in the resource URI followed by the object
@@ -223,7 +223,7 @@ The PUT method returns HTTP statuscode 200 after a succesful update.
 In case the update failed, a relevant HTTP statuscode and errormessage
 will be returned.
 
-###### Examples
+##### Examples
 
 <table class="table table-bordered">
 <colgroup>
@@ -247,7 +247,7 @@ will be returned.
 </thead>
 &#10;</table>
 
-#### POST
+### POST
 
 The POST method is used example: /OData/IDossiers. The body of the
 request should contain a JSON serialized object.to create a new object.
@@ -258,7 +258,7 @@ The POST method returns a HTTP statuscode 201 after succesful creation.
 In case the creation failed, a relevant HTTP statuscode and errormessage
 will be returned.
 
-###### Examples
+##### Examples
 
 <table class="table table-bordered">
 <thead class="thead-light">
@@ -284,7 +284,7 @@ To retrieve all objects, start with a *$skip* of 0, and a *$top* of (for
 example) 20. Then, raise the *$skip* parameter after each succesful
 request, until the number of results is lower than the *$top* count.
 
-###### Examples
+### Examples
 
 <table class="table table-bordered">
 <thead class="thead-light">
@@ -318,7 +318,7 @@ parameter. The *$filter* parameter supports the following operators:
 -   lt : Less than
 -   le : Less than or equal to
 
-###### Examples
+### Examples
 
 Retrieve all iDossiers with 01.40 greater than or equal to 2018-10-01:  
 /OData/IDossiers?$filter=\_01\_40\_Dienstverband\_DatumIngangGeldigheid

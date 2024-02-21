@@ -1,9 +1,9 @@
-##### <span id="index"></span>Data resolution and supported functions
+# <span id="index"></span>Data resolution and supported functions
 
 -   [Data resolution](#Data%20resolution)
 -   [Functions](#Functions)
 
-# <span id="Data resolution"></span>Data resolution
+## <span id="Data resolution"></span>Data resolution
 
 Data resolution provides the ability to translate an expression to an
 actual value.
@@ -86,7 +86,7 @@ will return
 
 -   *This is an example using {DisplayName}*
 
-#### Linked objects
+## Linked objects
 
 It is possible to reference linked objects using data resolution. A
 linked object is specified using a dot (.) in the markup. For example,
@@ -1036,7 +1036,7 @@ aliasdossier with the latest enddate)</td>
 
 [Top](#index)
 
-# <span id="Functions"></span>Functions
+## <span id="Functions"></span>Functions
 
 Functions can be used to perform checks or transformations on data
 present in a property of the incoming object or an argument.
@@ -2294,7 +2294,7 @@ This function returns one of the following values:
 </thead>
 &#10;</table>
 
-####  
+
 
 ### DateIsTodayOrPast
 
@@ -2343,7 +2343,7 @@ This function returns one of the following values:
 </thead>
 &#10;</table>
 
-####  
+
 
 ### GetLocaleName
 
@@ -2802,7 +2802,7 @@ be used</th>
 </thead>
 &#10;</table>
 
-# Testing data resolution and functions
+## Testing data resolution and functions
 
 1.  Go to the workflow management screen:
 
