@@ -12,10 +12,10 @@ subtrees:
       - file: Documentatie/AbacConnector_GoogleGroup
       - file: Documentatie/AbacConnector_GoogleMailbox
       - file: Documentatie/AbacConnector_MicrosoftEntraId
-  - file: Documentatie/Syspage_AbacStagingArea
-  - file: Documentatie/Syspage_BackgroundTasks
-  - file: Documentatie/Syspage_Connector_Image
-  - file: Documentatie/Syspage_Connector
+  - file: Documentatie/SysPage_AbacStagingArea
+  - file: Documentatie/SysPage_BackgroundTasks
+  - file: Documentatie/SysPage_Connector_Image
+  - file: Documentatie/SysPage_Connector
     subtrees:
     - entries:
       - file: Documentatie/Connector_ABAC
