@@ -1,4 +1,4 @@
-##### <span id="index"></span>Background tasks
+# <span id="index"></span>Background tasks
 
 IBIS uses Hangfire to schedule and trigger background tasks. The
 hangfire dashboard is available for members of an administrator role at
@@ -45,7 +45,7 @@ and ACLs between IBIS and TreeManager</p></td>
 </tbody>
 </table>
 
-#### Create a new task
+### Create a new task
 
 Perform the following steps to create a new task. After creation, the
 new task will be scheduled using hangfire and run at the configured
@@ -63,7 +63,7 @@ interval.
 8.  Fill in the parameter fields belonging to the selected task
 9.  Save and close settings
 
-#### Run a task on demand
+### Run a task on demand
 
 Background tasks can run on demand. To do this:
 
@@ -74,7 +74,7 @@ Background tasks can run on demand. To do this:
     2.  Run (synchronous) : The task will be executed in the user
         process
 
-#### Change task interval
+### Change task interval
 
 In some environments the default interval for a task is not sufficient.
 In that case it can be changed manually. To achieve this:
@@ -88,7 +88,7 @@ In that case it can be changed manually. To achieve this:
     examples
 4.  Save and close settings
 
-#### Delete a task
+### Delete a task
 
 Perform the following steps to delete a background task:
 

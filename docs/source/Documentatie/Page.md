@@ -1,4 +1,4 @@
-##### <span id="index"></span>Pages
+# <span id="index"></span>Pages
 
 The (IBIS) Pages contain all available pages in the application. Each
 page -when authorized- and can be accessed through the "All pages" item
@@ -9,7 +9,7 @@ To view the Pages: click on the "All pages" menu item. When the
 sidepanel opens click on "Pages" (Assuming that the user has permissions
 for Pages)
 
-#### Main page
+## Main page
 
 The main page shows an overview of all the pages currently registered in
 IBIS. Here you can:
@@ -19,7 +19,7 @@ IBIS. Here you can:
 -   Enable / Disable a page
 -   Look up page permissions
 
-#### Add a (custom) page
+## Add a (custom) page
 
 -   Click the "Add custom page" button
 -   Fill in the fields
@@ -63,7 +63,7 @@ new window when clicked on it</td>
 
 -   Click the "Save and close" button
 
-#### Enable / Disable a page
+## Enable / Disable a page
 
 A disabled page will not be rendered in the "All pages" sidepanel and
 favorites menu. The page also cannot be accessed directly using it’s
@@ -78,7 +78,7 @@ Or
     checked or unchecked
 3.  Click the "Save and close" button
 
-#### Look up page permissions
+## Look up page permissions
 
 To see who (a role or user) has permissions to see a certain page:
 
