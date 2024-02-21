@@ -1,7 +1,7 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / SCIM 2.0
 
-##### SCIM 2.0 Connector
+# SCIM 2.0 Connector
 
 The SCIM connector performs user operations against a SCIM version 2
 compatible API. At the moment the following schemas are implemented by
@@ -11,7 +11,7 @@ this connector:
 -   **Enterprise User** :
     urn:ietf:params:scim:schemas:extension:enterprise:2.0:User
 
-#### Primary key
+## Primary key
 
 The primary key for this module is the **id** property of the resource.
 You should not set this attribute in an export flow, but instead let the
@@ -22,7 +22,7 @@ primary key in the staging area.
 The **externalId** property of the resource *can* be used to store an
 IBIS identifier.
 
-#### Multivalue attributes
+## Multivalue attributes
 
 Multivalue attributes (addresses, phones, emails, etc.) in the connected
 system are supported by this connector.
@@ -42,12 +42,12 @@ property of the first element in the **emails** property array where
 
 {?{emails},parsejsonarrayvalue(type,work,value)}
 
-#### Attribute mappings
+## Attribute mappings
 
 It yout want te select a property from a specific schema you can prefix
 the property, for example: "User:externalId" or "Group:externalId"
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <colgroup>

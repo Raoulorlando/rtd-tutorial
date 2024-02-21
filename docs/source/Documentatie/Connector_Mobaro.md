@@ -1,12 +1,12 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / Mobaro
 
-##### Mobaro
+# Mobaro
 
 The Mobaro connector module enables user maintenance
 (create/update/delete) in Mobaro.
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <thead class="thead-light">

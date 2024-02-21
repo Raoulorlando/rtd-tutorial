@@ -1,7 +1,7 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / ZO
 
-##### ZO
+# ZO
 
 The ZO module is capable of importing and exporting accounts to and from
 the ZO case management system.
@@ -13,7 +13,7 @@ the sync process because ZO keeps returning them in the import. To avoid
 this, you can made an import filter which excludes accounts where the
 ‘Actief’ property equals ‘0’.
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <colgroup>
@@ -47,7 +47,7 @@ href="https://zoapi.domain.tld">https://zoapi.domain.tld</a></p></th>
 </thead>
 &#10;</table>
 
-#### Primary key
+## Primary key
 
 The primary key of accounts is stored in the ‘objectGuid’ property. The
 value of this property should contain the ObjectGuid of the associated

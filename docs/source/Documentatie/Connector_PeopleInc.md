@@ -1,11 +1,11 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / PeopleInc
 
-##### PeopleInc
+# PeopleInc
 
 ## PeopleIncModel
 
-#### Employee
+### Employee
 
 Employee is mapped as following
 
@@ -315,7 +315,7 @@ I18N.Iso6391Code.</p></th>
 </thead>
 &#10;</table>
 
-#### Contract
+## Contract
 
 Contract is mapped as following
 

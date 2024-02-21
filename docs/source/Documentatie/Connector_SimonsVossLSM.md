@@ -1,13 +1,13 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / Simons Voss LSM
 
-##### Simons Voss LSM
+# Simons Voss LSM
 
 The Simons Voss LSM connector can manage persons in the Simons Voss
 locking system application. The connector supports import and export
 operations, and has the ability to create a transponder for new persons.
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <thead class="thead-light">
@@ -51,7 +51,7 @@ transponder for new persons</em></strong> is enabled</p></th>
 </thead>
 &#10;</table>
 
-#### Special parameters
+## Special parameters
 
 The following table describe the additional parameters and options
 supported by this connector through an export flow.

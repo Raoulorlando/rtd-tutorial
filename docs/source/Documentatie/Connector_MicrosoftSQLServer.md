@@ -1,7 +1,7 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / Microsoft SQL server
 
-##### Microsoft SQL Connector
+# Microsoft SQL Connector
 
 The SQL-module communicates with a Microsoft SQL Server table or view.
 
@@ -9,7 +9,7 @@ The SQL-module communicates with a Microsoft SQL Server table or view.
 -   Export is only supported when a primary key column is used, not when
     using a primary key expression.
 
-#### Primary key
+## Primary key
 
 The primary key for objects delivered by this module is defined in the
 ***Key column*** or the ***Primary key expression*** parameter in the

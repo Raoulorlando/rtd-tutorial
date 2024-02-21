@@ -1,12 +1,12 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / Youforce
 
-##### Youforce
+# Youforce
 
 The Youforce connector is capable of importing employee data from the
 Youforce API.
 
-#### Primary key
+## Primary key
 
 The primary key for Youforce objects is stored in the ***Identifier***
 property of the hologram.  
@@ -40,7 +40,7 @@ This property contains a concatenated string that is made up of:
 </tbody>
 </table>
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <colgroup>

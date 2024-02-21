@@ -1,4 +1,4 @@
-##### Google Mailbox
+# Google Mailbox
 
 The Google Mailbox module synchronizes Google Mailbox delegates
 

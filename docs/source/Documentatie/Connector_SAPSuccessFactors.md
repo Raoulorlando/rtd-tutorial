@@ -1,13 +1,13 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / SAP SuccessFactors
 
-##### SAP SuccessFactors
+# SAP SuccessFactors
 
 The SAP SuccessFactors module is capable of importing (full/delta) and
 exporting employee data from and to SAP SuccessFactors through the OData
 REST API.
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <colgroup>
@@ -116,9 +116,9 @@ employment type subgroup.</p>
 </tbody>
 </table>
 
-#### Special properties
+## Special properties
 
-##### \_photo
+### \_photo
 
 Photos are stored as separate objects in SuccessFactors. Since the
 connector only supports 1 on 1 relations, the connector will query
@@ -130,34 +130,34 @@ added/updated in SuccessFactors. When the \_photo property is cleared
 and a photo with *\[Photo name\]* exists in SuccessFactors it will be
 deleted.
 
-##### \_ibisEmploymentTypeMainGroup
+### \_ibisEmploymentTypeMainGroup
 
 Contains the converted value of EmployeeClass using configuration
 parameter **Employee class mappings**
 
-##### \_ibisEmploymentTypeSubGroup
+### \_ibisEmploymentTypeSubGroup
 
 Contains the converted value of EmploymentType using configuration
 parameter **Employment type mappings**
 
-##### \_phone\_home
+### \_phone\_home
 
 Contains the phone number where phoneType == **SAP ID private phone**
 
-##### \_phone\_home\_mobile
+### \_phone\_home\_mobile
 
 Contains the phone number where phoneType == **SAP ID private mobile
 phone**
 
-##### \_phone\_primary
+### \_phone\_primary
 
 Contains the phone number where isPrimary == true
 
-##### \_phone\_work
+### \_phone\_work
 
 Contains the phone number where phoneType == **SAP ID business phone**
 
-##### \_phone\_work\_mobile
+### \_phone\_work\_mobile
 
 Contains the phone number where phoneType == **SAP ID business mobile
 phone**

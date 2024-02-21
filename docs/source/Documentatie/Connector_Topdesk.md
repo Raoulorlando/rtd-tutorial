@@ -1,12 +1,12 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / Topdesk
 
-##### Topdesk
+# Topdesk
 
 The Topdesk module communicates with Topdesk through the Topdesk REST
 API. The module supports full import and export of person cards.
 
-#### Primary key
+## Primary key
 
 The primary key for objects delivered by this module is stored in the
 ***id*** property. The value of this property is the string
@@ -55,7 +55,7 @@ managed by this connector</p></th>
 </thead>
 &#10;</table>
 
-#### Archiving
+## Archiving
 
 The Topdesk module is capable of archiving and unarchiving Topdesk
 person cards. In order to achieve this, ***EnableArchiving*** must me
@@ -78,7 +78,7 @@ aliasDossier, is:
 
 **{?{?{\_09\_41\_Alias\_DatumEindeGeldigheid},dateistodayorfuture},iif(false,True,False)}**
 
-#### Branch hierarchy
+## Branch hierarchy
 
 When exporting branches, it's possible to keep the IBIS organizational
 hierarchy in Topdesk.

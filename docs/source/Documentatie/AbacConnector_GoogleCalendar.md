@@ -1,4 +1,4 @@
-##### Google Calendar
+# Google Calendar
 
 The Google Mailbox module synchronizes Google Calendar permissions
 

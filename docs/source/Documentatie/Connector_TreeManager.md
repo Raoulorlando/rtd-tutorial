@@ -1,7 +1,7 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / TreeManager
 
-##### TreeManager
+# TreeManager
 
 The TreeManager module is capable of importing nodes from- and exporting
 nodes to a TreeManager tree.
@@ -29,7 +29,7 @@ importing to IBIS, use the “effective.” variant. This way, you don’t
 have so create 2 import flows, and always flow the correct value to
 IBIS.
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <colgroup>

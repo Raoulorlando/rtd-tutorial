@@ -1,12 +1,12 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / VrijwilligersDossier
 
-##### VrijwilligersDossier
+# VrijwilligersDossier
 
 The VrijwilligersDossier module is capable of importing and exporting
 users to and from the (Service Sites) VrijwilligersDossier system.
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <thead class="thead-light">

@@ -1,11 +1,11 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / Raet IAM
 
-##### Raet IAM
+# Raet IAM
 
 The RAET IAM connector is capable of managing user account data in RAET.
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <colgroup>

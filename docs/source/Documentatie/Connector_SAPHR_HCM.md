@@ -1,7 +1,7 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / SAP HR / HRM
 
-##### SAP HR / HCM
+# SAP HR / HCM
 
 The SAP HR module is capable of importing employee data from SAP HRMD
 IDoc files. The module supports the following IDoc versions:
@@ -15,7 +15,7 @@ IBIS. IBIS will process all files that do not have the extension
 *.processed*, and after successful processing it will rename the file to
 \[filename\].processed
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <thead class="thead-light">
@@ -49,7 +49,7 @@ contains a different client number it will not be processed</p></th>
 </thead>
 &#10;</table>
 
-#### Primary key
+## Primary key
 
 The primary key for SAP objects is stored in the ***Identifier***
 property of the hologram.  

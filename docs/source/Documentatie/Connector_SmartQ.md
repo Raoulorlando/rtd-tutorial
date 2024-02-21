@@ -1,12 +1,12 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / SmartQ
 
-##### SmartQ
+# SmartQ
 
 The SmartQ connector module enables account maintenance
 (create/update/delete) in SmartQ.
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <colgroup>

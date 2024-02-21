@@ -1,12 +1,12 @@
 <a href="javascript:void(0)" class="help-trigger"
 data-helpkey="SysPage_Connector">Connectors</a> / SAP CUA
 
-##### SAP CUA
+# SAP CUA
 
 The SAP CUA (Central User Administration) module is capable of importing
 and exporting user data from and to SAP Central User Administration.
 
-#### Parameters
+## Parameters
 
 <table class="table table-bordered">
 <colgroup>
