@@ -203,7 +203,7 @@ POP/IMAP server</p></td>
 </tbody>
 </table>
 
-[Top](#index)
+
 
 #### <span id="DetermineDataSetInOut"></span>DetermineDataSetInOut
 
@@ -214,7 +214,7 @@ The scheduling of this task depends on the IBIS configuration and
 business needs. If your IBIS configuration does not contain any datasets
 this task is not needed.
 
-[Top](#index)
+
 
 #### <span id="FetchTreeManagerOrganizations"></span>FetchTreeManagerOrganizations
 
@@ -382,27 +382,25 @@ returned</p></td>
 </tbody>
 </table>
 
-[Top](#index)
+
 
 #### <span id="ProcessApplicationDossierProducts"></span>ProcessApplicationDossierProducts
 
 This task is responsible for processing products of applicationdossier
 /asset request and sends the requests to the suppliers
 
-[Top](#index)
 
 #### <span id="SyncAuthorisations"></span>SyncAuthorisations
 
 Syncs ACL's from Treemanager to IBIS, push configurations from IBIS to
 Treemanager
 
-[Top](#index)
 
 #### <span id="UpdateIDossierLocations"></span>UpdateIDossierLocations
 
 Update all iDossier work adresses with adresses from locations
 
-[Top](#index)
+
 
 #### <span id="WorkflowTimer"></span>WorkflowTimer
 
@@ -413,6 +411,5 @@ task is not needed.
 The recommended schedule for this task is every 1 minute (Cron: \* \* \*
 \* \*).
 
-[Top](#index)
 
   
