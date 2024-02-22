@@ -100,7 +100,7 @@ Perform the following steps to delete a background task:
 
 ## Available tasks
 
-#### <span id="AanvraagDossierMailConsumer"></span>AanvraagDossierMailConsumer
+### <span id="AanvraagDossierMailConsumer"></span>AanvraagDossierMailConsumer
 
 This task is responsible for processing applicationdossier / asset
 request mails in the mailbox
@@ -205,7 +205,7 @@ POP/IMAP server</p></td>
 
 
 
-#### <span id="DetermineDataSetInOut"></span>DetermineDataSetInOut
+### <span id="DetermineDataSetInOut"></span>DetermineDataSetInOut
 
 This task is responsible for evaluating datasets, and triggering
 workflow events on dataset changes.
@@ -216,7 +216,7 @@ this task is not needed.
 
 
 
-#### <span id="FetchTreeManagerOrganizations"></span>FetchTreeManagerOrganizations
+### <span id="FetchTreeManagerOrganizations"></span>FetchTreeManagerOrganizations
 
 This task is responsible for synchronizing the TreeManager organization
 tree to the IBIS organization table. The task has the ability to process
@@ -384,25 +384,25 @@ returned</p></td>
 
 
 
-#### <span id="ProcessApplicationDossierProducts"></span>ProcessApplicationDossierProducts
+### <span id="ProcessApplicationDossierProducts"></span>ProcessApplicationDossierProducts
 
 This task is responsible for processing products of applicationdossier
 /asset request and sends the requests to the suppliers
 
 
-#### <span id="SyncAuthorisations"></span>SyncAuthorisations
+### <span id="SyncAuthorisations"></span>SyncAuthorisations
 
 Syncs ACL's from Treemanager to IBIS, push configurations from IBIS to
 Treemanager
 
 
-#### <span id="UpdateIDossierLocations"></span>UpdateIDossierLocations
+### <span id="UpdateIDossierLocations"></span>UpdateIDossierLocations
 
 Update all iDossier work adresses with adresses from locations
 
 
 
-#### <span id="WorkflowTimer"></span>WorkflowTimer
+### <span id="WorkflowTimer"></span>WorkflowTimer
 
 This task is responsible for executing workflow timer events. If your
 IBIS configuration does not contain workflows with Timer events, this
