@@ -87,45 +87,20 @@ connected IBIS instance is running in an Azure App service</p>
 <td><p>The name of the message model the API supports. Supported values
 are:</p>
 <ul>
-<li>ActivityApiModel</li>
 <li>AliasDossierApiModel</li>
-<li>ApplicationDossierProductApiModel</li>
-<li>ApplicationDossierApiModel</li>
-<li>AssetApiModel</li>
-<li>AssetRelationApiModel</li>
-<li>BestelmethodeApiModel</li>
-<li>ContractApiModel</li>
-<li>DossierStateApiModel</li>
 <li>DynamicPropertyApiModel</li>
 <li>EpicDossierApiModel</li>
 <li>FmhDossierApiModel</li>
-<li>FormatieplaatsApiModel</li>
 <li>IBISQueueApiModel</li>
 <li>IdentityDossierApiModel</li>
 <li>IDossierApiModel</li>
 <li>IDossierFotoApiModel</li>
-<li>LokatiegegevenApiModel</li>
-<li>MailTemplateApiModel</li>
 <li>OrganisatieApiModel</li>
 <li>PbsDossierApiModel</li>
-<li>ProductApiModel</li>
-<li>ProductGroupApiModel</li>
-<li>ProductGroupFilterApiModel</li>
-<li>ProductGroupFilterOrganisationApiModel</li>
-<li>ProductGroupFilterTypeApiModel</li>
-<li>ProductGroupProductApiModel</li>
-<li>ProductOrganisationApiModel</li>
-<li>ProductStateApiModel</li>
-<li>ProductSupplierApiModel</li>
 <li>RegisterApiModel</li>
-<li>RemarkApiModel</li>
 <li>SysInputFieldApiModel</li>
 <li>TgDossierApiModel</li>
-<li>TransitionApiModel</li>
-<li>WaitingActivityApiModel</li>
 <li>WidDossierApiModel</li>
-<li>WithdrawRelationApiModel</li>
-<li>WorkflowApiModel</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -135,42 +110,14 @@ are:</p>
 are:</p>
 <ul>
 <li>AliasDossier</li>
-<li>ApplicationDossier</li>
-<li>ApplicationDossierProduct</li>
-<li>Asset</li>
-<li>Bestelmethode</li>
-<li>Contract</li>
 <li>EpicDossier</li>
 <li>FmhDossier</li>
-<li>Formatieplaats</li>
-<li>Functie</li>
-<li>Functieroepnaam</li>
-<li>Group</li>
 <li>IbisQueue</li>
 <li>IdentityDossier</li>
 <li>IdmNumber</li>
 <li>IDossier</li>
-<li>Land</li>
-<li>Lokatiegegevens</li>
-<li>MailTemplate</li>
-<li>Notification</li>
-<li>NotificationAttachment</li>
-<li>NotificationAttribute</li>
 <li>Organisatie</li>
 <li>PbsDossier</li>
-<li>Product</li>
-<li>ProductGroup</li>
-<li>ProductGroupFilter</li>
-<li>ProductGroupFilterOrganisation</li>
-<li>ProductGroupFilterType</li>
-<li>ProductGroupFunction</li>
-<li>ProductGroupOrganisation</li>
-<li>ProductGroupProduct</li>
-<li>ProductGroupProductGroupFilter</li>
-<li>ProductGroupSupplier</li>
-<li>ProductOrganisation</li>
-<li>ProductStatus</li>
-<li>ProductSupplier</li>
 <li>Register</li>
 <li>Supplier</li>
 <li>SupplierOrganisation</li>
@@ -186,39 +133,19 @@ are:</p>
 values are:</p>
 <ul>
 <li>AliasDossiers</li>
-<li>ApplicationDossierProducts</li>
-<li>ApplicationDossiers</li>
-<li>Assets</li>
-<li>Bestelmethodes</li>
-<li>Contracts</li>
-<li>DossierStates</li>
 <li>DynamicProperties</li>
 <li>EpicDossiers</li>
 <li>FmhDossiers</li>
-<li>Formatieplaatsen</li>
 <li>IBISQueues</li>
 <li>IDentityDossiers</li>
 <li>IDossierFoto</li>
 <li>IDossiers</li>
-<li>Lokatiegegevens</li>
-<li>MailTemplates</li>
-<li>Organisaties</li>
 <li>PbsDossiers</li>
-<li>ProductGroupFilterOrganisations</li>
-<li>ProductGroupFilters</li>
-<li>ProductGroupFilterTypes</li>
-<li>ProductGroupProducts</li>
-<li>ProductGroups</li>
-<li>ProductOrganisations</li>
-<li>Products</li>
-<li>ProductStates</li>
-<li>ProductSuppliers</li>
 <li>Registers</li>
 <li>Remarks</li>
 <li>SysInputFields</li>
 <li>TgDossiers</li>
 <li>WidDossiers</li>
-<li>Workflows</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -238,21 +165,3 @@ connecting to IBIS versions older than 5.4.7</p></td>
 </tr>
 </tbody>
 </table>
-
-+---------------------------+------------+---------------------------------------------------------------------+
-|:         Parameter       :|: Required :|: Description                                                       :|
-+==============================================================================================================+
-|: OData URL               :|: X        :|: The full URL of the IBIS instance to connect to (including /OData). 
-|                           |            |  For example: https://ibis.domain.tld/OData |                                                                                                                                                                                           +--------------------------------------------------------------------------------------------------------------+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Authentication method      |          | Optional – the type of authentication to use for connections to IBIS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Username                   | X        | The username of the account to use when connecting to IBIS. Required for NTLM, Kerberos and Azure authentication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Password                   | X        | The password of the useraccount used to connect to IBIS. Required for NTLM, Kerberos and Azure authentication                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| OAuth – Tenant ID          |          | Optional – the Azure tenant ID when the connected IBIS instance is running in an Azure App service                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| OAuth – Resource ID        |          | Optional – the Azure resource ID when the connected IBIS instance is running in an Azure App service                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| OAuth – Application ID     |          | Optional – the Azure application ID when the connected IBIS instance is running in an Azure App service                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| OAuth – Application secret |          | Optional – the Azure application secret when the connected IBIS instance is running in an Azure App service                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| API object name            | X        | The name of the message model the API supports. Supported values are:     ActivityApiModel  AliasDossierApiModel   ApplicationDossierProductApiModel   ApplicationDossierApiModel   AssetApiModel   AssetRelationApiModel   BestelmethodeApiModel   ContractApiModel   DossierStateApiModel   DynamicPropertyApiModel   EpicDossierApiModel   FmhDossierApiModel   FormatieplaatsApiModel   IBISQueueApiModel   IdentityDossierApiModel   IDossierApiModel   IDossierFotoApiModel   LokatiegegevenApiModel   MailTemplateApiModel   OrganisatieApiModel   PbsDossierApiModel   ProductApiModel   ProductGroupApiModel   ProductGroupFilterApiModel   ProductGroupFilterOrganisationApiModel   ProductGroupFilterTypeApiModel   ProductGroupProductApiModel   ProductOrganisationApiModel   ProductStateApiModel   ProductSupplierApiModel   RegisterApiModel   RemarkApiModel   SysInputFieldApiModel   TgDossierApiModel   TransitionApiModel   WaitingActivityApiModel   WidDossierApiModel   WithdrawRelationApiModel   WorkflowApiModel  |
-| IBIS object name           | X        | The name of the IBIS object to synchronize. Supported values are:     AliasDossier   ApplicationDossier   ApplicationDossierProduct   Asset   Bestelmethode   Contract   EpicDossier   FmhDossier   Formatieplaats   Functie   Functieroepnaam   Group   IbisQueue   IdentityDossier   IdmNumber   IDossier   Land   Lokatiegegevens   MailTemplate   Notification   NotificationAttachment   NotificationAttribute   Organisatie   PbsDossier   Product   ProductGroup   ProductGroupFilter   ProductGroupFilterOrganisation   ProductGroupFilterType   ProductGroupFunction   ProductGroupOrganisation   ProductGroupProduct   ProductGroupProductGroupFilter   ProductGroupSupplier   ProductOrganisation   ProductStatus   ProductSupplier   Register   Supplier   SupplierOrganisation   SupplierStatus   TgDossier   WidDossier                                                                                                                                                                                                        |
-| OData resource name        | X        | The name of the IBIS object as known by the OData API. Supported values are:     AliasDossiers   ApplicationDossierProducts   ApplicationDossiers   Assets   Bestelmethodes   Contracts   DossierStates   DynamicProperties   EpicDossiers   FmhDossiers   Formatieplaatsen   IBISQueues   IDentityDossiers   IDossierFoto   IDossiers   Lokatiegegevens   MailTemplates   Organisaties   PbsDossiers   ProductGroupFilterOrganisations   ProductGroupFilters   ProductGroupFilterTypes   ProductGroupProducts   ProductGroups   ProductOrganisations   Products   ProductStates   ProductSuppliers   Registers   Remarks   SysInputFields   TgDossiers   WidDossiers   Workflows                                                                                                                                                                                                                                                                                                                                                            |
-| OData filter (query)       |          | Allows for filtering in the OData. For example: _01_40_Dienstverband_DatumIngangGeldigheid ge 2018-10-01T00:00:00Z   For more examples, see "Filtering" section in the OData Api documentation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Enable dynamic properties  |          | Enables the use for dynamic properties. Turn this off when connecting to IBIS versions older than 5.4.7                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
