@@ -18,7 +18,7 @@ during import using the ***Primary key expression*** parameter.
 
 |        Parameter       | Required |                                                                             Description                                                                             |
 |:----------------------:|:--------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|         API URL        |     X    |                 The URL to the Afas REST connector API. For example:       \\n \\n §   _https://[customer id].rest.afas.online/profitrestservices/connectors_                 |
+|         API URL        |     X    |                 The URL to the Afas REST connector API. For example:       \\\n \\\n §   _https://[customer id].rest.afas.online/profitrestservices/connectors_                 |
 |        Token ID        |     X    |                                                           The security token used to authenticate to Afas                                                           |
 |     Connector name     |     X    |                                                                    The name of the Get Connector                                                                    |
 | Primary key expression |     X    | An expression used to format the primary key. This expression will be translated by the dynamic lookup module. For example:   \\\n\\\n     §   {Employee}{Contract}-{OuCode} |
