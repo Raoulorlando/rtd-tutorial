@@ -34,7 +34,7 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
-html_style = './../IBIS-docs.css'
+html_css_files = ['./../IBIS-docs.css']
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
