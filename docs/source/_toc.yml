@@ -14,10 +14,10 @@ subtrees:
       - file: Documentatie/AbacConnector_MicrosoftEntraId
       - file: Documentatie/SysPage_AbacStagingArea
   - file: Documentatie/SysPage_BackgroundTasks
-  - file: Documentatie/SysPage_Connector_Image
   - file: Documentatie/SysPage_Connector
     subtrees:
     - entries:
+      - file: Documentatie/SysPage_Connector_Image
       - file: Documentatie/Connector_ABAC
       - file: Documentatie/Connector_Afas
       - file: Documentatie/Connector_Aspos
