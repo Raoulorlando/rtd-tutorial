@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / TreeManager
-
 # TreeManager
 
 The TreeManager module is capable of importing nodes from- and exporting
