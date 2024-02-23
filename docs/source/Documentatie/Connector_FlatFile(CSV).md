@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / Flat File (CSV)
-
 # Flat File (CSV)
 
 The CSV connector is capable of reading from- and writing to character
