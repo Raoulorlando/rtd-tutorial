@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / Coda
-
 # Coda
 
 The Coda connector is capable of importing users from and exporting
