@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / Microsoft SQL server
-
 # Microsoft SQL Connector
 
 The SQL-module communicates with a Microsoft SQL Server table or view.
