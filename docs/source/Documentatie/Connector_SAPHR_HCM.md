@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / SAP HR / HRM
-
 # SAP HR / HCM
 
 The SAP HR module is capable of importing employee data from SAP HRMD
