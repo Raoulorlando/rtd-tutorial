@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / Conclusion Class LMS
-
 # Conclusion Class LMS
 
 The Class connector is capable of writing to the Class ImportService
