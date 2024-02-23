@@ -77,36 +77,11 @@ Thresholds can be used to abort processing when certain limits are
 reached. To configure thresholds, open the Thresholds tab of the
 connector:
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Setting</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Use object count instead of percentage</p></td>
-<td><p>Enabled: the number specified will be used as object count
-threshold</p>
-<p>Disabled: the number specified will be used as percentage</p></td>
-</tr>
-<tr class="even">
-<td><p>Create</p></td>
-<td><p>The total percentage (or count) of members that will be
-added</p></td>
-</tr>
-<tr class="odd">
-<td><p>Delete</p></td>
-<td><p>The total percentage (or count) of members that will be
-removed</p></td>
-</tr>
-</tbody>
-</table>
+|                 Setting                |                                                            Description                                                           |
+|:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|
+| Use object count instead of percentage | Enabled: the number specified will be used as object count threshold   Disabled: the number specified will be used as percentage |
+| Create                                 | The total percentage (or count) of members that will be added                                                                    |
+| Delete                                 | The total percentage (or count) of members that will be removed                                                                  |
 
 When a threshold violation occurs, processing is aborted immediately
 and:
