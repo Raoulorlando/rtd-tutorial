@@ -25,8 +25,7 @@ roles. For readability we will refer to them as groups, users and roles.
 Each connector contains a staging area for intermediate storage of
 objects.  
 For more information how to use the staging area, see the
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_AbacStagingArea">Staging Area</a> documentation
+[Staging Area](./SysPage_AbacStagingArea) documentation
 
 ## <span id="GeneralSettings"></span>Settings
 
@@ -89,7 +88,7 @@ and:
 -   A log entry is written to the system log
 -   And error will be shown in the connector overview page
 
-[Top](#index)
+
 
 ## <span id="Operations"></span>Operations
 
@@ -121,6 +120,3 @@ installation.
 | [Google Calendar](./AbacConnector_GoogleCalendar.md)                 | X           |              |
 | [Google Mailbox](./AbacConnector_GoogleMailbox.md)                 | X           |              |
 
-  
-
-[Top](#index)
