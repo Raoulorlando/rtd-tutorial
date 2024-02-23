@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / IBIS API
-
 # IBIS
 
 The IBIS connector module supports import and export of data from and to
