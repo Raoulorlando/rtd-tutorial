@@ -1,7 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_AbacConnector">ABAC Connectors</a> / ABAC Staging
-area
-
 # ABAC Staging area
 
 Each connector contains a staging area for intermediate storage of
