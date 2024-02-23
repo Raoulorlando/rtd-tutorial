@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / Google Workspace
-
 # Google Workspace (Google Api)
 
 The Google Workspace connector supports the following actions:
