@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / ZO
-
 # ZO
 
 The ZO module is capable of importing and exporting accounts to and from
