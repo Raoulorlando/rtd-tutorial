@@ -1,7 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / Facility<sup>2</sup>
-Wish
-
 # Facility<sup>2</sup> Wish
 
 The Wish connector is capable of reading from- and writing to the Wish
