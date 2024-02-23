@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / Microsoft Exchange
-
 # Exchange Connector
 
 This module communicates with Microsoft Exchange Server and Office 365  
