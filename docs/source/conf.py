@@ -18,7 +18,9 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'myst_parser',
+    'sphinx_external_toc',
 ]
+external_toc_exclude_missing = True
 
 
 intersphinx_mapping = {
@@ -32,6 +34,8 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_static_path = ['css']
+html_css_files = ['IBIS-docs.css']
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

@@ -1,0 +1,73 @@
+root: index.rst
+subtrees:
+- maxdepth: 1
+  titlesonly: True
+  entries:
+  
+  - file: Documentatie/Audit
+  - file: Documentatie/SysPage_AbacConnector
+    subtrees:
+    - entries:
+      - file: Documentatie/AbacConnector_GoogleCalendar
+      - file: Documentatie/AbacConnector_GoogleGroup
+      - file: Documentatie/AbacConnector_GoogleMailbox
+      - file: Documentatie/AbacConnector_MicrosoftEntraId
+      - file: Documentatie/SysPage_AbacStagingArea
+  - file: Documentatie/SysPage_BackgroundTasks
+  - file: Documentatie/SysPage_Connector_Image
+  - file: Documentatie/SysPage_Connector
+    subtrees:
+    - entries:
+      - file: Documentatie/Connector_ABAC
+      - file: Documentatie/Connector_Afas
+      - file: Documentatie/Connector_Aspos
+      - file: Documentatie/Connector_Booq
+      - file: Documentatie/Connector_Cash360
+      - file: Documentatie/Connector_Coda
+      - file: Documentatie/Connector_eDirectory
+      - file: Documentatie/Connector_Facility2WISH
+      - file: Documentatie/Connector_FlatFile(CSV)
+      - file: Documentatie/Connector_GoogleWorkspace
+      - file: Documentatie/Connector_IBISAPI
+      - file: Documentatie/Connector_MicrosoftActiveDirectory
+      - file: Documentatie/Connector_MicrosoftExchange
+      - file: Documentatie/Connector_MicrosoftGraph
+      - file: Documentatie/Connector_MicrosoftSQLServer
+      - file: Documentatie/Connector_Mobaro
+      - file: Documentatie/Connector_PeopleInc
+      - file: Documentatie/Connector_PowerShell
+      - file: Documentatie/Connector_RaetIAM
+      - file: Documentatie/Connector_SAPSuccessFactors
+      - file: Documentatie/Connector_SAPUser
+      - file: Documentatie/Connector_SCIMV2
+      - file: Documentatie/Connector_ServiceSites
+      - file: Documentatie/Connnector_SimonsVossLSM
+      - file: Documentatie/Connector_SmartQ
+      - file: Documentatie/Connector_Topdesk
+      - file: Documentatie/Connector_TreeManager
+      - file: Documentatie/Connector_Youforce
+      - file: Documentatie/Connector_ZO
+      - file: Documentatie/SysPage_RunProfile
+      subtrees:
+      - entries:
+        - file: Documentatie/SysPage_RunProfile_Settings
+  - file: Documentatie/HelpPageDataResolutionAndFunctions
+  - file: Documentatie/HelpPageODataApi
+  - file: Documentatie/Page
+  - file: Documentatie/SysPage_Cryptography
+  - file: Documentatie/SysPage_DataSet
+  - file: Documentatie/SysPage_IbisQueue
+  - file: Documentatie/SysPage_ImportExport
+  - file: Documentatie/SysPage_LiveLog
+  - file: Documentatie/SysPage_Localization
+  - file: Documentatie/SysPage_Logging
+  - file: Documentatie/SysPage_MessageCenter
+  - file: Documentatie/SysPage_Reporting
+  
+  - file: Documentatie/SysPage_Search
+  - file: Documentatie/SysPage_StagingArea
+  - file: Documentatie/SysPage_SysGeneralSettings
+  - file: Documentatie/SysPage_Workflow
+
+
+      
