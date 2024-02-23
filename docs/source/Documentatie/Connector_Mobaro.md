@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / Mobaro
-
 # Mobaro
 
 The Mobaro connector module enables user maintenance
