@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / Cash 360
-
 # Cash 360
 
 The Cash 360 module is capable of exporting users in Cash 360 XML format
