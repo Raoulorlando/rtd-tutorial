@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / SCIM 2.0
-
 # SCIM 2.0 Connector
 
 The SCIM connector performs user operations against a SCIM version 2
