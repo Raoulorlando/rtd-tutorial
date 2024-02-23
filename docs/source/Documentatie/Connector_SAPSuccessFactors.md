@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / SAP SuccessFactors
-
 # SAP SuccessFactors
 
 The SAP SuccessFactors module is capable of importing (full/delta) and
