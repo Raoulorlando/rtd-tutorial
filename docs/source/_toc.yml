@@ -17,7 +17,6 @@ subtrees:
   - file: Documentatie/SysPage_Connector
     subtrees:
     - entries:
-      - file: Documentatie/SysPage_Connector_Image
       - file: Documentatie/Connector_ABAC
       - file: Documentatie/Connector_Afas
       - file: Documentatie/Connector_Aspos
@@ -47,6 +46,7 @@ subtrees:
       - file: Documentatie/Connector_TreeManager
       - file: Documentatie/Connector_Youforce
       - file: Documentatie/Connector_ZO
+      - file: Documentatie/SysPage_Connector_Image
       - file: Documentatie/SysPage_RunProfile
       subtrees:
       - entries:
