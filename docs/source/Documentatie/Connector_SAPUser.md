@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / SAP CUA
-
 # SAP CUA
 
 The SAP CUA (Central User Administration) module is capable of importing
