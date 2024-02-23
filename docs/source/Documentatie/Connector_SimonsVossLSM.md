@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / Simons Voss LSM
-
 # Simons Voss LSM
 
 The Simons Voss LSM connector can manage persons in the Simons Voss
