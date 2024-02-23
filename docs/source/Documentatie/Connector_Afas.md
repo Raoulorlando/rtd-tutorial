@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / Afas
-
 # Afas
 
 The Afas module communicates with Afas Online through an *Afas Get
