@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / ABAC
-
 # ABAC
 
 The ABAC module supports import- and export of ABAC targets.
