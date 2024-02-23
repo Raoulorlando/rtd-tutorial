@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / SmartQ
-
 # SmartQ
 
 The SmartQ connector module enables account maintenance
