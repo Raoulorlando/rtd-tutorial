@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / Youforce
-
 # Youforce
 
 The Youforce connector is capable of importing employee data from the
