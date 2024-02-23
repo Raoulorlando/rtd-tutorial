@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / Active Directory
-
 # Active Directory Connector
 
 The Active Directory module communicates with Microsoft Active
