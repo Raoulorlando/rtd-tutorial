@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / Topdesk
-
 # Topdesk
 
 The Topdesk module communicates with Topdesk through the Topdesk REST
