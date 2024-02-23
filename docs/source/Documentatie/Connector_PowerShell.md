@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / PowerShell
-
 # PowerShell
 
 The PowerShell module is capable of importing the results of a
