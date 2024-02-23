@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / NetIQ eDirectory
-
 # NetIQ eDirectory
 
 The eDirectory module is capable of importing and exporting data to
