@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Pizza'
-copyright = '2023, Graziella'
-author = 'Cook'
+project = 'IBIS Wiki'
+copyright = '2024, Trusted-ID'
+author = 'R. Grollé'
 
 release = '0.1'
 version = '0.1.0'
