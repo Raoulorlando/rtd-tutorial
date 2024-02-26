@@ -1,8 +1,9 @@
 root: index.rst
-caption: Table of Contents
+
 subtrees:
 - maxdepth: 2
   titlesonly: True
+  caption: Table of Contents
   entries:
   
   - file: Documentatie/Audit
