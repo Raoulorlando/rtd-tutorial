@@ -1,5 +1,5 @@
 root: index.rst
-:caption: Table of Contents
+caption: Table of Contents
 subtrees:
 - maxdepth: 2
   titlesonly: True
