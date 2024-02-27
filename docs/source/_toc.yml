@@ -19,39 +19,38 @@ subtrees:
         - file: Documentatie/Connectoren/SysPage_Connector
         subtrees:
         - entries:
-          - file: Documentatie/Connector_ABAC
-          - file: Documentatie/Connector_Afas
-          - file: Documentatie/Connector_Aspos
-          - file: Documentatie/Connector_Booq
-          - file: Documentatie/Connector_Cash360
-          - file: Documentatie/Connector_Coda
-          - file: Documentatie/Connector_eDirectory
-          - file: Documentatie/Connector_Facility2WISH
-          - file: Documentatie/Connector_FlatFile(CSV)
-          - file: Documentatie/Connector_GoogleWorkspace
-          - file: Documentatie/Connector_IBISAPI
-          - file: Documentatie/Connector_MicrosoftActiveDirectory
-          - file: Documentatie/Connector_MicrosoftExchange
-          - file: Documentatie/Connector_MicrosoftGraph
-          - file: Documentatie/Connector_MicrosoftSQLServer
-          - file: Documentatie/Connector_Mobaro
-          - file: Documentatie/Connector_PeopleInc
-          - file: Documentatie/Connector_PowerShell
-          - file: Documentatie/Connector_RaetIAM
-          - file: Documentatie/Connector_SAPSuccessFactors
-          - file: Documentatie/Connector_SAPUser
-          - file: Documentatie/Connector_SCIMV2
-          - file: Documentatie/Connector_ServiceSites
-          - file: Documentatie/Connnector_SimonsVossLSM
-          - file: Documentatie/Connector_SmartQ
-          - file: Documentatie/Connector_Topdesk
-          - file: Documentatie/Connector_TreeManager
-          - file: Documentatie/Connector_Youforce
-          - file: Documentatie/Connector_ZO
-          - file: Documentatie/SysPage_Connector_Image
-          - file: Documentatie/SysPage_RunProfile
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_ABAC
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_Afas
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_Aspos
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_Booq
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_Cash360
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_Coda
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_eDirectory
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_Facility2WISH
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_FlatFile(CSV)
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_GoogleWorkspace
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_IBISAPI
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_MicrosoftActiveDirectory
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_MicrosoftExchange
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_MicrosoftGraph
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_MicrosoftSQLServer
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_Mobaro
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_PeopleInc
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_PowerShell
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_RaetIAM
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_SAPSuccessFactors
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_SAPUser
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_SCIMV2
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_ServiceSites
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connnector_SimonsVossLSM
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_SmartQ
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_Topdesk
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_TreeManager
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_Youforce
+          - file: Documentatie/Connectoren/IBIS Connectoren/Connector_ZO
+          - file: Documentatie/Connectoren/IBIS Connectoren/SysPage_RunProfile
           subtrees:
           - entries:
-            - file: Documentatie/SysPage_RunProfile_Settings
+            - file: Documentatie/Connectoren/IBIS Connectoren/SysPage_RunProfile_Settings
 
       
