@@ -5,9 +5,9 @@ subtrees:
   caption: Table of Contents
   entries:
   - file: Documentatie/Connectors
-    # subtrees:
-    # - entries:
-    #     - file: Documentatie/Connectoren/SysPage_AbacConnector
+    subtrees:
+    - entries:
+        - file: Documentatie/Connectoren/SysPage_AbacConnector
     #       subtrees:
     #       - entries:
     #         - file: Documentatie/Connectoren/ABAC%20Connectoren/AbacConnector_GoogleCalendar
