@@ -5,54 +5,62 @@ subtrees:
   titlesonly: True
   caption: Table of Contents
   entries:
+  - file: Documentatie/Connector_Index
+    subtrees:
+    - entries:
+        - file: Documentatie/Connectoren/SysPage_AbacConnector
+        subtrees:
+        - entries:
+          - file: Documentatie/Connectoren/ABAC Connectoren/AbacConnector_GoogleCalendar
+          - file: Documentatie/Connectoren/ABAC Connectoren/AbacConnector_GoogleGroup
+          - file: Documentatie/Connectoren/ABAC Connectoren/AbacConnector_GoogleMailbox
+          - file: Documentatie/Connectoren/ABAC Connectoren/AbacConnector_MicrosoftEntraId
+        - file: Documentatie/Connectoren/SysPage_AbacStagingArea
+        - file: Documentatie/Connectoren/SysPage_Connector
+        subtrees:
+        - entries:
+          - file: Documentatie/Connector_ABAC
+          - file: Documentatie/Connector_Afas
+          - file: Documentatie/Connector_Aspos
+          - file: Documentatie/Connector_Booq
+          - file: Documentatie/Connector_Cash360
+          - file: Documentatie/Connector_Coda
+          - file: Documentatie/Connector_eDirectory
+          - file: Documentatie/Connector_Facility2WISH
+          - file: Documentatie/Connector_FlatFile(CSV)
+          - file: Documentatie/Connector_GoogleWorkspace
+          - file: Documentatie/Connector_IBISAPI
+          - file: Documentatie/Connector_MicrosoftActiveDirectory
+          - file: Documentatie/Connector_MicrosoftExchange
+          - file: Documentatie/Connector_MicrosoftGraph
+          - file: Documentatie/Connector_MicrosoftSQLServer
+          - file: Documentatie/Connector_Mobaro
+          - file: Documentatie/Connector_PeopleInc
+          - file: Documentatie/Connector_PowerShell
+          - file: Documentatie/Connector_RaetIAM
+          - file: Documentatie/Connector_SAPSuccessFactors
+          - file: Documentatie/Connector_SAPUser
+          - file: Documentatie/Connector_SCIMV2
+          - file: Documentatie/Connector_ServiceSites
+          - file: Documentatie/Connnector_SimonsVossLSM
+          - file: Documentatie/Connector_SmartQ
+          - file: Documentatie/Connector_Topdesk
+          - file: Documentatie/Connector_TreeManager
+          - file: Documentatie/Connector_Youforce
+          - file: Documentatie/Connector_ZO
+          - file: Documentatie/SysPage_Connector_Image
+          - file: Documentatie/SysPage_RunProfile
+          subtrees:
+          - entries:
+            - file: Documentatie/SysPage_RunProfile_Settings
+
+
+
   
   - file: Documentatie/Audit
-  - file: Documentatie/SysPage_AbacConnector
-    subtrees:
-    - entries:
-      - file: Documentatie/AbacConnector_GoogleCalendar
-      - file: Documentatie/AbacConnector_GoogleGroup
-      - file: Documentatie/AbacConnector_GoogleMailbox
-      - file: Documentatie/AbacConnector_MicrosoftEntraId
-      - file: Documentatie/SysPage_AbacStagingArea
+
   - file: Documentatie/SysPage_BackgroundTasks
-  - file: Documentatie/SysPage_Connector
-    subtrees:
-    - entries:
-      - file: Documentatie/Connector_ABAC
-      - file: Documentatie/Connector_Afas
-      - file: Documentatie/Connector_Aspos
-      - file: Documentatie/Connector_Booq
-      - file: Documentatie/Connector_Cash360
-      - file: Documentatie/Connector_Coda
-      - file: Documentatie/Connector_eDirectory
-      - file: Documentatie/Connector_Facility2WISH
-      - file: Documentatie/Connector_FlatFile(CSV)
-      - file: Documentatie/Connector_GoogleWorkspace
-      - file: Documentatie/Connector_IBISAPI
-      - file: Documentatie/Connector_MicrosoftActiveDirectory
-      - file: Documentatie/Connector_MicrosoftExchange
-      - file: Documentatie/Connector_MicrosoftGraph
-      - file: Documentatie/Connector_MicrosoftSQLServer
-      - file: Documentatie/Connector_Mobaro
-      - file: Documentatie/Connector_PeopleInc
-      - file: Documentatie/Connector_PowerShell
-      - file: Documentatie/Connector_RaetIAM
-      - file: Documentatie/Connector_SAPSuccessFactors
-      - file: Documentatie/Connector_SAPUser
-      - file: Documentatie/Connector_SCIMV2
-      - file: Documentatie/Connector_ServiceSites
-      - file: Documentatie/Connnector_SimonsVossLSM
-      - file: Documentatie/Connector_SmartQ
-      - file: Documentatie/Connector_Topdesk
-      - file: Documentatie/Connector_TreeManager
-      - file: Documentatie/Connector_Youforce
-      - file: Documentatie/Connector_ZO
-      - file: Documentatie/SysPage_Connector_Image
-      - file: Documentatie/SysPage_RunProfile
-      subtrees:
-      - entries:
-        - file: Documentatie/SysPage_RunProfile_Settings
+
   - file: Documentatie/HelpPageDataResolutionAndFunctions
   - file: Documentatie/HelpPageODataApi
   - file: Documentatie/Page
