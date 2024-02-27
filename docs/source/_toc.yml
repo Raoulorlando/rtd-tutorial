@@ -5,7 +5,7 @@ subtrees:
   titlesonly: True
   caption: Table of Contents
   entries:
-  - file: Documentatie/Connector_Index
+  - file: Documentatie/Connectors
     subtrees:
     - entries:
         - file: Documentatie/Connectoren/SysPage_AbacConnector
