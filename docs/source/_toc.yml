@@ -1,7 +1,8 @@
 root: index.rst
 
 subtrees:
-- titlesonly: True
+- maxdepth: 3
+  titlesonly: True
   caption: Table of Contents
   entries:
   - file: Documentatie/Connectors
