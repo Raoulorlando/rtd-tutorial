@@ -8,12 +8,12 @@ subtrees:
     subtrees:
     - entries:
         - file: Documentatie/Connectoren/SysPage_AbacConnector
-    #       subtrees:
-    #       - entries:
-    #         - file: Documentatie/Connectoren/ABAC%20Connectoren/AbacConnector_GoogleCalendar
-    #         - file: Documentatie/Connectoren/ABAC%20Connectoren/AbacConnector_GoogleGroup
-    #         - file: Documentatie/Connectoren/ABAC%20Connectoren/AbacConnector_GoogleMailbox
-    #         - file: Documentatie/Connectoren/ABAC%20Connectoren/AbacConnector_MicrosoftEntraId
+          subtrees:
+          - entries:
+            - file: Documentatie/Connectoren/ABAC%20Connectoren/AbacConnector_GoogleCalendar
+            - file: Documentatie/Connectoren/ABAC%20Connectoren/AbacConnector_GoogleGroup
+            - file: Documentatie/Connectoren/ABAC%20Connectoren/AbacConnector_GoogleMailbox
+            - file: Documentatie/Connectoren/ABAC%20Connectoren/AbacConnector_MicrosoftEntraId
     #     - file: Documentatie/Connectoren/SysPage_AbacStagingArea
     #     - file: Documentatie/Connectoren/SysPage_Connector
     #     subtrees:
