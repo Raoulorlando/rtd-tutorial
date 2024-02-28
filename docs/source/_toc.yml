@@ -1,7 +1,7 @@
 root: index.rst
 
 subtrees:
-- maxdepth: 4
+- maxdepth: 5
   titlesonly: True
   caption: Table of Contents
   entries:
