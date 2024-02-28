@@ -115,7 +115,7 @@ installation.
 | Module                          | Full Import | Delta Import |
 |---------------------------------|-------------|--------------|
 | Microsoft Active Directory      | X           | X            |
-| [Microsoft Entra Id](./ABAC%20Connectoren/AbacConnector_MicrosoftEntraId.md)              | X           | X            |
+| [Microsoft Entra Id](./ABAC%20Connectoren/AbacConnector_MicrosoftEntraId)              | X           | X            |
 | [Google Groups](./ABAC%20Connectoren/AbacConnector_GoogleGroup)                 | X           |              |
 | [Google Calendar](./ABAC%20Connectoren/AbacConnector_GoogleCalendar)                 | X           |              |
 | [Google Mailbox](./ABAC%20Connectoren/AbacConnector_GoogleMailbox)                 | X           |              |
