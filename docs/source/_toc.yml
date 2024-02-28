@@ -25,7 +25,7 @@ subtrees:
             - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_Booq
             - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_Cash360
             - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_Coda
-            - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_eDirectory
+            - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_Conclusion_Class_LMS
             - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_Facility2WISH
             - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_FlatFile(CSV)
             - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_GoogleWorkspace
@@ -35,6 +35,7 @@ subtrees:
             - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_MicrosoftGraph
             - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_MicrosoftSQLServer
             - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_Mobaro
+            - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_NETIQ_eDirectory
             - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_PeopleInc
             - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_PowerShell
             - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_RaetIAM
@@ -49,6 +50,6 @@ subtrees:
             - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_Youforce
             - file: Documentatie/Connectoren/IBIS%20Connectoren/Connector_ZO
             - file: Documentatie/Connectoren/IBIS%20Connectoren/SysPage_RunProfile
-    #       subtrees:
-    #       - entries:
-    #         - file: Documentatie/Connectoren/IBIS%20Connectoren/SysPage_RunProfile_Settings
+            subtrees:
+            - entries:
+              - file: Documentatie/Connectoren/IBIS%20Connectoren/SysPage_RunProfile_Settings
