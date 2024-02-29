@@ -9,95 +9,18 @@ The following infrastructure types are supported:
 
 ## Parameters
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Parameter</th>
-<th class="text-center">Required</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Infrastructure type</p></td>
-<td><p><strong>X</strong></p></td>
-<td><p>The type of infrastructure that is used:</p>
-<ul>
-<li>Cloud - Office 365</li>
-<li>Hybrid - Combined on-premises and Office 365</li>
-<li>OnPremises - On premises (Exchange Server 2013 and higher)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>Hostname</p></td>
-<td><p><strong></strong></p></td>
-<td><p>Required when using the hybrid or on-premises
-configuration.<br />
-Contains the DNS name or IP address of the Exchange server to
-use.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Authentication method</p></td>
-<td><p><strong></strong></p></td>
-<td><p>Required when using the hybrid or on-premises
-configuration.<br />
-Specifies the authentication method to use.</p></td>
-</tr>
-<tr class="even">
-<td><p>Username</p></td>
-<td><p><strong>X</strong></p></td>
-<td><p>The username of the service account to use for connecting to
-Exchange Server / Office 365</p></td>
-</tr>
-<tr class="odd">
-<td><p>Password</p></td>
-<td><p><strong>X</strong></p></td>
-<td><p>The password of the above user</p></td>
-</tr>
-<tr class="even">
-<td><p>Certificate thumbprint</p></td>
-<td></td>
-<td><p>Cloud only: The certificate to use for connecting to Exchange
-server</p></td>
-</tr>
-<tr class="odd">
-<td><p>Application ID</p></td>
-<td></td>
-<td><p>Cloud only: The AppId to use for connecting to Exchange
-server</p></td>
-</tr>
-<tr class="even">
-<td><p>Organization</p></td>
-<td></td>
-<td><p>Cloud only: The organization to use for connecting to Exchange
-server</p></td>
-</tr>
-<tr class="odd">
-<td><p>Create method</p></td>
-<td><p><strong>X</strong></p></td>
-<td><p>The command to use when creating new objects:</p>
-<ul>
-<li>New-[Remote]Mailbox - Creates a new mailbox and corresponding
-user</li>
-<li>Enable-[Remote]Mailbox - Mail-enables an existing AD or Office 365
-user</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>Excluded SMTP domains</p></td>
-<td></td>
-<td><p>A list of SMTP domains that should be ignored in the
-<strong>EmailAddresses</strong> collection.<br />
-E-mail addresses that end with any of these domain names will not be
-imported, and will be left alone on export.</p></td>
-</tr>
-</tbody>
-</table>
+|        Parameter       | Required |                                                                                                   Description                                                                                                  |
+|:----------------------|:--------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Infrastructure type    | X        | The type of infrastructure that is used:<br> <br> <br>Cloud - Office 365<br> <br>Hybrid - Combined on-premises and Office 365<br> <br>OnPremises - On premises (Exchange Server 2013 and higher)               |
+| Hostname               |          | Required when using the hybrid or on-premises configuration.<br> Contains the DNS name or IP address of the Exchange server to use.                                                                            |
+| Authentication method  |          | Required when using the hybrid or on-premises configuration.<br> Specifies the authentication method to use.                                                                                                   |
+| Username               | X        | The username of the service account to use for connecting to Exchange Server / Office 365                                                                                                                      |
+| Password               | X        | The password of the above user                                                                                                                                                                                 |
+| Certificate thumbprint |          | Cloud only: The certificate to use for connecting to Exchange server                                                                                                                                           |
+| Application ID         |          | Cloud only: The AppId to use for connecting to Exchange server                                                                                                                                                 |
+| Organization           |          | Cloud only: The organization to use for connecting to Exchange server                                                                                                                                          |
+| Create method          | X        | The command to use when creating new objects:<br> <br> <br>New-[Remote]Mailbox - Creates a new mailbox and corresponding user<br> <br>Enable-[Remote]Mailbox - Mail-enables an existing AD or Office 365 user  |
+| Excluded SMTP domains  |          | A list of SMTP domains that should be ignored in the EmailAddresses collection.<br> E-mail addresses that end with any of these domain names will not be imported, and will be left alone on export.           |
 
 ## Password management
 
