@@ -18,7 +18,7 @@ operations, and has the ability to create a transponder for new persons.
 
 ## Special parameters
 
-The following table describe the additional parameters and options
+The following table describes the additional parameters and options
 supported by this connector through an export flow.
 <br>
 
