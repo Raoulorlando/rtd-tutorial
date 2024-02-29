@@ -46,116 +46,23 @@ the property, for example: "User:externalId" or "Group:externalId"
 
 ## Parameters
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Parameter</th>
-<th class="text-center">Required</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>URL</p></th>
-<th><p><strong>X</strong></p></th>
-<th><p>The URL of the SCIM API</p></th>
-</tr>
-<tr class="header">
-<th><p>Schema endpoint</p></th>
-<th><p><strong>X</strong></p></th>
-<th><p>The name of the schema endpoint</p></th>
-</tr>
-<tr class="odd">
-<th><p>Singular schema</p></th>
-<th> </th>
-<th><p>If set, the schema endpoint is expected to return a single
-schemaresult instead of a schema collection</p></th>
-</tr>
-<tr class="header">
-<th><p>Resource endpoint</p></th>
-<th><p><strong>X</strong></p></th>
-<th><p>The name of the resource endpoint</p></th>
-</tr>
-<tr class="odd">
-<th><p>Resource type</p></th>
-<th><p><strong>X</strong></p></th>
-<th><p>The type of resource to manager. Available options are:</p>
-<p>User</p>
-<p>EnterpriseUser</p></th>
-</tr>
-<tr class="header">
-<th><p>Authentication</p></th>
-<th><p><strong>X</strong></p></th>
-<th><p>The authentication scheme to use when connecting to the SCIM
-API.</p>
-<p>Available options are:</p>
-<p>None: No authentication</p>
-<p>Windows : Windows authentication (NTLM)</p>
-<p>Basic: HTTP Basic authentication</p>
-<p>Oauth : Oauth authentication (only tested with Azure AD)</p></th>
-</tr>
-<tr class="odd">
-<th><p>Username</p></th>
-<th> </th>
-<th><p>The username to use when <strong>Windows</strong> or
-<strong>Basic</strong> authentication is selected</p></th>
-</tr>
-<tr class="header">
-<th><p>Password</p></th>
-<th> </th>
-<th><p>The password to use when <strong>Windows</strong> or
-<strong>Basic</strong> authentication is selected</p></th>
-</tr>
-<tr class="odd">
-<th><p>OAuth - Token endpoint</p></th>
-<th> </th>
-<th><p>The URL of the OAuth token endpoint</p></th>
-</tr>
-<tr class="header">
-<th><p>OAuth - Client ID</p></th>
-<th> </th>
-<th><p>The client ID</p></th>
-</tr>
-<tr class="odd">
-<th><p>OAuth - Client secret</p></th>
-<th> </th>
-<th><p>The client secret</p></th>
-</tr>
-<tr class="header">
-<th><p>OAuth - Resource id</p></th>
-<th> </th>
-<th><p><strong>AZURE ONLY</strong> - The ID of the resource that hosts
-the SCIM API</p></th>
-</tr>
-<tr class="odd">
-<th><p>Token Type</p></th>
-<th> </th>
-<th><p>When added a token is also needed. The result of the token and
-token type will be placed in a Http header with key “Authorization” and
-value “{token type} {token}”</p></th>
-</tr>
-<tr class="header">
-<th><p>Token</p></th>
-<th> </th>
-<th><p>When added a token type is also needed. The result of the token
-and token type will be placed in a Http header with key “Authorization”
-and value “{token type} {token}”</p></th>
-</tr>
-<tr class="odd">
-<th><p>Maximum write requests (per minute)</p></th>
-<th> </th>
-<th><p>Time to wait after each object export.</p>
-<p>100 =&gt; 600 milliseconds</p></th>
-</tr>
-<tr class="header">
-<th><p>Request batch size</p></th>
-<th> </th>
-<th><p>Batch size to use for import</p></th>
-</tr>
-</thead>
-&#10;</table>
+|              Parameter              | Required |                                                                                                                                         Description                                                                                                                                        |
+|:-----------------------------------|:--------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                 URL                 |     X    |                                                                                                                                   The URL of the SCIM API                                                                                                                                  |
+|           Schema endpoint           |     X    |                                                                                                                               The name of the schema endpoint                                                                                                                              |
+|           Singular schema           |          |                                                                                           If set, the schema endpoint is expected to return a single schemaresult instead of a schema collection                                                                                           |
+|          Resource endpoint          |     X    |                                                                                                                              The name of the resource endpoint                                                                                                                             |
+|            Resource type            |     X    |                                                                                                 The type of resource to manager. Available options are:<br> <br>User<br> <br>EnterpriseUser                                                                                                |
+|            Authentication           |     X    | The authentication scheme to use when connecting to the SCIM API.<br> <br>Available options are:<br> <br>None: No authentication<br> <br>Windows : Windows authentication (NTLM)<br> <br>Basic: HTTP Basic authentication<br> <br>Oauth : Oauth authentication (only tested with Azure AD) |
+|               Username              |          |                                                                                                            The username to use when Windows or Basic authentication is selected                                                                                                            |
+|               Password              |          |                                                                                                            The password to use when Windows or Basic authentication is selected                                                                                                            |
+|        OAuth - Token endpoint       |          |                                                                                                                             The URL of the OAuth token endpoint                                                                                                                            |
+|          OAuth - Client ID          |          |                                                                                                                                        The client ID                                                                                                                                       |
+|        OAuth - Client secret        |          |                                                                                                                                      The client secret                                                                                                                                     |
+|         OAuth - Resource id         |          |                                                                                                                 AZURE ONLY - The ID of the resource that hosts the SCIM API                                                                                                                |
+|              Token Type             |          |                                                             When added a token is also needed. The result of the token and token type will be placed in a Http header with key “Authorization” and value “{token type} {token}”                                                            |
+|                Token                |          |                                                          When added a token type is also needed. The result of the token and token type will be placed in a Http header with key “Authorization” and value “{token type} {token}”                                                          |
+| Maximum write requests (per minute) |          |                                                                                                           Time to wait after each object export.<br> <br>100 => 600 milliseconds                                                                                                           |
+|          Request batch size         |          |                                                                                                                                Batch size to use for import                                                                                                                                |
 
 ** **
