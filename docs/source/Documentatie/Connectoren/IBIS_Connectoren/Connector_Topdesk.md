@@ -9,48 +9,14 @@ The primary key for objects delivered by this module is stored in the
 ***id*** property. The value of this property is the string
 representation of the Topdesk id property, which is a Guid.
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Parameter</th>
-<th class="text-center">Required</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Url</p></th>
-<th><p><strong>X</strong></p></th>
-<th><p>The URL of the Topdesk API</p></th>
-</tr>
-<tr class="header">
-<th><p>Username</p></th>
-<th><p><strong>X</strong></p></th>
-<th><p>The username for the connection</p></th>
-</tr>
-<tr class="odd">
-<th><p>Password</p></th>
-<th><p><strong>X</strong></p></th>
-<th><p>The password of above username</p></th>
-</tr>
-<tr class="header">
-<th><p>EnableArchiving</p></th>
-<th><p><strong> </strong></p></th>
-<th><p>If set, archiving will be handled in the module. See the
-archiving chapter for more information</p></th>
-</tr>
-<tr class="odd">
-<th><p>ArchiveReasonId</p></th>
-<th><p><strong> </strong></p></th>
-<th><p>If archiving is enabled, this property must be set, and contain
-the (Guid) value for the archive reason</p></th>
-</tr>
-<tr class="header">
-<th><p>Managed properties</p></th>
-<th></th>
-<th><p>Branch only, comma separated list of properties that will be
-managed by this connector</p></th>
-</tr>
-</thead>
-&#10;</table>
+|      Parameter     | Required |                                               Description                                               |
+|:------------------|:--------:|:-------------------------------------------------------------------------------------------------------|
+|         Url        |     X    |                                        The URL of the Topdesk API                                       |
+|      Username      |     X    |                                     The username for the connection                                     |
+|      Password      |     X    |                                      The password of above username                                     |
+|   EnableArchiving  |          |     If set, archiving will be handled in the module. See the archiving chapter for more information     |
+|   ArchiveReasonId  |          | If archiving is enabled, this property must be set, and contain the (Guid) value for the archive reason |
+| Managed properties |          |          Branch only, comma separated list of properties that will be managed by this connector         |
 
 ## Archiving
 
