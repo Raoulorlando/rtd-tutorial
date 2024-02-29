@@ -14,7 +14,7 @@ during import using the ***Primary key expression*** parameter.
 ## Module parameters
 
 |        Parameter       | Required |                                                                             Description                                                                             |
-|:----------------------:|:--------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|:----------------------|:--------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |         API URL        |     X    |                 The URL to the Afas REST connector API. For example:<br>   _https://[customer id].rest.afas.online/profitrestservices/connectors_                 |
 |        Token ID        |     X    |                                                           The security token used to authenticate to Afas                                                           |
 |     Connector name     |     X    |                                                                    The name of the Get Connector                                                                    |
