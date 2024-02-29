@@ -6,7 +6,7 @@ The Booq connector module enables user maintenance
 ## Parameters
 
 |       Parameter       | Required |                                                 Description                                                 |
-|:---------------------:|:--------:|:-----------------------------------------------------------------------------------------------------------:|
+|:---------------------|:--------:|:-----------------------------------------------------------------------------------------------------------|
 | API URL               | X        | The full URL of the Booq instance to connect to. For example:   https://customer.sandbox.booqcloud.com      |
 | OAuth - Token URL     | X        | The full URL of the Booq token endpoint. For example:   https://partners.sandbox.booqcloud.com/oauth2/token |
 | OAuth - Client ID     | X        | The OAuth client ID to use for connecting to Booq                                                           |
