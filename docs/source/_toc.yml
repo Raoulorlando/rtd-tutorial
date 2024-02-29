@@ -1,7 +1,7 @@
 root: index.rst
 
 subtrees:
-- maxdepth: 5
+- maxdepth: 4
   titlesonly: True
   caption: Table of Contents
   entries: Documentation
@@ -51,7 +51,7 @@ subtrees:
             - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_Youforce
             - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_ZO
             - file: Documentatie/Connectoren/IBIS_Connectoren/SysPage_RunProfile
-            subtrees:
-            - entries:
-              - file: Documentatie/Connectoren/IBIS_Connectoren/SysPage_RunProfile_Settings
+              subtrees:
+              - entries:
+                - file: Documentatie/Connectoren/IBIS_Connectoren/SysPage_RunProfile_Settings
         - file: Documentatie/Connectoren/IBIS_StagingArea
