@@ -14,37 +14,12 @@ IBIS. IBIS will process all files that do not have the extension
 
 ## Parameters
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Parameter</th>
-<th class="text-center">Required</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>IDoc version</p></th>
-<th><p><strong>X</strong></p></th>
-<th><p>The expected IDoc version. In case the IDoc contains a different
-version it will not be processed</p></th>
-</tr>
-<tr class="header">
-<th><p>System number</p></th>
-<th><p><strong> </strong></p></th>
-<th><p><em>[future use]</em></p></th>
-</tr>
-<tr class="odd">
-<th><p>Client number</p></th>
-<th><p><strong>X</strong></p></th>
-<th><p>The client number the connector must handle. In case the IDoc
-contains a different client number it will not be processed</p></th>
-</tr>
-<tr class="header">
-<th><p>IDoc location</p></th>
-<th><p><strong>X</strong></p></th>
-<th><p>The location of the IDoc files to process</p></th>
-</tr>
-</thead>
-&#10;</table>
+|   Parameter   | Required |                                                        Description                                                        |
+|:-------------|:--------:|:-------------------------------------------------------------------------------------------------------------------------|
+|  IDoc version |     X    |             The expected IDoc version. In case the IDoc contains a different version it will not be processed             |
+| System number |          |                                                        [future use]                                                       |
+| Client number |     X    | The client number the connector must handle. In case the IDoc contains a different client number it will not be processed |
+| IDoc location |     X    |                                         The location of the IDoc files to process                                         |
 
 ## Primary key
 
@@ -52,30 +27,9 @@ The primary key for SAP objects is stored in the ***Identifier***
 property of the hologram.  
 This property contains a concatenated string that is made up of:
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>P0001:PLANS</p>
-<p> </p>
-<p><em>Position</em></p></td>
-<td width="16"><p>-</p></td>
-<td><p>P0001:ORGEH</p>
-<p> </p>
-<p><em>Organization</em></p></td>
-<td><p>-</p></td>
-<td><p>P0001:BEGDA</p>
-<p> </p>
-<p><em>Start date</em></p></td>
-</tr>
-</tbody>
-</table>
+| P0001:PLANS<br> <br> <br> <br>Position | -<br><br> <br><br><br>| P0001:ORGEH<br> <br> <br> <br>Organization | - <br><br> <br><br><br>| P0001:BEGDA<br> <br> <br> <br>Start date |
+|----------------------------------------|---|--------------------------------------------|---|------------------------------------------|
+<br>
 
 These combined properties will render a unique identifier for each
 position/organization/startdate combination.  
