@@ -40,6 +40,10 @@ subtrees:
             - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_PeopleInc
             - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_PowerShell
             - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_RaetIAM
+            - file: Documentatie/Connectoren/IBIS_Connectoren/SysPage_RunProfile
+              subtrees:
+              - entries:
+                - file: Documentatie/Connectoren/IBIS_Connectoren/SysPage_RunProfile_Settings
             - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_SAPSuccessFactors
             - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_SAPUser
             - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_SCIMV2
@@ -50,8 +54,4 @@ subtrees:
             - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_TreeManager
             - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_Youforce
             - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_ZO
-            - file: Documentatie/Connectoren/IBIS_Connectoren/SysPage_RunProfile
-              subtrees:
-              - entries:
-                - file: Documentatie/Connectoren/IBIS_Connectoren/SysPage_RunProfile_Settings
         - file: Documentatie/Connectoren/IBIS_StagingArea
