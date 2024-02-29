@@ -1,4 +1,4 @@
-# Exchange Connector
+# Microsoft Exchange Connector
 
 This module communicates with Microsoft Exchange Server and Office 365  
 The following infrastructure types are supported:
