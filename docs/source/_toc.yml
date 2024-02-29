@@ -20,7 +20,7 @@ subtrees:
         - file: Documentatie/Connectoren/SysPage_Connector
           subtrees:
           - entries:
-            - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_ABAC
+            - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_ABACAPI
             - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_Afas
             - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_Aspos
             - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_Booq
