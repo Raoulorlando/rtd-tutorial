@@ -1,6 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> / Run profiles
-
 # <span id="index"></span>Run profiles
 
 Run profiles provide the ability to execute operations in a sequential
@@ -33,32 +30,13 @@ In the main page you can:
 #### Configure a run profile
 
 1.  Hover over a run profile
-2.  Click on <a href="javascript:void(0)" class="help-trigger"
-    data-helpkey="SysPage_RunProfile_Settings">General settings</a> or
-    <a href="javascript:void(0)" class="help-trigger"
-    data-helpkey="SysPage_RunProfile_Settings">Steps</a>
+2.  Click on [General settings](./SysPage_RunProfile_Settings.md) or
+    [Steps](./SysPage_RunProfile_Settings.md)
 
 #### Check the status of a run profile
 
-<table class="table table-bordered">
-<thead class="table-secondary">
-<tr class="header">
-<th>Status</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td class="color-darkgrey fw-bold"><em></em> Gray</td>
-<td>No run has been executed yet</td>
-</tr>
-<tr class="even">
-<td class="color-green fw-bold"><em></em> Green</td>
-<td>All steps have been run succesfully</td>
-</tr>
-<tr class="odd">
-<td class="color-red fw-bold"><em></em> Red</td>
-<td>There have been errors during the run</td>
-</tr>
-</tbody>
-</table>
+| Status |              Description              |
+|:------|:-------------------------------------|
+|  Gray  | No run has been executed yet          |
+|  Green | All steps have been run succesfully   |
+|  Red   | There have been errors during the run |
