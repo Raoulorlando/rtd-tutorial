@@ -30,8 +30,8 @@ In the main page you can:
 #### Configure a run profile
 
 1.  Hover over a run profile
-2.  Click on [General settings](./SysPage_RunProfile_Settings.md) or
-    [Steps](./SysPage_RunProfile_Settings.md)
+2.  Click on [General settings](./SysPage_RunProfile_Settings) or
+    [Steps](./SysPage_RunProfile_Settings)
 
 #### Check the status of a run profile
 

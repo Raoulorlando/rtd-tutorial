@@ -285,7 +285,7 @@ This chapter contains a instructions for each of the modules.
 
 |                       Module                                                         | Full Import | Delta Import | Export       |
 |:------------------------------------------------------------------------------------:|:-----------:|:------------:|:------------:|
-| [ABAC API](IBIS_Connectoren/Connector_ABACAPI)                                   | X           | X            | X            |
+| [ABAC API](./IBIS_Connectoren/Connector_ABACAPI)                                   | X           | X            | X            |
 | [Afas](./IBIS_Connectoren/Connector_Afas)                                          | X           |              | X<sup>1</sup>|
 | [ASPOS](./IBIS_Connectoren/Connector_Aspos)                                        | X           |              | X            |
 | [Booq](./IBIS_Connectoren/Connector_Booq)                                          |             |              | X            |
