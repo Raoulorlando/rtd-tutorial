@@ -1,4 +1,4 @@
-# IBIS staging area
+# IBIS Staging area
 
 Each connector contains a staging area for intermediate storage of
 objects.
@@ -12,7 +12,7 @@ A staging area object consists of 4 major parts:
 | Pending export      | A list of property/value combinations that needs to be exported to the external system |
 | Pending import      | A list of property/value combinations that needs to be imported to IBIS                |
 
-
+<br>
 Connector operations are responsible for processing staging area
 objects:
 
