@@ -1,7 +1,7 @@
 # <span id="index"></span>IBIS Connectors
 
 -   [Introduction](#Introductie)
--   [Staging Area](./IBIS_StagingArea)
+-   [Staging Area](#Staging%20Area)
 -   [Join / Project / Disconnect](#Join%20/%20Project%20/%20Disconnect)
 -   [Project](#Project)
 -   [Disconnect](#Disconnect)
