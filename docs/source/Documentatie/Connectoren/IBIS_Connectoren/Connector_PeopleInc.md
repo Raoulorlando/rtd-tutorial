@@ -6,718 +6,147 @@
 
 Employee is mapped as following
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Source (employee)</th>
-<th>Target (PeopleIncModel)</th>
-<th>Type</th>
-</tr>
-<tr class="odd">
-<th><p>activity_fte.Value</p></th>
-<th><p>Employee_ActivityFte</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>activity_status.Value</p></th>
-<th><p>Employee_ActivityStatus</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>business_language.code</p></th>
-<th><p>Employee_BusinessLanguage_Code</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>Resource name found by match between business_language.code and
-I18N.Iso6391Code.</p></th>
-<th><p>Employee_BusinessLanguage_Code_Ibis</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>business_language.cs</p></th>
-<th><p>Employee_BusinessLanguage_Cs</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>business_language.da</p></th>
-<th><p>Employee_BusinessLanguage_Da</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>business_language.de</p></th>
-<th><p>Employee_BusinessLanguage_De</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>business_language.en</p></th>
-<th><p>Employee_BusinessLanguage_En</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>business_language.es</p></th>
-<th><p>Employee_BusinessLanguage_Es</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>business_language.fr</p></th>
-<th><p>Employee_BusinessLanguage_Fr</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>business_language.it</p></th>
-<th><p>Employee_BusinessLanguage_It</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>business_language.nl</p></th>
-<th><p>Employee_BusinessLanguage_Nl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>business_language.pl</p></th>
-<th><p>Employee_BusinessLanguage_Pl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>business_language.pt</p></th>
-<th><p>Employee_BusinessLanguage_Pt</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>contract_status.cs</p></th>
-<th><p>Employee_ContractStatus_Cs</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_status.da</p></th>
-<th><p>Employee_ContractStatus_Da</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>contract_status.de</p></th>
-<th><p>Employee_ContractStatus_De</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_status.en</p></th>
-<th><p>Employee_ContractStatus_En</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>contract_status.es</p></th>
-<th><p>Employee_ContractStatus_Es</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_status.fr</p></th>
-<th><p>Employee_ContractStatus_Fr</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>contract_status.it</p></th>
-<th><p>Employee_ContractStatus_It</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_status.nl</p></th>
-<th><p>Employee_ContractStatus_Nl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>contract_status.pl</p></th>
-<th><p>Employee_ContractStatus_Pl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_status.pt</p></th>
-<th><p>Employee_ContractStatus_Pt</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>cost_fte.Value</p></th>
-<th><p>Employee_CostFte</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>email.Value</p></th>
-<th><p>Employee_Email</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>employee_id.Value</p></th>
-<th><p>Employee_EmployeeId</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>fax.Value</p></th>
-<th><p>Employee_Fax</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>first_name.Value</p></th>
-<th><p>Employee_FirstName</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>individual_email.Value</p></th>
-<th><p>Employee_IndividualEmail</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>individual_email.Value parsed as boolean</p></th>
-<th><p>Employee_IndividualEmail_Ibis</p></th>
-<th><p>Bool</p></th>
-</tr>
-<tr class="header">
-<th><p>last_name.Value</p></th>
-<th><p>Employee_LastName</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>license_plate_car.Value</p></th>
-<th><p>Employee_LicensePlateCar</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>middle_names.Value</p></th>
-<th><p>Employee_MiddleNames</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>mobile.Value</p></th>
-<th><p>Employee_Mobile</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>participates_in_pm.Value</p></th>
-<th><p>Employee_ParticipateInPm</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>phone.Value</p></th>
-<th><p>Employee_Phone</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>title.code</p></th>
-<th><p>Employee_Title_Code</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>title.cs</p></th>
-<th><p>Employee_Title_Cs</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>title.da</p></th>
-<th><p>Employee_Title_Da</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>title.de</p></th>
-<th><p>Employee_Title_De</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>title.en</p></th>
-<th><p>Employee_Title_En</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>title.es</p></th>
-<th><p>Employee_Title_Es</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>title.fr</p></th>
-<th><p>Employee_Title_Fr</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>title.it</p></th>
-<th><p>Employee_Title_It</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>title.nl</p></th>
-<th><p>Employee_Title_Nl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>title.pl</p></th>
-<th><p>Employee_Title_Pl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>title.pt</p></th>
-<th><p>Employee_Title_Pt</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>user_name.Value</p></th>
-<th><p>Employee_UserName</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>work_site.cs</p></th>
-<th><p>Employee_WorkSite_Cs</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>work_site.da</p></th>
-<th><p>Employee_WorkSite_Da</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>work_site.de</p></th>
-<th><p>Employee_WorkSite_De</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>work_site.en</p></th>
-<th><p>Employee_WorkSite_En</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>work_site.es</p></th>
-<th><p>Employee_WorkSite_Es</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>work_site.fr</p></th>
-<th><p>Employee_WorkSite_Fr</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>work_site.it</p></th>
-<th><p>Employee_WorkSite_It</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>work_site.nl</p></th>
-<th><p>Employee_WorkSite_Nl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>work_site.pl</p></th>
-<th><p>Employee_WorkSite_Pl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>work_site.pt</p></th>
-<th><p>Employee_WorkSite_Pt</p></th>
-<th><p>String</p></th>
-</tr>
-</thead>
-&#10;</table>
-
+|                                 Source (employee)                                 |       Target (PeopleIncModel)       |  Type  |
+|:---------------------------------------------------------------------------------|:-----------------------------------|:------|
+|                                 activity_fte.Value                                |         Employee_ActivityFte        | String |
+|                               activity_status.Value                               |       Employee_ActivityStatus       | String |
+|                               business_language.code                              |    Employee_BusinessLanguage_Code   | String |
+| Resource name found by match between business_language.code and I18N.Iso6391Code. | Employee_BusinessLanguage_Code_Ibis | String |
+|                                business_language.cs                               |     Employee_BusinessLanguage_Cs    | String |
+|                                business_language.da                               |     Employee_BusinessLanguage_Da    | String |
+|                                business_language.de                               |     Employee_BusinessLanguage_De    | String |
+|                                business_language.en                               |     Employee_BusinessLanguage_En    | String |
+|                                business_language.es                               |     Employee_BusinessLanguage_Es    | String |
+|                                business_language.fr                               |     Employee_BusinessLanguage_Fr    | String |
+|                                business_language.it                               |     Employee_BusinessLanguage_It    | String |
+|                                business_language.nl                               |     Employee_BusinessLanguage_Nl    | String |
+|                                business_language.pl                               |     Employee_BusinessLanguage_Pl    | String |
+|                                business_language.pt                               |     Employee_BusinessLanguage_Pt    | String |
+|                                 contract_status.cs                                |      Employee_ContractStatus_Cs     | String |
+|                                 contract_status.da                                |      Employee_ContractStatus_Da     | String |
+|                                 contract_status.de                                |      Employee_ContractStatus_De     | String |
+|                                 contract_status.en                                |      Employee_ContractStatus_En     | String |
+|                                 contract_status.es                                |      Employee_ContractStatus_Es     | String |
+|                                 contract_status.fr                                |      Employee_ContractStatus_Fr     | String |
+|                                 contract_status.it                                |      Employee_ContractStatus_It     | String |
+|                                 contract_status.nl                                |      Employee_ContractStatus_Nl     | String |
+|                                 contract_status.pl                                |      Employee_ContractStatus_Pl     | String |
+|                                 contract_status.pt                                |      Employee_ContractStatus_Pt     | String |
+|                                   cost_fte.Value                                  |           Employee_CostFte          | String |
+|                                    email.Value                                    |            Employee_Email           | String |
+|                                 employee_id.Value                                 |         Employee_EmployeeId         | String |
+|                                     fax.Value                                     |             Employee_Fax            | String |
+|                                  first_name.Value                                 |          Employee_FirstName         | String |
+|                               individual_email.Value                              |       Employee_IndividualEmail      | String |
+|                      individual_email.Value parsed as boolean                     |    Employee_IndividualEmail_Ibis    |  Bool  |
+|                                  last_name.Value                                  |          Employee_LastName          | String |
+|                              license_plate_car.Value                              |       Employee_LicensePlateCar      | String |
+|                                 middle_names.Value                                |         Employee_MiddleNames        | String |
+|                                    mobile.Value                                   |           Employee_Mobile           | String |
+|                              participates_in_pm.Value                             |       Employee_ParticipateInPm      | String |
+|                                    phone.Value                                    |            Employee_Phone           | String |
+|                                     title.code                                    |         Employee_Title_Code         | String |
+|                                      title.cs                                     |          Employee_Title_Cs          | String |
+|                                      title.da                                     |          Employee_Title_Da          | String |
+|                                      title.de                                     |          Employee_Title_De          | String |
+|                                      title.en                                     |          Employee_Title_En          | String |
+|                                      title.es                                     |          Employee_Title_Es          | String |
+|                                      title.fr                                     |          Employee_Title_Fr          | String |
+|                                      title.it                                     |          Employee_Title_It          | String |
+|                                      title.nl                                     |          Employee_Title_Nl          | String |
+|                                      title.pl                                     |          Employee_Title_Pl          | String |
+|                                      title.pt                                     |          Employee_Title_Pt          | String |
+|                                  user_name.Value                                  |          Employee_UserName          | String |
+|                                    work_site.cs                                   |         Employee_WorkSite_Cs        | String |
+|                                    work_site.da                                   |         Employee_WorkSite_Da        | String |
+|                                    work_site.de                                   |         Employee_WorkSite_De        | String |
+|                                    work_site.en                                   |         Employee_WorkSite_En        | String |
+|                                    work_site.es                                   |         Employee_WorkSite_Es        | String |
+|                                    work_site.fr                                   |         Employee_WorkSite_Fr        | String |
+|                                    work_site.it                                   |         Employee_WorkSite_It        | String |
+|                                    work_site.nl                                   |         Employee_WorkSite_Nl        | String |
+|                                    work_site.pl                                   |         Employee_WorkSite_Pl        | String |
+|                                    work_site.pt                                   |         Employee_WorkSite_Pt        | String |
 ## Contract
 
 Contract is mapped as following
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Source (contract)</th>
-<th>Target (PeopleIncModel)</th>
-<th>Type</th>
-</tr>
-<tr class="odd">
-<th><p>When no contract is available this property is true</p></th>
-<th><p>Contract_NotPresent</p></th>
-<th><p>bool</p></th>
-</tr>
-<tr class="header">
-<th><p>allocation_employment_entity.code</p></th>
-<th><p>Contract_AllocationEmploymentEntity_Code</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>allocation_employment_entity.cs</p></th>
-<th><p>Contract_AllocationEmploymentEntity_Cs</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>allocation_employment_entity.da</p></th>
-<th><p>Contract_AllocationEmploymentEntity_Da</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>allocation_employment_entity.de</p></th>
-<th><p>Contract_AllocationEmploymentEntity_De</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>allocation_employment_entity.en</p></th>
-<th><p>Contract_AllocationEmploymentEntity_En</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>allocation_employment_entity.es</p></th>
-<th><p>Contract_AllocationEmploymentEntity_Es</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>allocation_employment_entity.fr</p></th>
-<th><p>Contract_AllocationEmploymentEntity_Fr</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>allocation_employment_entity.it</p></th>
-<th><p>Contract_AllocationEmploymentEntity_It</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>allocation_employment_entity.nl</p></th>
-<th><p>Contract_AllocationEmploymentEntity_Nl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>allocation_employment_entity.pl</p></th>
-<th><p>Contract_AllocationEmploymentEntity_Pl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>allocation_employment_entity.pt</p></th>
-<th><p>Contract_AllocationEmploymentEntity_Pt</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>business_title.Value</p></th>
-<th><p>Contract_BusinessTitle</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_fte.Value</p></th>
-<th><p>Contract_ContractFte</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>contract_legal_entity.code</p></th>
-<th><p>Contract_ContractLegalEntity_Code</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_legal_entity.cs</p></th>
-<th><p>Contract_ContractLegalEntity_Cs</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>contract_legal_entity.da</p></th>
-<th><p>Contract_ContractLegalEntity_Da</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_legal_entity.de</p></th>
-<th><p>Contract_ContractLegalEntity_De</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>contract_legal_entity.en</p></th>
-<th><p>Contract_ContractLegalEntity_En</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_legal_entity.es</p></th>
-<th><p>Contract_ContractLegalEntity_Es</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>contract_legal_entity.fr</p></th>
-<th><p>Contract_ContractLegalEntity_Fr</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_legal_entity.it</p></th>
-<th><p>Contract_ContractLegalEntity_It</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>contract_legal_entity.nl</p></th>
-<th><p>Contract_ContractLegalEntity_Nl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_legal_entity.pl</p></th>
-<th><p>Contract_ContractLegalEntity_Pl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>contract_legal_entity.pt</p></th>
-<th><p>Contract_ContractLegalEntity_Pt</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_type.code</p></th>
-<th><p>Contract_ContractType_Code</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>contract_type.cs</p></th>
-<th><p>Contract_ContractType_Cs</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_type.da</p></th>
-<th><p>Contract_ContractType_Da</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>contract_type.de</p></th>
-<th><p>Contract_ContractType_De</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_type.en</p></th>
-<th><p>Contract_ContractType_En</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>contract_type.es</p></th>
-<th><p>Contract_ContractType_Es</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_type.fr</p></th>
-<th><p>Contract_ContractType_Fr</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>contract_type.it</p></th>
-<th><p>Contract_ContractType_It</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_type.nl</p></th>
-<th><p>Contract_ContractType_Nl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>contract_type.pl</p></th>
-<th><p>Contract_ContractType_Pl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>contract_type.pt</p></th>
-<th><p>Contract_ContractType_Pt</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>end_date.Value</p></th>
-<th><p>Contract_EndDate</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>end_date.Value parsed as DateTime</p></th>
-<th><p>Contract_EndDate_Ibis</p></th>
-<th><p>DateTime?</p></th>
-</tr>
-<tr class="odd">
-<th><p>hr_responsible.Value</p></th>
-<th><p>Contract_HrResponsible</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>Lookup of first name in hr_responsible.Value which result in
-IdmNumber from IDossier.</p>
-<p>Matching on:</p>
-<p>§   _42_11_Persoon_Geslachtsnaam</p>
-<p>§   _42_15_Persoon_Voornamen</p></th>
-<th><p>Contract_HrResponsible_Ibis</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>is_manager.Value</p></th>
-<th><p>Contract_IsManager</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>is_manager.Value parsed as Boolean</p></th>
-<th><p>Contract_IsManager_Ibis</p></th>
-<th><p>Bool</p></th>
-</tr>
-<tr class="odd">
-<th><p>First item from job_description_family.name where en not empty
-and type == “translated”</p></th>
-<th><p>Contract_JobDescriptionFamily</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>job_description_level_2.cs</p></th>
-<th><p>Contract_JobDescriptionLevel2_Cs</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>job_description_level_2.da</p></th>
-<th><p>Contract_JobDescriptionLevel2_Da</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>job_description_level_2.de</p></th>
-<th><p>Contract_JobDescriptionLevel2_De</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>job_description_level_2.en</p></th>
-<th><p>Contract_JobDescriptionLevel2_En</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>job_description_level_2.es</p></th>
-<th><p>Contract_JobDescriptionLevel2_Es</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>job_description_level_2.fr</p></th>
-<th><p>Contract_JobDescriptionLevel2_Fr</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>job_description_level_2.it</p></th>
-<th><p>Contract_JobDescriptionLevel2_It</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>job_description_level_2.nl</p></th>
-<th><p>Contract_JobDescriptionLevel2_Nl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>job_description_level_2.pl</p></th>
-<th><p>Contract_JobDescriptionLevel2_Pl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>job_description_level_2.pt</p></th>
-<th><p>Contract_JobDescriptionLevel2_Pt</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>level_2.cs</p></th>
-<th><p>Contract_Level2_Cs</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>level_2.da</p></th>
-<th><p>Contract_Level2_Da</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>level_2.de</p></th>
-<th><p>Contract_Level2_De</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>level_2.en</p></th>
-<th><p>Contract_Level2_En</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>level_2.es</p></th>
-<th><p>Contract_Level2_Es</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>level_2.fr</p></th>
-<th><p>Contract_Level2_Fr</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>level_2.it</p></th>
-<th><p>Contract_Level2_It</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>level_2.nl</p></th>
-<th><p>Contract_Level2_Nl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>level_2.pl</p></th>
-<th><p>Contract_Level2_Pl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>level_2.pt</p></th>
-<th><p>Contract_Level2_Pt</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>level_3.cs</p></th>
-<th><p>Contract_Level3_Cs</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>level_3.da</p></th>
-<th><p>Contract_Level3_Da</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>level_3.de</p></th>
-<th><p>Contract_Level3_De</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>level_3.en</p></th>
-<th><p>Contract_Level3_En</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>level_3.es</p></th>
-<th><p>Contract_Level3_Es</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>level_3.fr</p></th>
-<th><p>Contract_Level3_Fr</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>level_3.it</p></th>
-<th><p>Contract_Level3_It</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>level_3.nl</p></th>
-<th><p>Contract_Level3_Nl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>level_3.pl</p></th>
-<th><p>Contract_Level3_Pl</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>level_3.pt</p></th>
-<th><p>Contract_Level3_Pt</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>manager.urn</p></th>
-<th><p>Contract_Manager_Urn</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>Lookup IdmNumber in IDossier for manager by match on
-_42_08_Persoon_IdentificatieBronsysteem with manager.urn</p></th>
-<th><p>Contract_Manager_Ibis</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="header">
-<th><p>start_date.Value</p></th>
-<th><p>Contract_StartDate</p></th>
-<th><p>String</p></th>
-</tr>
-<tr class="odd">
-<th><p>start_date.Value parsed as DateTime</p></th>
-<th><p>Contract_StartDate_Ibis</p></th>
-<th><p>DateTime?</p></th>
-</tr>
-</thead>
-&#10;</table>
+|                                                                                     Source (contract)                                                                                    |          Target (PeopleIncModel)         |    Type   |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------|:---------|
+|                                                                    When no contract is available this property is true                                                                   |            Contract_NotPresent           |    bool   |
+|                                                                             allocation_employment_entity.code                                                                            | Contract_AllocationEmploymentEntity_Code |   String  |
+|                                                                              allocation_employment_entity.cs                                                                             |  Contract_AllocationEmploymentEntity_Cs  |   String  |
+|                                                                              allocation_employment_entity.da                                                                             |  Contract_AllocationEmploymentEntity_Da  |   String  |
+|                                                                              allocation_employment_entity.de                                                                             |  Contract_AllocationEmploymentEntity_De  |   String  |
+|                                                                              allocation_employment_entity.en                                                                             |  Contract_AllocationEmploymentEntity_En  |   String  |
+|                                                                              allocation_employment_entity.es                                                                             |  Contract_AllocationEmploymentEntity_Es  |   String  |
+|                                                                              allocation_employment_entity.fr                                                                             |  Contract_AllocationEmploymentEntity_Fr  |   String  |
+|                                                                              allocation_employment_entity.it                                                                             |  Contract_AllocationEmploymentEntity_It  |   String  |
+|                                                                              allocation_employment_entity.nl                                                                             |  Contract_AllocationEmploymentEntity_Nl  |   String  |
+|                                                                              allocation_employment_entity.pl                                                                             |  Contract_AllocationEmploymentEntity_Pl  |   String  |
+|                                                                              allocation_employment_entity.pt                                                                             |  Contract_AllocationEmploymentEntity_Pt  |   String  |
+|                                                                                   business_title.Value                                                                                   |          Contract_BusinessTitle          |   String  |
+|                                                                                    contract_fte.Value                                                                                    |           Contract_ContractFte           |   String  |
+|                                                                                contract_legal_entity.code                                                                                |     Contract_ContractLegalEntity_Code    |   String  |
+|                                                                                 contract_legal_entity.cs                                                                                 |      Contract_ContractLegalEntity_Cs     |   String  |
+|                                                                                 contract_legal_entity.da                                                                                 |      Contract_ContractLegalEntity_Da     |   String  |
+|                                                                                 contract_legal_entity.de                                                                                 |      Contract_ContractLegalEntity_De     |   String  |
+|                                                                                 contract_legal_entity.en                                                                                 |      Contract_ContractLegalEntity_En     |   String  |
+|                                                                                 contract_legal_entity.es                                                                                 |      Contract_ContractLegalEntity_Es     |   String  |
+|                                                                                 contract_legal_entity.fr                                                                                 |      Contract_ContractLegalEntity_Fr     |   String  |
+|                                                                                 contract_legal_entity.it                                                                                 |      Contract_ContractLegalEntity_It     |   String  |
+|                                                                                 contract_legal_entity.nl                                                                                 |      Contract_ContractLegalEntity_Nl     |   String  |
+|                                                                                 contract_legal_entity.pl                                                                                 |      Contract_ContractLegalEntity_Pl     |   String  |
+|                                                                                 contract_legal_entity.pt                                                                                 |      Contract_ContractLegalEntity_Pt     |   String  |
+|                                                                                    contract_type.code                                                                                    |        Contract_ContractType_Code        |   String  |
+|                                                                                     contract_type.cs                                                                                     |         Contract_ContractType_Cs         |   String  |
+|                                                                                     contract_type.da                                                                                     |         Contract_ContractType_Da         |   String  |
+|                                                                                     contract_type.de                                                                                     |         Contract_ContractType_De         |   String  |
+|                                                                                     contract_type.en                                                                                     |         Contract_ContractType_En         |   String  |
+|                                                                                     contract_type.es                                                                                     |         Contract_ContractType_Es         |   String  |
+|                                                                                     contract_type.fr                                                                                     |         Contract_ContractType_Fr         |   String  |
+|                                                                                     contract_type.it                                                                                     |         Contract_ContractType_It         |   String  |
+|                                                                                     contract_type.nl                                                                                     |         Contract_ContractType_Nl         |   String  |
+|                                                                                     contract_type.pl                                                                                     |         Contract_ContractType_Pl         |   String  |
+|                                                                                     contract_type.pt                                                                                     |         Contract_ContractType_Pt         |   String  |
+|                                                                                      end_date.Value                                                                                      |             Contract_EndDate             |   String  |
+|                                                                             end_date.Value parsed as DateTime                                                                            |           Contract_EndDate_Ibis          | DateTime? |
+|                                                                                   hr_responsible.Value                                                                                   |          Contract_HrResponsible          |   String  |
+| Lookup of first name in hr_responsible.Value which result in IdmNumber from IDossier.<br> <br>Matching on:<br> <br>§   _42_11_Persoon_Geslachtsnaam<br> <br>§   _42_15_Persoon_Voornamen |        Contract_HrResponsible_Ibis       |   String  |
+|                                                                                     is_manager.Value                                                                                     |            Contract_IsManager            |   String  |
+|                                                                            is_manager.Value parsed as Boolean                                                                            |          Contract_IsManager_Ibis         |    Bool   |
+|                                                  First item from job_description_family.name where en not empty and type == “translated”                                                 |       Contract_JobDescriptionFamily      |   String  |
+|                                                                                job_description_level_2.cs                                                                                |     Contract_JobDescriptionLevel2_Cs     |   String  |
+|                                                                                job_description_level_2.da                                                                                |     Contract_JobDescriptionLevel2_Da     |   String  |
+|                                                                                job_description_level_2.de                                                                                |     Contract_JobDescriptionLevel2_De     |   String  |
+|                                                                                job_description_level_2.en                                                                                |     Contract_JobDescriptionLevel2_En     |   String  |
+|                                                                                job_description_level_2.es                                                                                |     Contract_JobDescriptionLevel2_Es     |   String  |
+|                                                                                job_description_level_2.fr                                                                                |     Contract_JobDescriptionLevel2_Fr     |   String  |
+|                                                                                job_description_level_2.it                                                                                |     Contract_JobDescriptionLevel2_It     |   String  |
+|                                                                                job_description_level_2.nl                                                                                |     Contract_JobDescriptionLevel2_Nl     |   String  |
+|                                                                                job_description_level_2.pl                                                                                |     Contract_JobDescriptionLevel2_Pl     |   String  |
+|                                                                                job_description_level_2.pt                                                                                |     Contract_JobDescriptionLevel2_Pt     |   String  |
+|                                                                                        level_2.cs                                                                                        |            Contract_Level2_Cs            |   String  |
+|                                                                                        level_2.da                                                                                        |            Contract_Level2_Da            |   String  |
+|                                                                                        level_2.de                                                                                        |            Contract_Level2_De            |   String  |
+|                                                                                        level_2.en                                                                                        |            Contract_Level2_En            |   String  |
+|                                                                                        level_2.es                                                                                        |            Contract_Level2_Es            |   String  |
+|                                                                                        level_2.fr                                                                                        |            Contract_Level2_Fr            |   String  |
+|                                                                                        level_2.it                                                                                        |            Contract_Level2_It            |   String  |
+|                                                                                        level_2.nl                                                                                        |            Contract_Level2_Nl            |   String  |
+|                                                                                        level_2.pl                                                                                        |            Contract_Level2_Pl            |   String  |
+|                                                                                        level_2.pt                                                                                        |            Contract_Level2_Pt            |   String  |
+|                                                                                        level_3.cs                                                                                        |            Contract_Level3_Cs            |   String  |
+|                                                                                        level_3.da                                                                                        |            Contract_Level3_Da            |   String  |
+|                                                                                        level_3.de                                                                                        |            Contract_Level3_De            |   String  |
+|                                                                                        level_3.en                                                                                        |            Contract_Level3_En            |   String  |
+|                                                                                        level_3.es                                                                                        |            Contract_Level3_Es            |   String  |
+|                                                                                        level_3.fr                                                                                        |            Contract_Level3_Fr            |   String  |
+|                                                                                        level_3.it                                                                                        |            Contract_Level3_It            |   String  |
+|                                                                                        level_3.nl                                                                                        |            Contract_Level3_Nl            |   String  |
+|                                                                                        level_3.pl                                                                                        |            Contract_Level3_Pl            |   String  |
+|                                                                                        level_3.pt                                                                                        |            Contract_Level3_Pt            |   String  |
+|                                                                                        manager.urn                                                                                       |           Contract_Manager_Urn           |   String  |
+|                                       Lookup IdmNumber in IDossier for manager by match on _42_08_Persoon_IdentificatieBronsysteem with manager.urn                                      |           Contract_Manager_Ibis          |   String  |
+|                                                                                     start_date.Value                                                                                     |            Contract_StartDate            |   String  |
+|                                                                            start_date.Value parsed as DateTime                                                                           |          Contract_StartDate_Ibis         | DateTime? |
