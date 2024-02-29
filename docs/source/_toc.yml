@@ -4,6 +4,7 @@ subtrees:
 - maxdepth: 4
   titlesonly: True
   caption: Table of Contents
+  entries: Documentation
   entries:
   - file: Documentatie/Connectors
     subtrees:
@@ -53,3 +54,4 @@ subtrees:
             subtrees:
             - entries:
               - file: Documentatie/Connectoren/IBIS_Connectoren/SysPage_RunProfile_Settings
+        - file: Documentatie/Connectoren/IBIS_StagingArea
