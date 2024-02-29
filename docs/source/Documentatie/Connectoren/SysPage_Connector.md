@@ -256,12 +256,11 @@ Scenarios are only applied when a staging area object:
 
 Rules exist of 3 properties, which are described in the following table;
 
-|     Property     |                                                                                   Description                                                                                   |
+|     Property     |   Description                                                                                   |
 |:----------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | Name             | The name of the scenario. In case the scenario results in a match, this name will be stored on the staging area object for future reference (in the property IdmNumberRuleName) |
 | Ibis object type | The object type to search for an existing IDM number                                                                                                                            |
-| Match expression | A Linq expression to filter the collection of IBIS objects of the type specified by Ibis object type                                                                            |
-| Delete           | The total percentage (or count) of objects that will be deleted                                                                                                                 |
+| Match expression | A Linq expression to filter the collection of IBIS objects of the type specified by Ibis object type                                                                            |                                                                                
 
 In case a rule results in multiple matches, the first result in the
 collection will be used.
