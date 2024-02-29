@@ -6,7 +6,7 @@ The ASPOS connector module enables group-user maintenance
 ## Parameters
 
 |            Parameter            | Required |                                                    Description                                                    |
-|:-------------------------------:|:--------:|:-----------------------------------------------------------------------------------------------------------------:|
+|:-------------------------------|:--------:|:-----------------------------------------------------------------------------------------------------------------|
 | API URL                         | X        | The full URL of the ASPOS instance to connect to. For example:                                                    |
 | OAuth - Token URL               | X        | The full URL of the ASPOS token endpoint. For example:                                                            |
 | OAuth - Client ID               | X        | The OAuth client ID to use for connecting to ASPOS                                                                |
