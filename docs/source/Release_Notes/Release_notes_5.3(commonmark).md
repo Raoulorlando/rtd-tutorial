@@ -1,4 +1,4 @@
-# IBIS-suite Release Notes 5.3 (fixed)
+# IBIS-suite Release Notes 5.3
 ## New features
 
 <table>
