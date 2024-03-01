@@ -55,3 +55,4 @@ subtrees:
             - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_Youforce
             - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_ZO
         - file: Documentatie/Connectoren/IBIS_StagingArea
+  - file: Documentatie/HelpPageDataResolutionAndFunctions
