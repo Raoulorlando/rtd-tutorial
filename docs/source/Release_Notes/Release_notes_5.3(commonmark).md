@@ -1,4 +1,9 @@
-# IBIS-suite Release Notes 5.3
+# IBIS-suite Release Notes
+<details>
+<summary>
+Versie 5.3
+</summary>
+
 ## New features
 
 ### Universal search
@@ -255,3 +260,4 @@ Administrators.
 | 11646      | Fixed an issue where the Run Profiles order were not saved correctly                                                                                          |
 | 11667      | Fixed an issue where FillLocationFromTreeManager would not properly delete locations                                                                          |
 | 11714      | Fixed an issue where a casting error would occur when running a connector sequence DI+S+E+S                                                                   |
+</details>
