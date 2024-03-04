@@ -156,7 +156,7 @@ Please note the following:
 throughout the entire UI of the suite. The schema in the database will
 not be affected for now.
 
-### Workflow enhancements</h3></th>
+### Workflow enhancements
 - Function contains has been added to the workflow engine
     
     *The Workflow "contains" Function has been added. Use this
