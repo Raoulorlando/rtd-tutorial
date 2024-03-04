@@ -1,9 +1,3 @@
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_Connector">Connectors</a> /
-<a href="javascript:void(0)" class="help-trigger"
-data-helpkey="SysPage_RunProfile">Run profiles /</a> Run profile
-settings
-
 # <span id="index"></span>Run profile settings
 
 ###### General settings
