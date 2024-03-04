@@ -18,50 +18,20 @@ This event fires when a new object is created in the system. The object
 itself is added as workflow content and available with the data lookup
 expressions ( {propertyname} ).
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th>Done</th>
-<th>The incoming object corresponds to the type specified in the
-activity configuration</th>
-</tr>
-</thead>
-&#10;</table>
+| Results|                                    Description                                     |
+|:-------|:-----------------------------------------------------------------------------------|
+|   Done | The incoming object corresponds to the type specified in the activity configuration|
+<br>
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Content type</td>
-<td>Required</td>
-<td>The type of object to act on. If the incoming object does not
-correspond to this type the workflow will not be executed</td>
-</tr>
-</tbody>
-</table>
+| Configuration| Required?|                                                       Description                                                      |
+|:-------------|:---------|:-----------------------------------------------------------------------------------------------------------------------|
+| Content type | Required | The type of object to act on. If the incoming object does not correspond to this type the workflow will not be executed|
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Available workflow arguments</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>This event is not fired with any arguments</td>
-</tr>
-</tbody>
-</table>
+<br><br>
+
+|        Available workflow arguments       |
+|:------------------------------------------|
+| This event is not fired with any arguments|
 
 ### ContentUpdated
 
@@ -69,60 +39,15 @@ This event fires when an object is updated in the system. The object
 itself is added as workflow content and available with the data lookup
 expressions ( {propertyname} ).
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Done</td>
-<td>The incoming object corresponds to the type specified in the
-activity configuration</td>
-</tr>
-</tbody>
-</table>
+| Results|                                     Description                                    |
+|:-------|:-----------------------------------------------------------------------------------|
+| Done   | The incoming object corresponds to the type specified in the activity configuration|
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Content type</td>
-<td>Required</td>
-<td>The type of object to act on. If the incoming object does not
-correspond to this type the workflow will not be executed</td>
-</tr>
-<tr class="even">
-<td>Mode</td>
-<td>Required</td>
-<td><p>Defines the way to handle property changes:</p>
-<ul>
-<li>AND : All specified properties must be changed</li>
-<li>OR : Any of the specified properties must be changed</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Property</td>
-<td>Optional</td>
-<td>Defines the properties to filter on in combination with the
-<strong><em>Mode</em></strong> setting. If specified, the workflow will
-only be executed when on or more of these properties have changed</td>
-</tr>
-</tbody>
-</table>
+| Configuration | Required? |                                                                                 Description                                                                                 |
+|:-------------|:---------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Content type  | Required  | The type of object to act on. If the incoming object does not correspond to this type the workflow will not be executed                                                     |
+| Mode          | Required  | Defines the way to handle property changes:<br> <br> <br>- AND : All specified properties must be changed<br> <br>- OR : Any of the specified properties must be changed        |
+| Property      | Optional  | Defines the properties to filter on in combination with the ***Mode*** setting. If specified, the workflow will only be executed when on or more of these properties have changed |
 
 <table class="table table-bordered">
 <thead class="thead-light">
@@ -3865,7 +3790,7 @@ workflow argument @Reason.</p></th>
 </tr>
 </thead>
 &#10;</table>
-
+<br><br>
 <table class="table table-bordered">
 <thead class="thead-light">
 <tr class="header">
