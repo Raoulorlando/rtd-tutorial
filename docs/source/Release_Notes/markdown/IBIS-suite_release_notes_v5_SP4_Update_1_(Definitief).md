@@ -1,4 +1,3 @@
-Title: Release notes v5 SP4 Update 1
 # Release notes v5 SP4 Update 1
 
 ## New features
