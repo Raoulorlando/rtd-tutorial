@@ -1,4 +1,3 @@
-# IBIS-suite Release Notes
 <details>
 <summary>
 Versie 5.3

@@ -1,5 +1,5 @@
-Title: Release notes v5 SP4 Update 1
-# Release notes v5 SP4 Update 1
+<details> 
+<summary>Release notes v5 SP4 Update 1</summary>
 
 ## New features
 
@@ -252,4 +252,4 @@ Title: Release notes v5 SP4 Update 1
   upgrade, you can only remove administrator rights by changing it in the
   database.
 
-  
+  </details>
