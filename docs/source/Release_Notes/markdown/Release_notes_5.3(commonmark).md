@@ -1,7 +1,5 @@
 <details>
-<summary>
-IBIS V5.3
-</summary>
+<summary>IBIS V5.3</summary>
 
 ## New features
 
