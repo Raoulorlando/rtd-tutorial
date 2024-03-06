@@ -1,6 +1,6 @@
 <details>
 <summary>
-Versie 5.3
+IBIS V5.3
 </summary>
 
 ## New features

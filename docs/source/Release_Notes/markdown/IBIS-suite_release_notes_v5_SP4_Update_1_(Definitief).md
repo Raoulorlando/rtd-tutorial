@@ -1,5 +1,5 @@
 <details> 
-<summary>Release notes v5 SP4 Update 1</summary>
+<summary>IBIS V5.4 Update 1</summary>
 
 ## New features
 

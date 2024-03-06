@@ -1,5 +1,5 @@
 <details>
-<summary>IBIS V5 SP4 Hotfix 1</summary>
+<summary>IBIS V5.4 Hotfix 1</summary>
 
 -   **Toegevoegde functionaliteiten:**
 
