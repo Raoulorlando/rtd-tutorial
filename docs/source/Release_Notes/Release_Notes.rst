@@ -22,6 +22,6 @@ IBIS Suite Release Notes
 .. Version 5.3
 .. -----------------------------------------------------------------------------
 
-.. include:: ./markdown/Release_notes_5.3(commonmark).md
+.. include:: ./markdown/Release_notes_5.3_(commonmark).md
     :parser: myst_parser.sphinx_
 
