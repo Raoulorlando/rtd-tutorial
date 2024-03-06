@@ -3,6 +3,7 @@
 
 ## New features
 
+
 ### Universal search
 
 Universal Search has been implemented. With Universal Search it's
@@ -46,6 +47,7 @@ permissions can be added using ACL so that they’re no longer only
 limited to only administrators.
 
 ### Registration pages
+
 The following new registration pages has been added:
 
 - Telephone guide registration (TgDossier)
@@ -53,10 +55,12 @@ The following new registration pages has been added:
 
 
 ### Changelog
+
 IBIS changes can now be viewed in the new Changelog page. The proper
 authorizations need to be set to access the page.
 
 ### NetIQ eDirectory Connector
+
 IBIS can now connect to NetIQ eDirectory.
 The eDirectory module is capable of importing and exporting data to
 NetIQ eDirectory by using the LDAP protocol. Simply go to "Connectors",
@@ -66,12 +70,14 @@ Connector documentation.
 
 
 ### Add Dynamic attributes to existing objects and dossiers
+
 The IBIS-datamodel can now be extended using "dynamic fields" for a
 better support of your Joiner, Mover and Leaver process. When added,
 these "dynamic fields" can be used in registration forms, workflows
 (Argument, Decision, HasResult), DataSets and IBIS connectors.
 
 ### Group management
+
 In previous versions of the IBIS suite, IBIS could only manage
 the lifecycle of user accounts and manage user access based on
 ABAC-rules. In a Microsoft environment, access is often given when the
@@ -91,6 +97,7 @@ The managed groups are automatically added to the IBIS register and
 are indexed by the Universal Search.
 
 ### New Widscan / form post catcher
+
 External systems (like BPI’s passport scanner) could “post” data
 to an employee registration using a HTTP POST message to the
 (deprecated) page InvoerFormulier.aspx.<br><br>
@@ -106,6 +113,7 @@ software has to be reconfigured to the new entrypoint URL
 
 
 ### IC: Connector module voor TreeManager
+
 IBIS can now connect to TreeManager using IBIS Connector. The
 TreeManager connector is capable of importing nodes from- and exporting
 nodes to a TreeManager tree. For more information about using this
@@ -117,7 +125,9 @@ documentation.
 
 ## Features update
 
+
 ### Registration pages
+
 The following new registration pages has been updated:
 
 - Employee registration (iDossier)
@@ -160,6 +170,7 @@ throughout the entire UI of the suite. The schema in the database will
 not be affected for now.
 
 ### Workflow enhancements
+
 - Function contains has been added to the workflow engine
     
     *The Workflow "contains" Function has been added. Use this
@@ -186,6 +197,7 @@ changed
     Example: {?{IncomingValue},ToFileTimeUtc} 
 
 ### UI/UX Enhancements
+
 - User TimeZone added
 
     The user can set the preferred timezone. Go to the user settings (top
@@ -244,8 +256,8 @@ Administrators.
 
 ## Bugfixes
 
-  Referentie | Bug fix 
-|:-----------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Referentie | Bug fix                                                                                                                                                       |
+|:-----------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 11125      | When deploying a new IBIS suite where schema names are used, the reference to the IBIS log table (found in General Settings) should also use the schema name. |
 | 11505      | Fixed an issue in the SysInputFieldCleaner cleanup task                                                                                                       |
 | 11535      | Fixed an issue where sending the loginid back to Youforce did not work properly in the Youforce connector                                                     |
