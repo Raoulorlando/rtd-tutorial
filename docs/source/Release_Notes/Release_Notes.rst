@@ -4,7 +4,7 @@ IBIS Suite Release Notes
 .. Version 5 SP4 Update 1 hotfix 11
 .. -----------------------------------------------------------------------------
 
-.. include:: ./markdown/IBIS-suite_release_notes_v5_SP4_hotfixes_11.md
+.. include:: ./markdown/IBIS-suite_release_notes_v5_SP4_hotfix_11.md
     :parser: myst_parser.sphinx_
 
 .. Version 5 SP4 Update 1 hotfix 1 until 10
