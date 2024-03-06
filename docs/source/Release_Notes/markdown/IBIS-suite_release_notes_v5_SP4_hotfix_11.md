@@ -1,7 +1,7 @@
 <details>
 <summary>IBIS V5 SP4 Hotfix 11</summary>
 
-## Opgeloste bugs
+**Opgeloste bugs**
 
   **Reference**  |**Bug fix**
   |:--------------|:---------------------------------------------------------------|
