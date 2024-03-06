@@ -244,7 +244,7 @@ Administrators.
 
 ## Bugfixes
 
-| Referentie | Bug fix |
+  Referentie | Bug fix 
 |:-----------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 11125      | When deploying a new IBIS suite where schema names are used, the reference to the IBIS log table (found in General Settings) should also use the schema name. |
 | 11505      | Fixed an issue in the SysInputFieldCleaner cleanup task                                                                                                       |
@@ -257,4 +257,5 @@ Administrators.
 | 11646      | Fixed an issue where the Run Profiles order were not saved correctly                                                                                          |
 | 11667      | Fixed an issue where FillLocationFromTreeManager would not properly delete locations                                                                          |
 | 11714      | Fixed an issue where a casting error would occur when running a connector sequence DI+S+E+S                                                                   |
+
 </details>
