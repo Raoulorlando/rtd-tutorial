@@ -624,7 +624,7 @@ Hotfix 8
   upgrade, you can only remove administrator rights by changing it in the
   database.
 
-  </details>
+</details>
 
 <details>
 <summary>IBIS V5.3</summary>
