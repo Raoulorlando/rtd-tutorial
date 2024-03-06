@@ -19,6 +19,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'myst_parser',
     'sphinx_external_toc',
+    'sphinx_toolbox.collapse',
 ]
 external_toc_exclude_missing = True
 
