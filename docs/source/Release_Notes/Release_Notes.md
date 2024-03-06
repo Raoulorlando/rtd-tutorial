@@ -378,7 +378,7 @@ IBIS V5.3
 
 ### Universal search
 
-Universal Search has been implemented. With Universal Search it's
+<p>Universal Search has been implemented. With Universal Search it's
 possible to find items in IBIS faster. Results from the Universal Search
 will be respecting the authorization settings.
 The Universal Search relies on indexes which will be implemented per
@@ -396,7 +396,7 @@ The function is implemented for the following object types:
 - Group registrations (Group)
 - EPIC registrations (EpicDossier)
 
-
+</p>
 
 ### New configuration pages
 
