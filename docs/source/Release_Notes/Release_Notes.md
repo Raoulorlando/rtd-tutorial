@@ -367,8 +367,8 @@ Hotfix 8
   upgrade, you can only remove administrator rights by changing it in the
   database.
 
-  </details>
-  <details>
+</details>
+<details>
 <summary>IBIS V5.3</summary>
 
 ## New features
@@ -640,8 +640,4 @@ Administrators.
 | 11667      | Fixed an issue where FillLocationFromTreeManager would not properly delete locations                                                                          |
 | 11714      | Fixed an issue where a casting error would occur when running a connector sequence DI+S+E+S                                                                   |
 
-</details>
-<details>
-<summary>Test accordeon</summary>
-TEST
 </details>
