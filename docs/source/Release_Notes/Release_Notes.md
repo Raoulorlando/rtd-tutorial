@@ -641,3 +641,7 @@ Administrators.
 | 11714      | Fixed an issue where a casting error would occur when running a connector sequence DI+S+E+S                                                                   |
 
 </details>
+<details>
+<summary>Test accordeon</summary>
+TEST
+</details>
