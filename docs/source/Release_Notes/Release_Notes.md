@@ -225,7 +225,7 @@ Hotfix 8
 
 
 
- ### UI/UX Enhancements {#uiux-enhancements .unnumbered}               
+ ### UI/UX Enhancements              
 
  -   The setting 'Remove audit entries older dan (days)" has been      
      removed from the IBIS settings page. It can now be found in the   
@@ -286,7 +286,7 @@ Hotfix 8
                                                                       
  -   The IBIS register has been extended with field DomainName        
 
- ### Security {#security .unnumbered}                                 
+ ### Security                                
 
  -   The 'Change password' button is now available in the User account
      registration, under the 'Options' menu                           
@@ -306,7 +306,7 @@ Hotfix 8
 
 
 
- ### Connectors {#connectors .unnumbered}                              
+ ### Connectors                               
  -   A connector will now prevent an export if a previous export was   
      incomplete                                                        
                                                                        
@@ -371,8 +371,27 @@ Hotfix 8
 <details>
 <summary>IBIS V5.3</summary>
 
-## New features
+## New features 5.3
 
-Test
+
+### Universal search 5.3
+
+Universal Search has been implemented. With Universal Search it's
+possible to find items in IBIS faster. Results from the Universal Search
+will be respecting the authorization settings.
+The Universal Search relies on indexes which will be implemented per
+type.
+The function is implemented for the following object types:
+
+- Employee registrations (IDossiers)
+- Identity registrations (IdentityDossiers)
+- User account registrations (AliasDossiers)
+- Access card registrations (PbsDossiers)
+- Legal ID-document scan registrations (WidDossiers)
+- facility registrations (FmhDossiers)
+- Telephone guide registrations (TgDossiers)
+- Product requests (AanvraagDossiers)
+- Group registrations (Group)
+- EPIC registrations (EpicDossier)
 
 </details>
