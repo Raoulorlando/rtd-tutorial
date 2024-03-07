@@ -371,6 +371,8 @@ Hotfix 8
 <details>
 <summary>IBIS V5.3</summary>
 
+### Universal search
+
 Universal Search has been implemented. With Universal Search it's
 possible to find items in IBIS faster. Results from the Universal Search
 will be respecting the authorization settings.
