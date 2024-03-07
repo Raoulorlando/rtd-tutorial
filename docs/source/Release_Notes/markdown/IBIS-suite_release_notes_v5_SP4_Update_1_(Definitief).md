@@ -1,5 +1,4 @@
-<details> 
-<summary>IBIS V5.4 Update 1</summary>
+# IBIS V5.4 Update 1
 
 ## New features
 
@@ -251,5 +250,3 @@
   checkbox for these application roles before upgrading. After the
   upgrade, you can only remove administrator rights by changing it in the
   database.
-
-  </details>

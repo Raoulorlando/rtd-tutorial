@@ -1,5 +1,4 @@
-<details>
-<summary>IBIS V5.4 Hotfix 11</summary>
+# IBIS V5.4 Hotfix 11
 
 **Opgeloste bugs**
 
@@ -13,4 +12,3 @@
   |12558           |IBIS instellingen toont de verkeerde keuze bij standaard AVD aanvraag/intrek status. Zie IBIS instellingen -\> Bedrijfsmiddelen -\> Bedrijfsmiddelen in bezit -\> Standaard AVD status voor product aanvraag **EN** Standaard AVD status voor product intrek                     |
   |12556           |Universal Search Index rebuilder werkt de geïndexeerde gegevens niet goed bij                                                  |
   |12582           |IBIS functie werkt niet indien de input voor de functie de tekst 'code' bevat.                                                 | 
-</details>

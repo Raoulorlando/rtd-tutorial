@@ -1,5 +1,5 @@
-<details>
-<summary>IBIS V5.3</summary>
+# IBIS V5.3
+
 
 ## New features
 
@@ -269,5 +269,3 @@ Administrators.
 | 11646      | Fixed an issue where the Run Profiles order were not saved correctly                                                                                          |
 | 11667      | Fixed an issue where FillLocationFromTreeManager would not properly delete locations                                                                          |
 | 11714      | Fixed an issue where a casting error would occur when running a connector sequence DI+S+E+S                                                                   |
-
-</details>

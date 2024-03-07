@@ -1,5 +1,4 @@
-<details>
-<summary>IBIS V5.4 Hotfix 1</summary>
+# IBIS V5.4 Hotfix 1 - 8
 
 -   **Toegevoegde functionaliteiten:**
 
@@ -94,4 +93,3 @@ Hotfix 8
 
     -   12228: De workflow haalt de organisatiegegevens niet op voor
         iDossiers waarbij het veld 02_60 is gevuld.
-</details>
