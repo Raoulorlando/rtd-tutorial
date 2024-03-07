@@ -25,15 +25,15 @@
 
         > *Makkelijk verplichte velden toevoegen aan attribuut relaties*
 
--   IBIS Active Directory Connector
+    -   IBIS Active Directory Connector
 
-    > *account expires als \_param waarde meegeven in plaats van een
-    > standaard flow*
+        > *account expires als \_param waarde meegeven in plaats van een
+        > standaard flow*
 
--   IBIS Documentatie:
+    -   IBIS Documentatie:
 
-    > *Workflow documentatie opgenomen als helpfile in IBIS. Documentatie is
-    > te vinden op <https://ibisurl/help>*
+        > *Workflow documentatie opgenomen als helpfile in IBIS. Documentatie is
+        > te vinden op <https://ibisurl/help>*
 
 -   **Opgeloste bugs**
 
@@ -372,8 +372,8 @@ Hotfix 8
 <summary>IBIS V5.3</summary>
 
 
-### New features
-#### Universal search
+## New features
+### Universal search
 
 Universal Search has been implemented. With Universal Search it's
 possible to find items in IBIS faster. Results from the Universal Search
@@ -393,7 +393,7 @@ The function is implemented for the following object types:
 - Group registrations (Group)
 - EPIC registrations (EpicDossier)
 
-#### New configuration pages
+### New configuration pages
 
 New configuration pages have been added to replace the old ones
 with an improvement in usability and look-and-feel. All these pages can
