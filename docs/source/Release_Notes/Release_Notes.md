@@ -373,6 +373,7 @@ Hotfix 8
 
 ## New features
 
+
 ### Universal search
 
 Universal Search has been implemented. With Universal Search it's
@@ -392,4 +393,5 @@ The function is implemented for the following object types:
 - Product requests (AanvraagDossiers)
 - Group registrations (Group)
 - EPIC registrations (EpicDossier)
+
 </details>
