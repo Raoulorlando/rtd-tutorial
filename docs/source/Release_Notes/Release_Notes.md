@@ -2,6 +2,8 @@
 <details>
 <summary>IBIS V5.4 Hotfix 11</summary>
 
+## IBIS V5.4 Hotfix 11
+
 **Opgeloste bugs**
 
   **Reference**  |**Bug fix**
@@ -17,7 +19,9 @@
 </details>
 
 <details>
-<summary>IBIS V5.4 Hotfix 1</summary>
+<summary>IBIS V5.4 Hotfix 1 - 8</summary>
+
+## IBIS V5.4 Hotfix 1 - 8
 
 -   **Toegevoegde functionaliteiten:**
 
@@ -116,10 +120,11 @@ Hotfix 8
 <details> 
 <summary>IBIS V5.4 Update 1</summary>
 
-## New features
+## IBIS V5.4 Update 1
+### New features
 
 
-### Documentation                       
+#### Documentation                       
 
  The following documentation are added or updated and can be found in  
  IBIS                                                                  
@@ -150,7 +155,7 @@ Hotfix 8
 
 
 
-### New configuration pages    
+#### New configuration pages    
 
  New configuration pages have been added to replace the old ones, with 
  improvements in usability and look-and-feel. The new pages can now be 
@@ -173,17 +178,17 @@ Hotfix 8
                                    
 
 
-## Features update 1
+### Features update 1
 
 
-### Registration page enhancements
--   **Option shortcuts** can now be set in the registration page      
+ #### Registration page enhancements
+ -  **Option shortcuts** can now be set in the registration page      
     header. To set a shortcut, click on the 'Options' dropdownmenu to 
     show a list of options. Next, hover over an item and click on the 
     star to turn it into a shortcut                                                                 
     ![](..\markdown\images\media\image2.png)       
                                                                       
--   **Field width and offsets** can now be configured individually to 
+ -  **Field width and offsets** can now be configured individually to 
     create different kinds of registration layouts. To change a field 
     size, go to a registration configuration page (i.e. Configure     
     employee registration). Hover over a field and click on the cog   
@@ -197,7 +202,7 @@ Hotfix 8
                                                                     
     ![](..\markdown\images\media\image4.png)                   
 
- ### Workflow enhancements        
+ #### Workflow enhancements        
  -   Several new functions have been added. These can now be used in   
      the workflow engine and connectors:                               
  -   GetDay: returns the day from a day                                
@@ -225,7 +230,7 @@ Hotfix 8
 
 
 
- ### UI/UX Enhancements              
+ #### UI/UX Enhancements              
 
  -   The setting 'Remove audit entries older dan (days)" has been      
      removed from the IBIS settings page. It can now be found in the   
@@ -268,7 +273,7 @@ Hotfix 8
      each block should display.                                        
 
 
- ### Process and performance enhancements 
+ #### Process and performance enhancements 
  -   The save order for AliasDossier (user accounts) and the          
      associated smtp aliases has been optimized                       
                                                                       
@@ -286,7 +291,7 @@ Hotfix 8
                                                                       
  -   The IBIS register has been extended with field DomainName        
 
- ### Security                                
+ #### Security                                
 
  -   The 'Change password' button is now available in the User account
      registration, under the 'Options' menu                           
@@ -306,7 +311,7 @@ Hotfix 8
 
 
 
- ### Connectors                               
+ #### Connectors                               
  -   A connector will now prevent an export if a previous export was   
      incomplete                                                        
                                                                        
@@ -324,7 +329,7 @@ Hotfix 8
      updated to prevent double schema attributes                       
 
 
-## Bugfixes
+### Bugfixes
 
  
   |**Reference**  |**Bug fix**                                                   | 
@@ -342,7 +347,7 @@ Hotfix 8
   |12295           |Fixed an issue where field \_04_25_Organisatie_IdentificatieFormeleOrganisatie would show as a tree picker/dropdownlist instead of a regular field
 
 
-## Migration notes
+### Migration notes
 
   
   **Description**
@@ -371,9 +376,10 @@ Hotfix 8
 <details>
 <summary>IBIS V5.3</summary>
 
+## IBIS V5.3
 
-## New features
-### Universal search
+### New features
+#### Universal search
 
 Universal Search has been implemented. With Universal Search it's
 possible to find items in IBIS faster. Results from the Universal Search
@@ -393,7 +399,7 @@ The function is implemented for the following object types:
 - Group registrations (Group)
 - EPIC registrations (EpicDossier)
 
-### New configuration pages
+#### New configuration pages
 
 New configuration pages have been added to replace the old ones
 with an improvement in usability and look-and-feel. All these pages can
