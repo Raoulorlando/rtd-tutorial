@@ -371,6 +371,7 @@ Hotfix 8
 <details>
 <summary>IBIS V5.3</summary>
 
+## New features
 ### Universal search
 
 Universal Search has been implemented. With Universal Search it's
