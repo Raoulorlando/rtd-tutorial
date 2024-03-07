@@ -21,7 +21,7 @@
 <details>
 <summary>IBIS V5.4 Hotfix 1 - 8</summary>
 
-## IBIS V5.4 Hotfix 1 - 8
+### IBIS V5.4 Hotfix 1 - 8
 
 -   **Toegevoegde functionaliteiten:**
 
@@ -178,7 +178,7 @@ Hotfix 8
                                    
 
 
-### Features update 1
+#### Features update 1
 
 
  #### Registration page enhancements
@@ -376,7 +376,7 @@ Hotfix 8
 <details>
 <summary>IBIS V5.3</summary>
 
-## IBIS V5.3
+##### IBIS V5.3
 
 ### New features
 #### Universal search
@@ -401,7 +401,7 @@ The function is implemented for the following object types:
 
 #### New configuration pages
 
-New configuration pages have been added to replace the old ones
+___New___ configuration pages have been added to replace the old ones
 with an improvement in usability and look-and-feel. All these pages can
 now be accessed by clicking on the ‘All pages’ button in the navigation
 menu:
