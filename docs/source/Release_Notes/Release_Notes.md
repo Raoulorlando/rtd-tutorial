@@ -371,6 +371,22 @@ Hotfix 8
 <details>
 <summary>IBIS V5.3</summary>
 
-Rubbish
+Universal Search has been implemented. With Universal Search it's
+possible to find items in IBIS faster. Results from the Universal Search
+will be respecting the authorization settings.
+The Universal Search relies on indexes which will be implemented per
+type.
+The function is implemented for the following object types:
+
+- Employee registrations (IDossiers)
+- Identity registrations (IdentityDossiers)
+- User account registrations (AliasDossiers)
+- Access card registrations (PbsDossiers)
+- Legal ID-document scan registrations (WidDossiers)
+- facility registrations (FmhDossiers)
+- Telephone guide registrations (TgDossiers)
+- Product requests (AanvraagDossiers)
+- Group registrations (Group)
+- EPIC registrations (EpicDossier)
 
 </details>
