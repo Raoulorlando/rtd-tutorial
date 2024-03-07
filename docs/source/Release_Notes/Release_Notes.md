@@ -372,8 +372,8 @@ Hotfix 8
 <summary>IBIS V5.3</summary>
 
 
-## New features
-### Universal search
+### New features
+#### Universal search
 
 Universal Search has been implemented. With Universal Search it's
 possible to find items in IBIS faster. Results from the Universal Search
@@ -393,7 +393,7 @@ The function is implemented for the following object types:
 - Group registrations (Group)
 - EPIC registrations (EpicDossier)
 
-### New configuration pages
+#### New configuration pages
 
 New configuration pages have been added to replace the old ones
 with an improvement in usability and look-and-feel. All these pages can
@@ -413,6 +413,4 @@ menu:
 permissions can be added using ACL so that they’re no longer only
 limited to only administrators.
 
-</details>
-<details>
 </details>
