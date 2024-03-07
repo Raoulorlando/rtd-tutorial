@@ -389,4 +389,24 @@ The function is implemented for the following object types:
 - Group registrations (Group)
 - EPIC registrations (EpicDossier)
 
+### New configuration pages
+
+New configuration pages have been added to replace the old ones
+with an improvement in usability and look-and-feel. All these pages can
+now be accessed by clicking on the ‘All pages’ button in the navigation
+menu:
+
+- Password Module settings*
+- Background tasks settings
+- Pages settings*
+- Audit entry settings*
+- CSS, Javascript module settings*
+- Export/import IBIS configuration*
+- Localisation settings
+- Cryptography settings*
+
+*These are no longer available in the /admin. As a result,
+permissions can be added using ACL so that they’re no longer only
+limited to only administrators.
+
 </details>
