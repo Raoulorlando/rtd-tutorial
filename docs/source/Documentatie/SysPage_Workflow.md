@@ -700,15 +700,6 @@ filter criteria.
 |   True  |     The content satisfies the filter criteria    |
 |  False  | The content does not satisfy the filter criteria |
 
-+---------------------+----------+
-| Property            | Earth    |
-+=============+=======+==========+
-|             | min   | -89.2 °C |
-| Temperature +-------+----------+
-| 1961-1990   | mean  | 14 °C    |
-|             +-------+----------+
-|             | max   | 56.7 °C  |
-+-------------+-------+----------+
 
 <table class="table table-bordered">
 <colgroup>
