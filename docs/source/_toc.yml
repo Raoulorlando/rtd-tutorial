@@ -62,7 +62,6 @@ subtrees:
   # - file: Functionaliteiten/Beschrijving
   - file: Release_Notes/Release_Notes
     subtrees:
-    :caption: IBIS Suite Release Notes
     - entries:
       - file: Release_Notes/markdown/IBIS-suite_release_notes_v5_SP4_hotfix_11
       - file: Release_Notes/markdown/IBIS-suite_release_notes_v5_SP4_hotfixes

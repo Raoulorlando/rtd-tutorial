@@ -3,6 +3,5 @@ In this section of the website you will be able to find release notes of several
 Versions are supported up until one and a half year after release. After that we recommend you to upgrade to a recent version.
 
 ```{eval-rst}
-.. ibissuitereleasenotes::
-   :titlesonly: 
+.. toctree::  
 ```
