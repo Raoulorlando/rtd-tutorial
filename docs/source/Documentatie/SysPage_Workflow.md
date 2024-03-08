@@ -49,23 +49,9 @@ expressions ( {propertyname} ).
 | Mode          | Required  | Defines the way to handle property changes:<br> <br> <br>- AND : All specified properties must be changed<br> <br>- OR : Any of the specified properties must be changed        |
 | Property      | Optional  | Defines the properties to filter on in combination with the ***Mode*** setting. If specified, the workflow will only be executed when on or more of these properties have changed |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Available workflow arguments</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>OldStateObject</td>
-<td>The object as it was before the update. Only properties that have
-actualy been changed are present on this argument. All other values are
-present on the current state of the object, which is available in the
-workflow content.</td>
-</tr>
-</tbody>
-</table>
+| Available workflow arguments |                                                                                                                                                                                                                                   |
+|:-----------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| OldStateObject               | The object as it was before the update. Only properties that have actualy been changed are present on this argument. All other values are present on the current state of the object, which is available in the workflow content. |
 
 ### ContentDeleted
 
@@ -73,52 +59,17 @@ This event fires when an object is deleted in the system. The object
 itself is added as workflow content and available with the data lookup
 expressions ( {propertyname} ).
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Done</td>
-<td>The incoming object corresponds to the type specified in the
-activity configuration</td>
-</tr>
-</tbody>
-</table>
+| Results |                                     Description                                     |
+|:--------|:------------------------------------------------------------------------------------|
+| Done    | The incoming object corresponds to the type specified in the activity configuration |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Content type</td>
-<td>Required</td>
-<td>The type of object to act on. If the incoming object does not
-correspond to this type the workflow will not be executed</td>
-</tr>
-</tbody>
-</table>
+| Configuration | Required? |                                                       Description                                                       |
+|:--------------|:----------|:------------------------------------------------------------------------------------------------------------------------|
+| Content type  | Required  | The type of object to act on. If the incoming object does not correspond to this type the workflow will not be executed |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Available workflow arguments</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>This event is not fired with any arguments</td>
-</tr>
-</tbody>
-</table>
+|        Available workflow arguments        | Required? |                                                       Description                                                       |
+|:-------------------------------------------|:----------|:------------------------------------------------------------------------------------------------------------------------|
+| This event is not fired with any arguments | Required  | The type of object to act on. If the incoming object does not correspond to this type the workflow will not be executed |
 
 ### DatasetIn
 
@@ -126,47 +77,17 @@ This event fires when an object is added to a dataset. The object itself
 is added as workflow content and available with the data lookup
 expressions ( {propertyname} ).
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Done</td>
-<td>The incoming object is added to the dataset specified in the
-configuration</td>
-</tr>
-</tbody>
-</table>
+| Results |                                 Description                                |                                                       Description                                                       |
+|:--------|:---------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------|
+| Done    | The incoming object is added to the dataset specified in the configuration | The type of object to act on. If the incoming object does not correspond to this type the workflow will not be executed |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Dateset name</p></th>
-<th><p>Required</p></th>
-<th><p>The dataset to act on</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Configuration | Required? |      Description      |
+|:--------------|:----------|:----------------------|
+|  Dateset name |  Required | The dataset to act on |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Available workflow arguments</th>
-</tr>
-<tr class="odd">
-<th><p><em>This event is not fired with any arguments</em></p></th>
-</tr>
-</thead>
-&#10;</table>
+|        Available workflow arguments        | Required? |      Description      |
+|:-------------------------------------------|:----------|:----------------------|
+| This event is not fired with any arguments |  Required | The dataset to act on |
 
 ### DatasetOut
 
@@ -174,45 +95,17 @@ This event fires when an object is removed from a dataset. The object
 itself is added as workflow content and available with the data lookup
 expressions ( {propertyname} ).
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Done</p></th>
-<th><p>The incoming object is removed from the dataset specified in the
-configuration</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Results |                                   Description                                  |      Description      |
+|:--------|:-------------------------------------------------------------------------------|:----------------------|
+|   Done  | The incoming object is removed from the dataset specified in the configuration | The dataset to act on |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Dateset name</p></th>
-<th><p>Required</p></th>
-<th><p>The dataset to act on</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Configuration | Required? |      Description      |
+|:--------------|:----------|:----------------------|
+|  Dateset name |  Required | The dataset to act on |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Available workflow arguments</th>
-</tr>
-<tr class="odd">
-<th><p><em>This event is not fired with any arguments</em></p></th>
-</tr>
-</thead>
-&#10;</table>
+|        Available workflow arguments        | Required? |      Description      |
+|:-------------------------------------------|:----------|:----------------------|
+| This event is not fired with any arguments |  Required | The dataset to act on |
 
 ### OrganizationChange
 
@@ -222,71 +115,20 @@ applicationDossier has changed.
 The object itself is added as workflow content and available with the
 data lookup expressions ( {propertyname} ).
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>True</p></th>
-<th><p>- The organization of the incoming object has changed</p>
-<p>- The organization of the incoming object has changed to
-<u>CONFIG/TargetOrganization</u></p>
-<p>- The organization of the incoming object was changed from
-<u>CONFIG/SourceOrganization</u></p>
-<p>- The organization of the incoming object has changed to
-<u>CONFIG/TargetOrganization</u></p>
-<p>from <u>CONFIG/SourceOrganization</u></p></th>
-</tr>
-<tr class="header">
-<th><p>False</p></th>
-<th><p>The organization of the incoming object has not been
-changed</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Results |                                                                                                                                                                       Description                                                                                                                                                                       |      Description      |
+|:--------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------|
+|   True  | - The organization of the incoming object has changed  <br> - The organization of the incoming object has changed to CONFIG/TargetOrganization <br>  - The organization of the incoming object was changed from CONFIG/SourceOrganization  <br> - The organization of the incoming object has changed to CONFIG/TargetOrganization   from CONFIG/SourceOrganization | The dataset to act on |
+|  False  |                                                                                                                                               The organization of the incoming object has not been changed                                                                                                                                              |                       |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>SourceOrganization</p></th>
-<th><p>Optional</p></th>
-<th><p>The value of the organization before the change</p></th>
-</tr>
-<tr class="header">
-<th><p>TargetOrganization</p></th>
-<th><p>Optional</p></th>
-<th><p>The value of the organization after the change</p></th>
-</tr>
-</thead>
-&#10;</table>
+|    Configuration   | Required? |                   Description                   |
+|:-------------------|:----------|:------------------------------------------------|
+| SourceOrganization |  Optional | The value of the organization before the change |
+| TargetOrganization |  Optional |  The value of the organization after the change |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Available workflow arguments</th>
-<th></th>
-</tr>
-<tr class="odd">
-<th><p>SourceOrganization</p></th>
-<th><p>The id of the organization before the change</p></th>
-</tr>
-<tr class="header">
-<th><p>TargetOrganization</p></th>
-<th><p>The id of the organization after the change</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Available workflow arguments |                                              |                   Description                   |
+|:-----------------------------|:---------------------------------------------|:------------------------------------------------|
+|      SourceOrganization      | The id of the organization before the change | The value of the organization before the change |
+|      TargetOrganization      |  The id of the organization after the change |  The value of the organization after the change |
 
 ### StateChange
 
@@ -295,114 +137,36 @@ applicationDossierProduct has changed. The object itself is added as
 workflow content and available with the data lookup expressions (
 {propertyname} ).
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>True</p></th>
-<th><p>- The state of the incoming object has changed</p>
-<p>- The state of the incoming object has changed to
-<u>CONFIG/ExpectedNewState</u></p>
-<p>- The state of the incoming object was changed from
-<u>CONFIG/ExpectedOldState</u></p>
-<p>- The state of the incoming object has changed to
-<u>CONFIG/ExpectedNewState</u></p>
-<p>from <u>CONFIG/ExpectedOldState</u></p></th>
-</tr>
-<tr class="header">
-<th><p>False</p></th>
-<th><p>The state of the incoming object has not been changed</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Results |                                                                                                                                                     Description                                                                                                                                                     |                   Description                   |
+|:--------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------|
+|   True  | - The state of the incoming object has changed  <br> - The state of the incoming object has changed to CONFIG/ExpectedNewState  <br> - The state of the incoming object was changed from CONFIG/ExpectedOldState   <br>- The state of the incoming object has changed to CONFIG/ExpectedNewState   from CONFIG/ExpectedOldState | The value of the organization before the change |
+|  False  |                                                                                                                                The state of the incoming object has not been changed                                                                                                                                |  The value of the organization after the change |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>ExpectedNewState</p></th>
-<th><p>Optional</p></th>
-<th><p>The value of state before the change</p></th>
-</tr>
-<tr class="header">
-<th><p>ExpectedOldState</p></th>
-<th><p>Optional</p></th>
-<th><p>The value of state after the change</p></th>
-</tr>
-</thead>
-&#10;</table>
+|   Configuration  | Required? |              Description             |
+|:-----------------|:----------|:-------------------------------------|
+| ExpectedNewState |  Optional | The value of state before the change |
+| ExpectedOldState |  Optional |  The value of state after the change |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Available workflow arguments</th>
-<th></th>
-</tr>
-<tr class="odd">
-<th><p>OldState</p></th>
-<th><p>The value of state before the change</p></th>
-</tr>
-<tr class="header">
-<th><p>NewState</p></th>
-<th><p>The value of state after the change</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Available workflow arguments |                                      |
+|:-----------------------------|:-------------------------------------|
+|           OldState           | The value of state before the change |
+|           NewState           |  The value of state after the change |
 
 ### Timer
 
 This event fires at specific intervals.
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Executed</p></th>
-<th><p>The timer is executed</p></th>
-</tr>
-</thead>
-&#10;</table>
+|  Results |      Description      |
+|:---------|:----------------------|
+| Executed | The timer is executed |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Interval</p></th>
-<th><p>Required</p></th>
-<th><p>The interval (in minutes) at which the timer must be
-executed</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Configuration | Required? |                          Description                          |
+|:--------------|:----------|:--------------------------------------------------------------|
+|    Interval   |  Required | The interval (in minutes) at which the timer must be executed |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Available workflow arguments</th>
-</tr>
-<tr class="odd">
-<th><p><em>This event is not fired with any arguments</em></p></th>
-</tr>
-</thead>
-&#10;</table>
+|        Available workflow arguments        |
+|:-------------------------------------------|
+| This event is not fired with any arguments |
 
 ### ManualEventTrigger
 
@@ -417,100 +181,37 @@ immediately return a HTTP 200 result. The synchronous method will
 execute the workflow in the current thread and return a HTTP 200 result
 when the workflow is finished.
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Done</p></th>
-<th><p>The event is of type ManualEventTrigger</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Results |               Description               |
+|:--------|:----------------------------------------|
+|   Done  | The event is of type ManualEventTrigger |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-</tr>
-<tr class="odd">
-<th><p><em>This event does not have any configurable
-settings</em></p></th>
-</tr>
-</thead>
-&#10;</table>
+|                    Configuration                   |
+|:---------------------------------------------------|
+| This event does not have any configurable settings |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Available workflow arguments</th>
-</tr>
-<tr class="odd">
-<th><p><em>This event is not fired with any arguments</em></p></th>
-</tr>
-</thead>
-&#10;</table>
+|        Available workflow arguments        |
+|:-------------------------------------------|
+| This event is not fired with any arguments |
 
 ### CustomEvent
 
 This event fires for custom events in the system.
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Done</p></th>
-<th><p>The incoming object is connected to the custom event specified in
-the event list down here</p>
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th><p>Event</p></th>
-<th><p>Description</p></th>
-</tr>
-<tr class="odd">
-<th><p>ImportTresholdValueExceeded</p></th>
-<th><p>Fires when a configured threshold value exceeds</p></th>
-</tr>
-</thead>
-&#10;</table></th>
-</tr>
-</thead>
-&#10;</table>
+| Results |                                          Description                                         |                                                     |
+|:--------|:---------------------------------------------------------------------------------------------|:----------------------------------------------------|
+|   Done  | The incoming object is connected to the custom event specified in the event list down here   |                                                     |
+|         |                                           **Event**                                          |                    **Description**                  |
+|         |                                ImportTresholdValueExceeded                                   |   Fires when a configured threshold value exceeds   |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><em>This event does not have any configurable
-settings</em></p></td>
-</tr>
-</tbody>
-</table>
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Available workflow arguments</th>
-</tr>
-<tr class="odd">
-<th><p><em>This event is not fired with any arguments</em></p></th>
-</tr>
-</thead>
-&#10;</table>
+
+|                    Configuration                   |
+|:---------------------------------------------------|
+| This event does not have any configurable settings |
+
+|        Available workflow arguments        |
+|:-------------------------------------------|
+| This event is not fired with any arguments |
 
 ## Activities
 
@@ -522,73 +223,18 @@ This activity adds all products from a product group to an
 applicationDossier. Product groups are resolved using function and
 organization.
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Success</p></th>
-<th><p>The products have been added to the application dossier</p></th>
-</tr>
-<tr class="header">
-<th><p>Failure</p></th>
-<th><p>Something went wrong in the workflow (error)</p></th>
-</tr>
-<tr class="odd">
-<th><p>NoProductsAvailable</p></th>
-<th><p>There are no products available to add</p></th>
-</tr>
-</thead>
-&#10;</table>
+|       Results       |                       Description                       |
+|:--------------------|:--------------------------------------------------------|
+|       Success       | The products have been added to the application dossier |
+|       Failure       |       Something went wrong in the workflow (error)      |
+| NoProductsAvailable |          There are no products available to add         |
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ApplicationDossier Argument</td>
-<td>Required</td>
-<td>The argument which contains the applicationDossier to add the
-products to</td>
-</tr>
-<tr class="even">
-<td>Product state</td>
-<td>Optional</td>
-<td>The product state to assign to the newly added products.</td>
-</tr>
-<tr class="odd">
-<td>Fallback Product State</td>
-<td>Optional</td>
-<td>The product state to assign to the newly added products. However
-when a product or productgroupproduct state is available that would
-prefer. The order in which states are used are as following:
-<ol>
-<li>ProductGroupProduct</li>
-<li>Product</li>
-<li>Fallback product state</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Group by supplier</td>
-<td>Optional</td>
-<td>When this is checked a separate applicationdossier for every
-supplier will be created. The products for the supplier will be placed
-in the created applicationdossier.</td>
-</tr>
-</tbody>
-</table>
+|        Configuration        | Required? |                                                                                                                                   Description                                                                                                                                  |
+|:---------------------------|:---------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ApplicationDossier Argument | Required  | The argument which contains the applicationDossier to add the products to                                                                                                                                                                                                      |
+| Product state               | Optional  | The product state to assign to the newly added products.                                                                                                                                                                                                                       |
+| Fallback Product State      | Optional  | The product state to assign to the newly added products. However when a product or productgroupproduct state is available that would prefer. The order in which states are used are as following: <br> <br>1. ProductGroupProduct<br> <br>2. Product<br> <br>3. Fallback product state  |
+| Group by supplier           | Optional  | When this is checked a separate applicationdossier for every supplier will be created. The products for the supplier will be placed in the created applicationdossier.                                                                                                         |
 
 ### ArgumentDecision
 
@@ -596,97 +242,32 @@ This activity determines whether the specified argument matches the
 specified criteria. The criteria is entered using dynamic linq or a
 constant value.
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>True</p></th>
-<th><p>The argument matched the specified criteria</p></th>
-</tr>
-<tr class="header">
-<th><p>False</p></th>
-<th><p>The argument does not match the specified criteria</p></th>
-</tr>
-<tr class="odd">
-<th><p>ArgumentNotFound</p></th>
-<th><p>The specified argument is not present in the workflow</p></th>
-</tr>
-</thead>
-&#10;</table>
+|      Results     |                      Description                      |
+|:-----------------|:------------------------------------------------------|
+|       True       |      The argument matched the specified criteria      |
+|       False      |   The argument does not match the specified criteria  |
+| ArgumentNotFound | The specified argument is not present in the workflow |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Argument</p></td>
-<td><p>Required</p></td>
-<td><p>The name of the argument to perform the check on</p></td>
-</tr>
-<tr class="even">
-<td><p>Ignore case</p></td>
-<td><p>Required</p></td>
-<td><p>Whether or not to ignore casing</p></td>
-</tr>
-<tr class="odd">
-<td><p>Criteria</p></td>
-<td></td>
-<td><p>Dynamic linq statement or constant value to match on</p></td>
-</tr>
-</tbody>
-</table>
+| Configuration | Required? |                      Description                     |
+|:-------------:|:---------:|:----------------------------------------------------:|
+| Argument      | Required  | The name of the argument to perform the check on     |
+| Ignore case   | Required  | Whether or not to ignore casing                      |
+| Criteria      |           | Dynamic linq statement or constant value to match on |
 
 ### CreateArgument
 
 This activity adds a new argument to the workflow.
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Success</p></th>
-<th><p>The argument is added to the workflow</p></th>
-</tr>
-<tr class="header">
-<th><p>Failure</p></th>
-<th><p>An error occurred while adding the argument. Check the
-<strong><em>Reason</em></strong> argument for details</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Results |                                     Description                                    |
+|:-------:|:----------------------------------------------------------------------------------:|
+| Success |                        The argument is added to the workflow                       |
+| Failure | An error occurred while adding the argument. Check the Reason argument for details |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>ArgumentName</p></td>
-<td><p>Required</p></td>
-<td><p>The name of the argument to add</p></td>
-</tr>
-<tr class="even">
-<td><p>ProviderType</p></td>
-<td><p>Required</p></td>
-<td><p>The provider used to create the argument</p></td>
-</tr>
-</tbody>
-</table>
+| Configuration | Required? |                Description               |
+|:-------------:|:---------:|:----------------------------------------:|
+| ArgumentName  | Required  | The name of the argument to add          |
+| ProviderType  | Required  | The provider used to create the argument |
+
 
 <table class="table table-bordered">
 <colgroup>
@@ -924,57 +505,16 @@ instead of an collection of objects.</th>
 
 This activity creates a new resource in the system.
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Success</p></td>
-<td><p>The new resource is succesfully created</p></td>
-</tr>
-<tr class="even">
-<td><p>Failure</p></td>
-<td><p>An error occurred while creating the new resource.</p>
-<p>The error description is added to the
-<strong><em>Reason</em></strong> argument</p></td>
-</tr>
-</tbody>
-</table>
+| Results |                                                    Description                                                   |
+|:-------:|:----------------------------------------------------------------------------------------------------------------:|
+| Success | The new resource is succesfully created                                                                          |
+| Failure | An error occurred while creating the new resource.<br> <br>The error description is added to the Reason argument |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Content type</p></td>
-<td><p>Required</p></td>
-<td><p>Type type of resource to create</p></td>
-</tr>
-<tr class="even">
-<td><p>Argument name</p></td>
-<td><p>Optional</p></td>
-<td><p>An argument in which to place to newly created resource</p></td>
-</tr>
-<tr class="odd">
-<td><p>Property</p></td>
-<td><p>Optional</p></td>
-<td><p>Properties to add to the new object</p></td>
-</tr>
-</tbody>
-</table>
+| Configuration | Required? |                       Description                       |
+|:-------------:|:---------:|:-------------------------------------------------------:|
+| Content type  | Required  | The type of resource to create                          |
+| Argument name | Optional  | An argument in which to place to newly created resource |
+| Property      | Optional  | Properties to add to the new object                     |
 
 ### CreateSecurePassword
 
@@ -988,297 +528,63 @@ To decrypt the password, split the value (delimiter = |), and use the
 salt and number of iterations in combination with the passphrase to
 decrypt the encrypted value.
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Success</p></td>
-<td><p>The password was successfully generated.</p></td>
-</tr>
-<tr class="even">
-<td><p>Failure</p></td>
-<td><p>An error occurred during password generation. Details are
-available in the Error argument.</p></td>
-</tr>
-</tbody>
-</table>
+| Results |                                         Description                                        |
+|:-------:|:------------------------------------------------------------------------------------------:|
+| Success | The password was successfully generated.                                                   |
+| Failure | An error occurred during password generation. Details are available in the Error argument. |
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>TargetArgument</p></td>
-<td></td>
-<td><p>The name of the argument to add the generated password
-to.</p></td>
-</tr>
-<tr class="even">
-<td><p>AddPlaintextArgument</p></td>
-<td></td>
-<td><p>If enabled, a readable (plaintext) version of the password is
-added as a workflow argument. The name of this argument is the value of
-<strong><em>TargetArgument</em></strong> with
-<strong><em>_Plain</em></strong> behind it.</p>
-<p>For example, when the value of
-<strong><em>TargetArgument</em></strong> is
-<strong><em>Password</em></strong>, the plain text version will be
-stored in <strong><em>Password_Plain</em></strong></p></td>
-</tr>
-<tr class="odd">
-<td><p>PassPhrase</p></td>
-<td></td>
-<td><p>If set the password will be encrypted using AES encryption. There
-are no length restrictions for the passphrase, but the longer the phrase
-the harder it will be to crack the password. A minimum length of 32 is
-recommended. Try combining uppercase, lowercase, numerals and special
-characters for improved security</p></td>
-</tr>
-<tr class="even">
-<td><p>Iterations</p></td>
-<td></td>
-<td><p>The number of iterations to use when encrypting the
-password</p></td>
-</tr>
-<tr class="odd">
-<td><p>SaltLength</p></td>
-<td></td>
-<td><p>The length of the random salt to generate when encrypting the
-password</p></td>
-</tr>
-<tr class="even">
-<td><p>MinLength</p></td>
-<td></td>
-<td><p>The minimum length of the password to generate</p></td>
-</tr>
-<tr class="odd">
-<td><p>Template</p></td>
-<td></td>
-<td><p>A template to use when generating the password. The template is
-processed by the dynamic lookup module to resolve properties and
-function values.</p>
-<p>In case the result of the template is shorter than the required
-minimum password length, random characters are added to the end of the
-result until the minimum length is reached</p></td>
-</tr>
-<tr class="even">
-<td><p>Blacklist</p></td>
-<td></td>
-<td><p>A list of phrases to disallow in the generated password</p>
-<ul>
-<li>one phrase per line</li>
-<li>phrases are translated by the dynamic lookup module before
-evaluation, thus the use of object properties and functions is
-allowed</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>UseLowerCase</p></td>
-<td></td>
-<td><p>Enable the use of lowercase characters when generating a
-password</p></td>
-</tr>
-<tr class="even">
-<td><p>UseUpperCase</p></td>
-<td></td>
-<td><p>Enable the use of uppercase characters when generating a
-password</p></td>
-</tr>
-<tr class="odd">
-<td><p>UseNumeric</p></td>
-<td></td>
-<td><p>Enable the use of numeric characters when generating a
-password</p></td>
-</tr>
-<tr class="even">
-<td><p>UseSpecial</p></td>
-<td></td>
-<td><p>Enable the use of special characters when generating a
-password</p></td>
-</tr>
-</tbody>
-</table>
+|     Configuration    | Required? |                                                                                                                                                                 Description                                                                                                                                                                 |
+|:--------------------:|:---------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| TargetArgument       |           | The name of the argument to add the generated password to.                                                                                                                                                                                                                                                                                  |
+| AddPlaintextArgument |           | If enabled, a readable (plaintext) version of the password is added as a workflow argument. The name of this argument is the value of TargetArgument with _Plain behind it.<br> <br>For example, when the value of TargetArgument is Password, the plain text version will be stored in Password_Plain                                      |
+| PassPhrase           |           | If set the password will be encrypted using AES encryption. There are no length restrictions for the passphrase, but the longer the phrase the harder it will be to crack the password. A minimum length of 32 is recommended. Try combining uppercase, lowercase, numerals and special characters for improved security                    |
+| Iterations           |           | The number of iterations to use when encrypting the password                                                                                                                                                                                                                                                                                |
+| SaltLength           |           | The length of the random salt to generate when encrypting the password                                                                                                                                                                                                                                                                      |
+| MinLength            |           | The minimum length of the password to generate                                                                                                                                                                                                                                                                                              |
+| Template             |           | A template to use when generating the password. The template is processed by the dynamic lookup module to resolve properties and function values.<br> <br>In case the result of the template is shorter than the required minimum password length, random characters are added to the end of the result until the minimum length is reached |
+| Blacklist            |           | A list of phrases to disallow in the generated password<br> <br> <br>one phrase per line<br> <br>phrases are translated by the dynamic lookup module before evaluation, thus the use of object properties and functions is allowed                                                                                                          |
+| UseLowerCase         |           | Enable the use of lowercase characters when generating a password                                                                                                                                                                                                                                                                           |
+| UseUpperCase         |           | Enable the use of uppercase characters when generating a password                                                                                                                                                                                                                                                                           |
+| UseNumeric           |           | Enable the use of numeric characters when generating a password                                                                                                                                                                                                                                                                             |
+| UseSpecial           |           | Enable the use of special characters when generating a password                                                                                                                                                                                                                                                                             |
 
 ### CreateTopdeskObject
 
 This activity creates a new object in the Topdesk API.
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Success</p></th>
-<th><p>A HTTP success status code was received from the Topdesk
-API</p></th>
-</tr>
-<tr class="header">
-<th><p>Failure</p></th>
-<th><p>An error status code was received from the Topdesk API.</p>
-<p>The error description is added to the
-<strong><em>Reason</em></strong> argument.</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Results |                                                       Description                                                      |
+|:-------:|:----------------------------------------------------------------------------------------------------------------------:|
+| Success |                              A HTTP success status code was received from the Topdesk API                              |
+| Failure | An error status code was received from the Topdesk API.<br> <br>The error description is added to the Reason argument. |
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>TopDesk API URL</p></td>
-<td><p>Required</p></td>
-<td><p>The URL of the Topdesk API</p></td>
-</tr>
-<tr class="even">
-<td><p>Resource</p></td>
-<td><p>Required</p></td>
-<td><p>Name of the resource to create (plural). For example:</p>
-<p>- incidents</p>
-<p>- operators</p>
-<p>- departments</p>
-<p>- operatorChanges</p></td>
-</tr>
-<tr class="odd">
-<td><p>Login method</p></td>
-<td><p>Required</p></td>
-<td><p>Topdesk login method. Operator or Person</p></td>
-</tr>
-<tr class="even">
-<td><p>Username</p></td>
-<td><p>Required</p></td>
-<td><p>The Topdesk username</p></td>
-</tr>
-<tr class="odd">
-<td><p>Password</p></td>
-<td><p>Required</p></td>
-<td><p>The Topdesk password</p></td>
-</tr>
-<tr class="even">
-<td><p>Body</p></td>
-<td><p>Required</p></td>
-<td><p>The JSON body defining the resource to create. See the Topdesk
-documentation for instructions:
-https://developers.topdesk.com/documentation</p></td>
-</tr>
-</tbody>
-</table>
+<br>
+
+|  Configuration  | Required? |                                                                  Description                                                                  |
+|:---------------:|:---------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|
+| TopDesk API URL | Required  | The URL of the Topdesk API                                                                                                                    |
+| Resource        | Required  | Name of the resource to create (plural). For example:<br> <br>- incidents<br> <br>- operators<br> <br>- departments<br> <br>- operatorChanges |
+| Login method    | Required  | Topdesk login method. Operator or Person                                                                                                      |
+| Username        | Required  | The Topdesk username                                                                                                                          |
+| Password        | Required  | The Topdesk password                                                                                                                          |
+| Body            | Required  | The JSON body defining the resource to create. See the Topdesk documentation for instructions: https://developers.topdesk.com/documentation   |
 
 ### CreateUniqueValue
 
 This activity creates a unique value
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Success</p></th>
-<th><p>A unique value is created and available in the given target
-attribute.</p></th>
-</tr>
-<tr class="header">
-<th><p>Failure</p></th>
-<th><p>An error has occurred.</p>
-<p>The error description is added to the <strong>Reason</strong>
-argument</p></th>
-</tr>
-<tr class="odd">
-<th><p>NoValueCreated</p></th>
-<th><p>When all expression result in a conflict no value is
-created.</p></th>
-</tr>
-</thead>
-&#10;</table>
+|     Results    |                                      Description                                     |
+|:--------------:|:------------------------------------------------------------------------------------:|
+|     Success    |        A unique value is created and available in the given target attribute.        |
+|     Failure    | An error has occurred.<br> <br>The error description is added to the Reason argument |
+| NoValueCreated |             When all expression result in a conflict no value is created.            |
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>UniquenewKey</p></td>
-<td><p>Optional</p></td>
-<td><p>Give a number which you can add to the expression to make it
-unique. This number will be increased when a conflict is found.</p>
-<p>This value is available in argument {@UniquenewKey}</p></td>
-</tr>
-<tr class="even">
-<td><p>UniquenewKeyLength</p></td>
-<td><p>Optional</p></td>
-<td><p>Give the total result length of the required uniquenewkey
-result.</p>
-<p>In case the generated key is shorter than this value, it will be
-prepended with <strong>UniquenewKeyLeadingCharacter</strong> until this
-number is reached.</p></td>
-</tr>
-<tr class="odd">
-<td><p>UniquenewKeyLeadingCharacter</p></td>
-<td><p>Optional</p></td>
-<td><p>The character to prepend the uniqueNewKey with.</p></td>
-</tr>
-<tr class="even">
-<td><p>AllowDiacritics</p></td>
-<td><p>Required</p></td>
-<td><p>Tells if the expressionresult can have diacritics.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Target Argument</p></td>
-<td><p>Required</p></td>
-<td><p>The result of the expression is placed in the argument. This
-argument must be used in Conflict filter to query on it.</p>
-<p>Write name without ‘@’</p>
-<p>When all expressions result in a conflict Target argument will be
-empty.</p></td>
-</tr>
-</tbody>
-</table>
+|         Configuration        | Required? |                                                                                                              Description                                                                                                              |
+|:----------------------------:|:---------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| UniquenewKey                 | Optional  | Give a number which you can add to the expression to make it unique. This number will be increased when a conflict is found.<br> <br>This value is available in argument {@UniquenewKey}                                              |
+| UniquenewKeyLength           | Optional  | Give the total result length of the required uniquenewkey result.<br> <br>In case the generated key is shorter than this value, it will be prepended with UniquenewKeyLeadingCharacter until this number is reached.                  |
+| UniquenewKeyLeadingCharacter | Optional  | The character to prepend the uniqueNewKey with.                                                                                                                                                                                       |
+| AllowDiacritics              | Required  | Tells if the expressionresult can have diacritics.                                                                                                                                                                                    |
+| Target Argument              | Required  | The result of the expression is placed in the argument. This argument must be used in Conflict filter to query on it.<br> <br>Write name without ‘@’<br> <br>When all expressions result in a conflict Target argument will be empty. |
 
 <table class="table table-bordered">
 <colgroup>
@@ -1389,22 +695,20 @@ used</p>
 Checks whether or not the workflow content satisfies the specified
 filter criteria.
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>True</p></th>
-<th><p>The content satisfies the filter criteria</p></th>
-</tr>
-<tr class="header">
-<th><p>False</p></th>
-<th><p>The content does not satisfy the filter criteria</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Results |                    Description                   |
+|:-------:|:------------------------------------------------:|
+|   True  |     The content satisfies the filter criteria    |
+|  False  | The content does not satisfy the filter criteria |
+
++---------------------+----------+
+| Property            | Earth    |
++=============+=======+==========+
+|             | min   | -89.2 °C |
+| Temperature +-------+----------+
+| 1961-1990   | mean  | 14 °C    |
+|             +-------+----------+
+|             | max   | 56.7 °C  |
++-------------+-------+----------+
 
 <table class="table table-bordered">
 <colgroup>
@@ -1471,128 +775,34 @@ Convert.ToInt32(DynamicProperties["PropertyName"]) == 123</p></td>
 
 Deletes a resource from the system.
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Succes</p></th>
-<th><p>The resource was succesfully deleted</p></th>
-</tr>
-<tr class="header">
-<th><p>Failure</p></th>
-<th><p>An error occurred while deleting the object.</p>
-<p>The error description is added to the
-<strong><em>Reason</em></strong> argument.</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Results |                                                 Description                                                 |
+|:-------:|:-----------------------------------------------------------------------------------------------------------:|
+|  Succes |                                     The resource was succesfully deleted                                    |
+| Failure | An error occurred while deleting the object.<br> <br>The error description is added to the Reason argument. |
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Entry</p></th>
-<th><p>Required</p></th>
-<th><p>Type of resource to delete. Options are:</p>
-<p>- Current object à The resource present in workflow content</p>
-<p>- Object from argument à An resource present in a workflow
-argument</p>
-<p>Please note that deleting the current object also removes the
-resource from the workflow content!</p></th>
-</tr>
-<tr class="header">
-<th><p>Argument</p></th>
-<th><p>Required</p></th>
-<th><p>The argument which contains the resource to delete</p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+| Configuration | Required? |                                                                                                                                             Description                                                                                                                                            |
+|:-------------:|:---------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|     Entry     |  Required | Type of resource to delete. Options are:<br> <br>- Current object à The resource present in workflow content<br> <br>- Object from argument à An resource present in a workflow argument<br> <br>Please note that deleting the current object also removes the resource from the workflow content! |
+|    Argument   |  Required |                                                                                                                         The argument which contains the resource to delete                                                                                                                         |
 
 ### Email
 
 Creates a notification.
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Sent</p></th>
-<th><p>The notification is created</p></th>
-</tr>
-<tr class="header">
-<th><p>Failed</p></th>
-<th><p>An error occurred during creation of the notification</p></th>
-</tr>
-<tr class="odd">
-<th><p>RecipientNotResolved</p></th>
-<th><p>The specified recipient cannot be resolved</p></th>
-</tr>
-</thead>
-&#10;</table>
+|        Results       |                      Description                      |
+|:--------------------:|:-----------------------------------------------------:|
+|         Sent         |              The notification is created              |
+|        Failed        | An error occurred during creation of the notification |
+| RecipientNotResolved |       The specified recipient cannot be resolved      |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Recipient</p></th>
-<th><p>Required</p></th>
-<th><p>The recipient of the e-mail</p></th>
-</tr>
-<tr class="header">
-<th><p>Locale argument</p></th>
-<th><p>Optional</p></th>
-<th><p>The argument containing the locale value to select the template
-by</p></th>
-</tr>
-<tr class="odd">
-<th><p>From</p></th>
-<th><p>Required</p></th>
-<th><p>The e-mail address to use as the sender</p></th>
-</tr>
-<tr class="header">
-<th><p>CC</p></th>
-<th><p>Optional</p></th>
-<th><p>A carbon copy recipient</p></th>
-</tr>
-<tr class="odd">
-<th><p>BCC</p></th>
-<th><p>Optional</p></th>
-<th><p>A blind carbon copy recipient</p></th>
-</tr>
-<tr class="header">
-<th><p>Template</p></th>
-<th><p>Required</p></th>
-<th><p>The notification template to use</p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+|  Configuration  | Required? |                             Description                            |
+|:---------------:|:---------:|:------------------------------------------------------------------:|
+|    Recipient    |  Required |                     The recipient of the e-mail                    |
+| Locale argument |  Optional | The argument containing the locale value to select the template by |
+|       From      |  Required |               The e-mail address to use as the sender              |
+|        CC       |  Optional |                       A carbon copy recipient                      |
+|       BCC       |  Optional |                    A blind carbon copy recipient                   |
+|     Template    |  Required |                  The notification template to use                  |
 
 ### ExecutePowershell
 
@@ -1600,90 +810,18 @@ Executes a Powershell script on the local- or a remote machine. A custom
 username and password is required when not running in Azure to prevent
 abuse of the IBIS service account.
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Success</p></th>
-<th><p>The script was succesfully executed</p></th>
-</tr>
-<tr class="header">
-<th><p>Failure</p></th>
-<th><p>An error occurred while executing the script.</p>
-<p>The error description is added to the
-<strong><em>Reason</em></strong> argument.</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Results |                                                  Description                                                 |
+|:-------:|:------------------------------------------------------------------------------------------------------------:|
+| Success |                                      The script was succesfully executed                                     |
+| Failure | An error occurred while executing the script.<br> <br>The error description is added to the Reason argument. |
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Script path</p></th>
-<th><p>Optional</p></th>
-<th><p>The full path to a Powershell scipt file. Parameters can be added
-using the | symbol</p>
-<p>For example: <strong><u>C:\Script
-files\Run.ps1|{Id}|{Name</u>}</strong> will call the script contained in
-file C:\Scripts files\Run.ps1 with 2 parameters. The parameters in the
-example will be replaced with the values from the Id and Name
-properties.</p></th>
-</tr>
-<tr class="header">
-<th><p>Script</p></th>
-<th><p>Optional</p></th>
-<th><p>The Powershell script to execute</p></th>
-</tr>
-<tr class="odd">
-<th><p>Host</p></th>
-<th><p>Optional</p></th>
-<th><p>The hostname of the server on which to execute te Powershell
-script. The value should be a valid URI, for example:</p>
-<p>-  <a
-href="http://server.domain.com/PowerShell"><u>https://server.domain.com/PowerShell</u></a></p>
-<p>-  <a
-href="http://computername:5985"><u>http://computername:5985</u></a></p>
-<p>-  <a
-href="https://computername:5986"><u>https://computername:5986</u></a></p>
-<p>5985 (http) en 5986 (https) are the default Powershell ports for
-WinRM.<br />
-Exchange uses port 80 (http) and 443 (https) by default.<br />
-<br />
-This value is not required when the script must be executed on the IBIS
-server</p></th>
-</tr>
-<tr class="header">
-<th><p>Username</p></th>
-<th><p>Required</p></th>
-<th><p>The username of the account used to execute the script.</p>
-<p>Cannot be identical to the application pool user</p></th>
-</tr>
-<tr class="odd">
-<th><p>Password</p></th>
-<th><p>Required</p></th>
-<th><p>The password of above username</p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+| Configuration | Required? |                                                                                                                                                                                                                                    Description                                                                                                                                                                                                                                   |
+|:-------------:|:---------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|  Script path  |  Optional |                                                                        The full path to a Powershell scipt file. Parameters can be added using the \| symbol<br> <br>For example: C:\Script files\Run.ps1\|{Id}\|{Name} will call the script contained in file C:\Scripts files\Run.ps1 with 2 parameters. The parameters in the example will be replaced with the values from the Id and Name properties.                                                                       |
+|     Script    |  Optional |                                                                                                                                                                                                                         The Powershell script to execute                                                                                                                                                                                                                         |
+|      Host     |  Optional | The hostname of the server on which to execute te Powershell script. The value should be a valid URI, for example:<br> <br>-  https://server.domain.com/PowerShell<br> <br>-  http://computername:5985<br> <br>-  https://computername:5986<br> <br>5985 (http) en 5986 (https) are the default Powershell ports for WinRM.<br> Exchange uses port 80 (http) and 443 (https) by default.<br> <br> This value is not required when the script must be executed on the IBIS server |
+|    Username   |  Required |                                                                                                                                                                                 The username of the account used to execute the script.<br> <br>Cannot be identical to the application pool user                                                                                                                                                                                 |
+|    Password   |  Required |                                                                                                                                                                                                                          The password of above username                                                                                                                                                                                                                          |
 
 ### ForEach
 
@@ -1691,121 +829,32 @@ Executes a workflow for each object in an argument. All start activities
 of the specified workflow will be called with the specified object as
 workflow content.
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Done</p></th>
-<th><p>The task was succesfully executed</p></th>
-</tr>
-<tr class="header">
-<th><p>Error</p></th>
-<th><p>An error occurred while processing the task.</p>
-<p>The error description is added to the
-<strong><em>Reason</em></strong> argument.</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Results |                                                 Description                                                 |
+|:-------:|:-----------------------------------------------------------------------------------------------------------:|
+|   Done  |                                      The task was succesfully executed                                      |
+|  Error  | An error occurred while processing the task.<br> <br>The error description is added to the Reason argument. |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Argument</p></th>
-<th><p>Required</p></th>
-<th><p>The argument whichs contains the collection of objects to
-process</p></th>
-</tr>
-<tr class="header">
-<th><p>Content type</p></th>
-<th><p>Required</p></th>
-<th><p>The type of object contained in the argument</p></th>
-</tr>
-<tr class="odd">
-<th><p>Workflow</p></th>
-<th><p>Required</p></th>
-<th><p>The workflow which should be executed for each object</p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+| Configuration | Required? |                            Description                            |
+|:-------------:|:---------:|:-----------------------------------------------------------------:|
+|    Argument   |  Required | The argument whichs contains the collection of objects to process |
+|  Content type |  Required |            The type of object contained in the argument           |
+|    Workflow   |  Required |       The workflow which should be executed for each object       |
 
 ### ForEachActivity
 
 Executes an activity for each object in an argument.
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Done</p></th>
-<th><p>The task was succesfully executed</p></th>
-</tr>
-<tr class="header">
-<th><p>Error</p></th>
-<th><p>An error occurred while processing the task.</p>
-<p>The error description is added to the
-<strong><em>Reason</em></strong> argument.</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Results |                                                 Description                                                 |
+|:-------:|:-----------------------------------------------------------------------------------------------------------:|
+|   Done  |                                      The task was succesfully executed                                      |
+|  Error  | An error occurred while processing the task.<br> <br>The error description is added to the Reason argument. |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Argument</p></th>
-<th><p>Required</p></th>
-<th><p>The argument whichs contains the collection of objects to
-process</p></th>
-</tr>
-<tr class="header">
-<th><p>Tijdelijk argument</p></th>
-<th><p>Required</p></th>
-<th><p>The temporary argument to place the object in. This argument can
-be used in the target activity using {@argumentname}</p></th>
-</tr>
-<tr class="odd">
-<th><p>Activiteit</p></th>
-<th><p>Required</p></th>
-<th><p>The activity which should be executed for each object.
-Configuration for this activity will be available once the activity is
-selected</p></th>
-</tr>
-<tr class="header">
-<th><p>Run in separate proces</p></th>
-<th><p>If set, the activity will be wrapped in it’s own lifetimescope
-each time it’s called. This may be useful with large datasets to
-minimize the SQL transaction size.</p></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+|      Configuration     | Required? |                                                                             Description                                                                            |
+|:----------------------:|:---------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|        Argument        |  Required |                                                  The argument whichs contains the collection of objects to process                                                 |
+|   Tijdelijk argument   |  Required |                        The temporary argument to place the object in. This argument can be used in the target activity using {@argumentname}                       |
+|       Activiteit       |  Required |               The activity which should be executed for each object. Configuration for this activity will be available once the activity is selected               |
+| Run in separate proces |           | If set, the activity will be wrapped in it’s own lifetimescope each time it’s called. This may be useful with large datasets to minimize the SQL transaction size. |
 
 ### HasResult
 
@@ -1813,22 +862,10 @@ Provides the ability to query resources in the system using a specified
 filter. Returns true if the query has results, and false in case the
 query returned zero results.
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>True</p></th>
-<th><p>The query returned no results</p></th>
-</tr>
-<tr class="header">
-<th><p>False</p></th>
-<th><p>The query returned one or more results</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Results |               Description              |
+|:-------:|:--------------------------------------:|
+|   True  |      The query returned no results     |
+|  False  | The query returned one or more results |
 
 <table class="table table-bordered">
 <colgroup>
@@ -1911,44 +948,14 @@ the following properties:
 -   \_42\_25\_Persoon\_Voorletters1
 -   \_42\_09\_Persoon\_Geslacht
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Done</p></th>
-<th><p>The IdentityDossier was succesfully created</p></th>
-</tr>
-<tr class="header">
-<th><p>Error</p></th>
-<th><p>An error occurred while creating or updating the
-IdentityDossier.</p>
-<p>The error description is added to the
-<strong><em>Reason</em></strong> argument.</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Results |                                                            Description                                                           |
+|:-------:|:--------------------------------------------------------------------------------------------------------------------------------:|
+|   Done  |                                            The IdentityDossier was succesfully created                                           |
+|  Error  | An error occurred while creating or updating the IdentityDossier.<br> <br>The error description is added to the Reason argument. |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p><em>This activity does not have a configuration</em></p></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-&#10;</table>
+|                Configuration                | Required? | Description |
+|:-------------------------------------------:|:---------:|:-----------:|
+| This activity does not have a configuration |           |             |
 
 ### AliasDossier
 
@@ -1970,29 +977,10 @@ create the alias dossier:
 
 \- \_16\_10\_Dossier\_Nummer
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Results</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Success</p></th>
-<th><p>The aliasDossier was succesfully created or updated</p></th>
-</tr>
-<tr class="header">
-<th><p>Failure</p></th>
-<th><p>An error occurred during creation or update of the
-aliasDossier.</p>
-<p>The error description is added to the
-<strong><em>Reason</em></strong> argument.</p></th>
-</tr>
-</thead>
-&#10;</table>
+| Results |                                                           Description                                                           |
+|:-------:|:-------------------------------------------------------------------------------------------------------------------------------:|
+| Success |                                       The aliasDossier was succesfully created or updated                                       |
+| Failure | An error occurred during creation or update of the aliasDossier.<br> <br>The error description is added to the Reason argument. |
 
 The following logic is applied when choosing which iDossier should act
 as the source for an
@@ -2014,77 +1002,11 @@ dossier:
 -   There are no valid iDossier(s), and there is at least one future
     valid iDossier: the iDossier with the furthest placement startdate
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>IdmNumberLocation</p></th>
-<th><p>Required</p></th>
-<th><p>The property which contains the IDM number to perform the
-activity on</p></th>
-</tr>
-<tr class="header">
-<th><p>AliasDossierArgument</p></th>
-<th><p>Optional</p></th>
-<th><p>The argument name to place the created / updated alias dossier
-in</p></th>
-</tr>
-<tr class="odd">
-<th>Configuration</th>
-<th><p>Required</p></th>
-<th><p>Activity configuration XML</p>
-<p>&lt;?xml version="1.0"?&gt; </p>
-<p>&lt;AliasDossier&gt;</p>
-<p>&lt;CompleetDossierStatus&gt;1&lt;/CompleetDossierStatus&gt;</p>
-<p>&lt;IDossierFilter&gt;DienstverbandWerkduurMeesteUren&lt;/IDossierFilter&gt;</p>
-<p>&lt;MailDomain&gt;domain.tld&lt;/MailDomain&gt;</p>
-<p>&lt;DomainNetbiosNaam&gt;AD&lt;/DomainNetbiosNaam&gt;</p>
-<p>&lt;Upn&gt;domain.tld&lt;/Upn&gt;</p>
-<p>&lt;UseAanmeldnaamEnAanmelddomeinUitiDossier&gt;false&lt;/UseAanmeldnaamEnAanmelddomeinUitiDossier&gt;</p>
-<p>&lt;UseMailAdresUitiDossier&gt;false&lt;/UseMailAdresUitiDossier&gt;</p>
-<p>&lt;MaximaleAanmeldnaamLengte&gt;20&lt;/MaximaleAanmeldnaamLengte&gt;</p>
-<p>&lt;CreateMailAddressBasedOnDirectoryAccountSetting&gt;false&lt;/CreateMailAddressBasedOnDirectoryAccountSetting&gt;</p>
-<p>&lt;AlleenMastersVerwerken&gt;false&lt;/AlleenMastersVerwerken&gt;</p>
-<p>&lt;AantalDagenUitdienstVoorVerwijderenAccount&gt;365&lt;/AantalDagenUitdienstVoorVerwijderenAccount&gt;</p>
-<p>&lt;ExchangeProvisioningViaPlugin&gt;true&lt;/ExchangeProvisioningViaPlugin&gt;</p>
-<p>&lt;ExchangeKeepOffExistingMailboxes&gt;false&lt;/ExchangeKeepOffExistingMailboxes&gt;</p>
-<p>&lt;ExchangeDatabaseDeterminationMethod&gt;Automatic&lt;/ExchangeDatabaseDeterminationMethod&gt;</p>
-<p>&lt;ExchangePowerShellUri&gt;&lt;/ExchangePowerShellUri&gt;</p>
-<p>&lt;ExchangePoweShellUser&gt;&lt;/ExchangePoweShellUser&gt;</p>
-<p>&lt;ExchangePowerShellPassword&gt;&lt;/ExchangePowerShellPassword&gt;</p>
-<p>&lt;ExchangeControllers&gt;</p>
-<p>&lt;ExchangeControllerConfiguration&gt;</p>
-<p>&lt;Aanmeldsysteem&gt;AD&lt;/Aanmeldsysteem&gt;</p>
-<p>&lt;ExchangePowerShellUri&gt;http://server.domain.tld/PowerShell&lt;/ExchangePowerShellUri&gt;</p>
-<p>&lt;ExchangePoweShellUser&gt;&lt;/ExchangePoweShellUser&gt;</p>
-<p>&lt;ExchangePowerShellPassword&gt;&lt;/ExchangePowerShellPassword&gt;</p>
-<p>&lt;ExchangeDatabaseDeterminationMethod&gt;Automatic&lt;/ExchangeDatabaseDeterminationMethod&gt;</p>
-<p>&lt;/ExchangeControllerConfiguration&gt;</p>
-<p>&lt;/ExchangeControllers&gt;</p>
-<p>&lt;ExchangNewMailboxActiveSyncEnabled&gt;true&lt;/ExchangNewMailboxActiveSyncEnabled&gt;</p>
-<p>&lt;ExchangNewMailboxOwaEnabled&gt;true&lt;/ExchangNewMailboxOwaEnabled&gt;</p>
-<p>&lt;ExchangNewMailboxOwaForDevicesEnabled&gt;true&lt;/ExchangNewMailboxOwaForDevicesEnabled&gt;</p>
-<p>&lt;ExchangNewMailboxPopEnabled&gt;false&lt;/ExchangNewMailboxPopEnabled&gt;</p>
-<p>&lt;ExchangNewMailboxImapEnabled&gt;false&lt;/ExchangNewMailboxImapEnabled&gt;</p>
-<p>&lt;IgnoreOrganizationMandatoryValidation&gt;false&lt;/IgnoreOrganizationMandatoryValidation&gt;</p>
-<p>&lt;HomeFoldersAanmaken&gt;false&lt;/HomeFoldersAanmaken&gt;</p>
-<p>&lt;HomeFoldersAanmakenUsername&gt;&lt;/HomeFoldersAanmakenUsername&gt;</p>
-<p>&lt;HomeFoldersAanmakenPassword&gt;&lt;/HomeFoldersAanmakenPassword&gt;</p>
-<p>&lt;/AliasDossier&gt;</p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+|     Configuration    | Required? |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|:--------------------:|:---------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|   IdmNumberLocation  |  Required |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    The property which contains the IDM number to perform the activity on                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| AliasDossierArgument |  Optional |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      The argument name to place the created / updated alias dossier in                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|     Configuration    |  Required | Activity configuration XML<br> <br><?xml version="1.0"?> <br> <br><AliasDossier><br> <br><CompleetDossierStatus>1</CompleetDossierStatus><br> <br><IDossierFilter>DienstverbandWerkduurMeesteUren</IDossierFilter><br> <br><MailDomain>domain.tld</MailDomain><br> <br><DomainNetbiosNaam>AD</DomainNetbiosNaam><br> <br><Upn>domain.tld</Upn><br> <br><UseAanmeldnaamEnAanmelddomeinUitiDossier>false</UseAanmeldnaamEnAanmelddomeinUitiDossier><br> <br><UseMailAdresUitiDossier>false</UseMailAdresUitiDossier><br> <br><MaximaleAanmeldnaamLengte>20</MaximaleAanmeldnaamLengte><br> <br><CreateMailAddressBasedOnDirectoryAccountSetting>false</CreateMailAddressBasedOnDirectoryAccountSetting><br> <br><AlleenMastersVerwerken>false</AlleenMastersVerwerken><br> <br><AantalDagenUitdienstVoorVerwijderenAccount>365</AantalDagenUitdienstVoorVerwijderenAccount><br> <br><ExchangeProvisioningViaPlugin>true</ExchangeProvisioningViaPlugin><br> <br><ExchangeKeepOffExistingMailboxes>false</ExchangeKeepOffExistingMailboxes><br> <br><ExchangeDatabaseDeterminationMethod>Automatic</ExchangeDatabaseDeterminationMethod><br> <br><ExchangePowerShellUri></ExchangePowerShellUri><br> <br><ExchangePoweShellUser></ExchangePoweShellUser><br> <br><ExchangePowerShellPassword></ExchangePowerShellPassword><br> <br><ExchangeControllers><br> <br><ExchangeControllerConfiguration><br> <br><Aanmeldsysteem>AD</Aanmeldsysteem><br> <br><ExchangePowerShellUri>http://server.domain.tld/PowerShell</ExchangePowerShellUri><br> <br><ExchangePoweShellUser></ExchangePoweShellUser><br> <br><ExchangePowerShellPassword></ExchangePowerShellPassword><br> <br><ExchangeDatabaseDeterminationMethod>Automatic</ExchangeDatabaseDeterminationMethod><br> <br></ExchangeControllerConfiguration><br> <br></ExchangeControllers><br> <br><ExchangNewMailboxActiveSyncEnabled>true</ExchangNewMailboxActiveSyncEnabled><br> <br><ExchangNewMailboxOwaEnabled>true</ExchangNewMailboxOwaEnabled><br> <br><ExchangNewMailboxOwaForDevicesEnabled>true</ExchangNewMailboxOwaForDevicesEnabled><br> <br><ExchangNewMailboxPopEnabled>false</ExchangNewMailboxPopEnabled><br> <br><ExchangNewMailboxImapEnabled>false</ExchangNewMailboxImapEnabled><br> <br><IgnoreOrganizationMandatoryValidation>false</IgnoreOrganizationMandatoryValidation><br> <br><HomeFoldersAanmaken>false</HomeFoldersAanmaken><br> <br><HomeFoldersAanmakenUsername></HomeFoldersAanmakenUsername><br> <br><HomeFoldersAanmakenPassword></HomeFoldersAanmakenPassword><br> <br></AliasDossier> |
 
 ##### Homefolder creation
 
@@ -2126,163 +1048,46 @@ resolvers, which can be overridden in a customer DLL. The logic for the
 default property resolvers is described in the section ‘property
 resolvers’.
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Alias dossier property</th>
-<th>Source property or mapping logic</th>
-</tr>
-<tr class="odd">
-<th><p>_01_60_Dienstverband_Faxnummer</p></th>
-<th><p>_01_60_Dienstverband_FaxNummer</p></th>
-</tr>
-<tr class="header">
-<th><p>_04_05_Organisatie_IdmNummerManager</p></th>
-<th><p><strong>OrganisatieManagerResolver</strong></p></th>
-</tr>
-<tr class="odd">
-<th><p>_04_20_Organisatie_IdentificatieOperationeleOrganisatie</p></th>
-<th><p>OrganisationNumber</p></th>
-</tr>
-<tr class="header">
-<th><p>_04_22_Organisatie_CoderingOrganisatie</p></th>
-<th><p><strong>OrganisatieCoderingOrganisatieResolver</strong></p></th>
-</tr>
-<tr class="odd">
-<th><p>_04_38_Organisatie_Personeelsgebiednummer</p></th>
-<th><p><strong>OrganizatiePersoneelsGebiedResolver</strong></p></th>
-</tr>
-<tr class="header">
-<th><p>_04_55_Organisatie_Niveau1Specificering</p></th>
-<th><p><strong>OrganisatieNiveau1SpecificeringResolver</strong></p></th>
-</tr>
-<tr class="odd">
-<th><p>_04_56_Organisatie_Niveau2Specificering</p></th>
-<th><p><strong>OrganisatieNiveau2SpecificeringResolver</strong></p></th>
-</tr>
-<tr class="header">
-<th><p>_04_57_Organisatie_Niveau3Specificering</p></th>
-<th><p><strong>OrganisatieNiveau3SpecificeringResolver</strong></p></th>
-</tr>
-<tr class="odd">
-<th><p>_04_58_Organisatie_Niveau4Specificering</p></th>
-<th><p><strong>OrganisatieNiveau4SpecificeringResolver</strong></p></th>
-</tr>
-<tr class="header">
-<th><p>_04_71_Organisatie_ADdepartment</p></th>
-<th><p><strong>OrganisatieADdepartmentResolver</strong></p></th>
-</tr>
-<tr class="odd">
-<th><p>_04_73_Organisatie_ADdescription</p></th>
-<th><p><strong>OrganisatieADdescriptionResolver</strong></p></th>
-</tr>
-<tr class="header">
-<th><p>_04_74_Organisatie_ADcontainer</p></th>
-<th><p><strong>OrganisatieADcontainerResolver</strong></p></th>
-</tr>
-<tr class="odd">
-<th><p>_04_80_Organisatie_ADcompany</p></th>
-<th><p><strong>OrganisatieADcompanyResolver</strong></p></th>
-</tr>
-<tr class="header">
-<th><p>_04_81_Organisatie_ADcontainerBeheerders</p></th>
-<th><p><strong>OrganisatieADcontainerBeheerdersResolver</strong></p></th>
-</tr>
-<tr class="odd">
-<th><p>_07_20_Communicatie_Type</p></th>
-<th><p><em>"e-mail"</em></p></th>
-</tr>
-<tr class="header">
-<th><p>_07_30_Communicatie_Gegevens</p></th>
-<th><p><strong>CommunicatieGegevensResolver</strong></p></th>
-</tr>
-<tr class="odd">
-<th><p>_09_33_Alias_Aanmeldnaam</p></th>
-<th><p><strong>AliasAanmeldnaamResolver</strong></p></th>
-</tr>
-<tr class="header">
-<th><p>_09_36_Alias_Aanmeldsysteem</p></th>
-<th><p><strong>AliasAanmeldsysteemResolver</strong></p></th>
-</tr>
-<tr class="odd">
-<th><p>_09_37_Alias_HomeMDB</p></th>
-<th><p><strong>AliasHomeMdbResolver</strong></p></th>
-</tr>
-<tr class="header">
-<th><p>_09_38_Alias_UPN</p></th>
-<th><p><strong>AliasUpnResolver</strong></p></th>
-</tr>
-<tr class="odd">
-<th><p>_09_39_Alias_Displayname</p></th>
-<th><p><strong>AliasDisplaynameResolver</strong></p></th>
-</tr>
-<tr class="header">
-<th><p>_09_40_Alias_DatumIngangGeldigheid</p></th>
-<th><p>_01_40_Dienstverband_DatumIngangGeldigheid</p></th>
-</tr>
-<tr class="odd">
-<th><p>_09_41_Alias_DatumEindeGeldigheid</p></th>
-<th><p>_01_41_Dienstverband_DatumEindeGeldigheid</p></th>
-</tr>
-<tr class="header">
-<th><p>_09_70_Alias_DeprovisioningBool</p></th>
-<th><p><strong>AliasDeprovisioningBoolResolver</strong></p></th>
-</tr>
-<tr class="odd">
-<th><p>_09_75_Alias_ADloginScript</p></th>
-<th><p><strong>AliasADloginscriptResolver</strong></p></th>
-</tr>
-<tr class="header">
-<th><p>_09_77_Alias_ADprofileFolderPad</p></th>
-<th><p><strong>AliasADprofileFolderResolver</strong></p></th>
-</tr>
-<tr class="odd">
-<th><p>_09_78_Alias_ADinitieelWachtwoord</p></th>
-<th><p><strong>AliasADinitieelWachtwoordResolver</strong></p></th>
-</tr>
-<tr class="header">
-<th><p>_09_79_Alias_ADcommonName</p></th>
-<th><p><strong>AliasADcommonNameResolver</strong></p></th>
-</tr>
-</thead>
-&#10;</table>
+|                  Alias dossier property                 |      Source property or mapping logic      |
+|:-------------------------------------------------------:|:------------------------------------------:|
+|              _01_60_Dienstverband_Faxnummer             |       _01_60_Dienstverband_FaxNummer       |
+|           _04_05_Organisatie_IdmNummerManager           |         OrganisatieManagerResolver         |
+| _04_20_Organisatie_IdentificatieOperationeleOrganisatie |             OrganisationNumber             |
+|          _04_22_Organisatie_CoderingOrganisatie         |   OrganisatieCoderingOrganisatieResolver   |
+|        _04_38_Organisatie_Personeelsgebiednummer        |     OrganizatiePersoneelsGebiedResolver    |
+|         _04_55_Organisatie_Niveau1Specificering         |   OrganisatieNiveau1SpecificeringResolver  |
+|         _04_56_Organisatie_Niveau2Specificering         |   OrganisatieNiveau2SpecificeringResolver  |
+|         _04_57_Organisatie_Niveau3Specificering         |   OrganisatieNiveau3SpecificeringResolver  |
+|         _04_58_Organisatie_Niveau4Specificering         |   OrganisatieNiveau4SpecificeringResolver  |
+|             _04_71_Organisatie_ADdepartment             |       OrganisatieADdepartmentResolver      |
+|             _04_73_Organisatie_ADdescription            |      OrganisatieADdescriptionResolver      |
+|              _04_74_Organisatie_ADcontainer             |       OrganisatieADcontainerResolver       |
+|               _04_80_Organisatie_ADcompany              |        OrganisatieADcompanyResolver        |
+|         _04_81_Organisatie_ADcontainerBeheerders        |  OrganisatieADcontainerBeheerdersResolver  |
+|                 _07_20_Communicatie_Type                |                  "e-mail"                  |
+|               _07_30_Communicatie_Gegevens              |        CommunicatieGegevensResolver        |
+|                 _09_33_Alias_Aanmeldnaam                |          AliasAanmeldnaamResolver          |
+|               _09_36_Alias_Aanmeldsysteem               |         AliasAanmeldsysteemResolver        |
+|                   _09_37_Alias_HomeMDB                  |            AliasHomeMdbResolver            |
+|                     _09_38_Alias_UPN                    |              AliasUpnResolver              |
+|                 _09_39_Alias_Displayname                |          AliasDisplaynameResolver          |
+|            _09_40_Alias_DatumIngangGeldigheid           | _01_40_Dienstverband_DatumIngangGeldigheid |
+|            _09_41_Alias_DatumEindeGeldigheid            |  _01_41_Dienstverband_DatumEindeGeldigheid |
+|             _09_70_Alias_DeprovisioningBool             |       AliasDeprovisioningBoolResolver      |
+|                _09_75_Alias_ADloginScript               |         AliasADloginscriptResolver         |
+|             _09_77_Alias_ADprofileFolderPad             |        AliasADprofileFolderResolver        |
+|            _09_78_Alias_ADinitieelWachtwoord            |      AliasADinitieelWachtwoordResolver     |
+|                _09_79_Alias_ADcommonName                |          AliasADcommonNameResolver         |
 
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Alias dossier property</th>
-<th>Source property or mapping logic</th>
-</tr>
-<tr class="odd">
-<th><p>_16_11_Dossier_BronDossier</p></th>
-<th><p>_16_10_Dossier_Nummer</p></th>
-</tr>
-<tr class="header">
-<th><p>_16_20_Dossier_PlaatsingID</p></th>
-<th><p>_02_05_Plaatsing_PlaatsingNummer</p></th>
-</tr>
-<tr class="odd">
-<th><p>_16_40_Dossier_DatumIngangGeldigheid</p></th>
-<th><p>_01_40_Dienstverband_DatumIngangGeldigheid</p></th>
-</tr>
-<tr class="header">
-<th><p>_16_41_Dossier_DatumEindeGeldigheid</p></th>
-<th><p>_01_41_Dienstverband_DatumEindeGeldigheid</p></th>
-</tr>
-<tr class="odd">
-<th><p>_16_82_Dossier_Opmerkingen</p></th>
-<th><p>_16_82_Dossier_Opmerkingen</p></th>
-</tr>
-<tr class="header">
-<th><p>_16_98_Dossier_Master</p></th>
-<th><p>_16_98_Dossier_Master ?? _16_10_Dossier_Nummer</p></th>
-</tr>
-<tr class="odd">
-<th><p> _09_38_Alias_UPN</p></th>
-<th><p>_09_38_Alias_UPN_Definitief_AD ?? _09_38_Alias_UPN</p></th>
-</tr>
-</thead>
-&#10;</table>
+|        Alias dossier property        |          Source property or mapping logic          |
+|:------------------------------------:|:--------------------------------------------------:|
+|      _16_11_Dossier_BronDossier      |                _16_10_Dossier_Nummer               |
+|      _16_20_Dossier_PlaatsingID      |          _02_05_Plaatsing_PlaatsingNummer          |
+| _16_40_Dossier_DatumIngangGeldigheid |     _01_40_Dienstverband_DatumIngangGeldigheid     |
+|  _16_41_Dossier_DatumEindeGeldigheid |      _01_41_Dienstverband_DatumEindeGeldigheid     |
+|      _16_82_Dossier_Opmerkingen      |             _16_82_Dossier_Opmerkingen             |
+|         _16_98_Dossier_Master        |   _16_98_Dossier_Master ?? _16_10_Dossier_Nummer   |
+|            _09_38_Alias_UPN          | _09_38_Alias_UPN_Definitief_AD ?? _09_38_Alias_UPN |
 
   
 The following properties are <u>not</u> mapped from the source dossier
