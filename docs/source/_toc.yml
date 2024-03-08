@@ -59,7 +59,7 @@ subtrees:
         subtrees:
         - entries:
           - file: Documentatie/Connectoren/IBIS_Connectoren/SysPage_RunProfile_Settings
-  - file: Functionaliteiten
+  - file: Functionaliteiten/Functionaliteiten
   - file: Release_Notes/Release_Notes
     subtrees:
     - entries:
