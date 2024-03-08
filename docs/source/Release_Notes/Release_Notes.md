@@ -4,5 +4,5 @@ Versions are supported up until one and a half year after release. After that we
 
 ```{eval-rst}
 .. tableofcontents::
-   :titlesonly:
+   :titlesonly: 
 ```
