@@ -7,8 +7,8 @@ Versions are supported up until one and a half year after release. After that we
    :maxdepth: 1
    :titlesonly:
    
-   Release notes 5.4 Hotfix 11 <markdown/IBIS-suite_release_notes_v5_SP4_hotfix_11>
-   Release notes 5.4 Hotfix 1 - 8 <markdown/IBIS-suite_release_notes_v5_SP4_hotfixes>
-   Release notes 5.4 Update 1 <markdown/IBIS-suite_release_notes_v5_SP4_Update_1_(Definitief)>
-   Release notes 5.3 <markdown/Release_notes_5.3(commonmark)>
+   markdown/IBIS-suite_release_notes_v5_SP4_hotfix_11
+   markdown/IBIS-suite_release_notes_v5_SP4_hotfixes
+   markdown/IBIS-suite_release_notes_v5_SP4_Update_1_(Definitief)
+   <markdown/Release_notes_5.3(commonmark)
 ```
