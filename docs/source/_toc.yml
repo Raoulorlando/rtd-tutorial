@@ -6,16 +6,14 @@ subtrees:
   entries: 
   - file: Documentation
     subtrees:
-    - titlesonly: True
-      entries:
+    - entries:
       - file: Documentatie/Connectors
         subtrees:
         - titlesonly: True
           entries:
             - file: Documentatie/Connectoren/SysPage_AbacConnector
               subtrees:
-              - titlesonly: True
-                entries:
+              - entries:
                 - file: Documentatie/Connectoren/ABAC_Connectoren/AbacConnector_GoogleCalendar
                 - file: Documentatie/Connectoren/ABAC_Connectoren/AbacConnector_GoogleGroup
                 - file: Documentatie/Connectoren/ABAC_Connectoren/AbacConnector_GoogleMailbox
@@ -23,8 +21,7 @@ subtrees:
             - file: Documentatie/Connectoren/SysPage_AbacStagingArea
             - file: Documentatie/Connectoren/SysPage_Connector
               subtrees:
-              - titlesonly: True
-                entries:
+              - entries:
                 - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_ABACAPI
                 - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_Afas
                 - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_Aspos
