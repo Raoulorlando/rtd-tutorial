@@ -14,7 +14,8 @@ subtrees:
           entries:
             - file: Documentatie/Connectoren/SysPage_AbacConnector
               subtrees:
-              - entries:
+              - titlesonly: True
+                entries:
                 - file: Documentatie/Connectoren/ABAC_Connectoren/AbacConnector_GoogleCalendar
                 - file: Documentatie/Connectoren/ABAC_Connectoren/AbacConnector_GoogleGroup
                 - file: Documentatie/Connectoren/ABAC_Connectoren/AbacConnector_GoogleMailbox
