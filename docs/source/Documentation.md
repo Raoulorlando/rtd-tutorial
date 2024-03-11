@@ -5,4 +5,4 @@ It is possible to retrieve information about the following:
     
 - [Connectors](./Documentatie/Connectors) 
 - [Data Resolution and functions](./Documentatie/HelpPageDataResolutionAndFunctions)
-- Workflow
+- [Workflow](./Documentatie/SysPage_Workflow)
