@@ -2,16 +2,15 @@ root: index.rst
 
 subtrees:
 - maxdepth: 4
-  titlesonly: False
   caption: Table of Contents
   entries: 
   - file: Documentation
     subtrees:
-    - titlesonly: True
-      entries:
+    - entries:
       - file: Documentatie/Connectors
         subtrees:
-        - entries:
+        - titlesonly: True
+          entries:
             - file: Documentatie/Connectoren/SysPage_AbacConnector
               subtrees:
               - entries:
@@ -64,7 +63,8 @@ subtrees:
   - file: Functionaliteiten/Functionaliteiten
   - file: Release_Notes/Release_Notes
     subtrees:
-    - entries:
+    - titlesonly: True
+      entries:
       - file: Release_Notes/markdown/IBIS-suite_release_notes_v5_SP4_hotfix_11
       - file: Release_Notes/markdown/IBIS-suite_release_notes_v5_SP4_hotfixes
       - file: Release_Notes/markdown/IBIS-suite_release_notes_v5_SP4_Update_1_(Definitief)
