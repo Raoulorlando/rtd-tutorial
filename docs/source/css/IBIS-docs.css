@@ -70,7 +70,6 @@ h5 {
 }
 h1:before {
     counter-increment: h1;
-    content: counter(h1) ". "
 }
 h2:before {
     counter-increment: h2;
@@ -86,11 +85,11 @@ h4:before {
 }
 h5:before {
     counter-increment: h5;
-    content: counter(h2) "." counter(h3) "." counter(h4) ". " counter(h5) ". "
+    content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". "
 }
 h6:before {
     counter-increment: h6;
-    content: counter(h2) "." counter(h3) "." counter(h4) ". " counter(h5) ". " counter(h6) ". "
+    content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) ". "
 }
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
