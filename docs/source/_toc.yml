@@ -2,6 +2,7 @@ root: index.rst
 
 subtrees:
 - maxdepth: 4
+  titlesonly: True
   caption: Table of Contents
   entries: 
   - file: Documentation
@@ -9,8 +10,7 @@ subtrees:
     - entries:
       - file: Documentatie/Connectors
         subtrees:
-        - titlesonly: True
-          entries:
+        - entries:
             - file: Documentatie/Connectoren/SysPage_AbacConnector
               subtrees:
               - entries:
@@ -57,15 +57,13 @@ subtrees:
       - file: Documentatie/HelpPageODataApi
       - file: Documentatie/Connectoren/IBIS_Connectoren/SysPage_RunProfile
         subtrees:
-        - titlesonly: True
-          entries:
+        - entries:
           - file: Documentatie/Connectoren/IBIS_Connectoren/SysPage_RunProfile_Settings
       - file: Documentatie/SysPage_Workflow
   - file: Functionaliteiten/Functionaliteiten
   - file: Release_Notes/Release_Notes
     subtrees:
-    - titlesonly: True
-      entries:
+    - entries:
       - file: Release_Notes/markdown/IBIS-suite_release_notes_v5_SP4_hotfix_11
       - file: Release_Notes/markdown/IBIS-suite_release_notes_v5_SP4_hotfixes
       - file: Release_Notes/markdown/IBIS-suite_release_notes_v5_SP4_Update_1_(Definitief)
