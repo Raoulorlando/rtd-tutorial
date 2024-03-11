@@ -21,6 +21,7 @@ expressions ( {propertyname} ).
 | Results|                                    Description                                     |
 |:-------|:-----------------------------------------------------------------------------------|
 |   Done | The incoming object corresponds to the type specified in the activity configuration|
+
 <br>
 
 | Configuration| Required?|                                                       Description                                                      |
@@ -67,9 +68,9 @@ expressions ( {propertyname} ).
 |:--------------|:----------|:------------------------------------------------------------------------------------------------------------------------|
 | Content type  | Required  | The type of object to act on. If the incoming object does not correspond to this type the workflow will not be executed |
 
-|        Available workflow arguments        | Required? |                                                       Description                                                       |
-|:-------------------------------------------|:----------|:------------------------------------------------------------------------------------------------------------------------|
-| This event is not fired with any arguments | Required  | The type of object to act on. If the incoming object does not correspond to this type the workflow will not be executed |
+|        Available workflow arguments        |
+|:-------------------------------------------|
+| This event is not fired with any arguments |
 
 ### DatasetIn
 
@@ -77,17 +78,17 @@ This event fires when an object is added to a dataset. The object itself
 is added as workflow content and available with the data lookup
 expressions ( {propertyname} ).
 
-| Results |                                 Description                                |                                                       Description                                                       |
-|:--------|:---------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------|
-| Done    | The incoming object is added to the dataset specified in the configuration | The type of object to act on. If the incoming object does not correspond to this type the workflow will not be executed |
+| Results |                                 Description                                |
+|:--------|:---------------------------------------------------------------------------|
+| Done    | The incoming object is added to the dataset specified in the configuration | 
 
 | Configuration | Required? |      Description      |
 |:--------------|:----------|:----------------------|
 |  Dateset name |  Required | The dataset to act on |
 
-|        Available workflow arguments        | Required? |      Description      |
-|:-------------------------------------------|:----------|:----------------------|
-| This event is not fired with any arguments |  Required | The dataset to act on |
+|        Available workflow arguments        |
+|:-------------------------------------------|
+| This event is not fired with any arguments |
 
 ### DatasetOut
 
@@ -95,17 +96,17 @@ This event fires when an object is removed from a dataset. The object
 itself is added as workflow content and available with the data lookup
 expressions ( {propertyname} ).
 
-| Results |                                   Description                                  |      Description      |
-|:--------|:-------------------------------------------------------------------------------|:----------------------|
-|   Done  | The incoming object is removed from the dataset specified in the configuration | The dataset to act on |
+| Results |                                   Description                                  |
+|:--------|:-------------------------------------------------------------------------------|
+|   Done  | The incoming object is removed from the dataset specified in the configuration |
 
 | Configuration | Required? |      Description      |
 |:--------------|:----------|:----------------------|
 |  Dateset name |  Required | The dataset to act on |
 
-|        Available workflow arguments        | Required? |      Description      |
-|:-------------------------------------------|:----------|:----------------------|
-| This event is not fired with any arguments |  Required | The dataset to act on |
+|        Available workflow arguments        |
+|:-------------------------------------------|
+| This event is not fired with any arguments |
 
 ### OrganizationChange
 
@@ -115,20 +116,20 @@ applicationDossier has changed.
 The object itself is added as workflow content and available with the
 data lookup expressions ( {propertyname} ).
 
-| Results |                                                                                                                                                                       Description                                                                                                                                                                       |      Description      |
-|:--------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------|
-|   True  | - The organization of the incoming object has changed  <br> - The organization of the incoming object has changed to CONFIG/TargetOrganization <br>  - The organization of the incoming object was changed from CONFIG/SourceOrganization  <br> - The organization of the incoming object has changed to CONFIG/TargetOrganization   from CONFIG/SourceOrganization | The dataset to act on |
-|  False  |                                                                                                                                               The organization of the incoming object has not been changed                                                                                                                                              |                       |
+| Results |                                                                                                                                                                       Description                                                                                                                                                                       |  
+|:--------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   True  | - The organization of the incoming object has changed  <br> - The organization of the incoming object has changed to CONFIG/TargetOrganization <br>  - The organization of the incoming object was changed from CONFIG/SourceOrganization  <br> - The organization of the incoming object has changed to CONFIG/TargetOrganization   from CONFIG/SourceOrganization|
+|  False  |                                                                                                                                               The organization of the incoming object has not been changed                                                                                                                                              
 
 |    Configuration   | Required? |                   Description                   |
 |:-------------------|:----------|:------------------------------------------------|
 | SourceOrganization |  Optional | The value of the organization before the change |
 | TargetOrganization |  Optional |  The value of the organization after the change |
 
-| Available workflow arguments |                                              |                   Description                   |
-|:-----------------------------|:---------------------------------------------|:------------------------------------------------|
-|      SourceOrganization      | The id of the organization before the change | The value of the organization before the change |
-|      TargetOrganization      |  The id of the organization after the change |  The value of the organization after the change |
+| Available workflow arguments |                                              |
+|:-----------------------------|:---------------------------------------------|
+|      SourceOrganization      | The id of the organization before the change |
+|      TargetOrganization      |  The id of the organization after the change |
 
 ### StateChange
 
@@ -137,10 +138,10 @@ applicationDossierProduct has changed. The object itself is added as
 workflow content and available with the data lookup expressions (
 {propertyname} ).
 
-| Results |                                                                                                                                                     Description                                                                                                                                                     |                   Description                   |
-|:--------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------|
-|   True  | - The state of the incoming object has changed  <br> - The state of the incoming object has changed to CONFIG/ExpectedNewState  <br> - The state of the incoming object was changed from CONFIG/ExpectedOldState   <br>- The state of the incoming object has changed to CONFIG/ExpectedNewState   from CONFIG/ExpectedOldState | The value of the organization before the change |
-|  False  |                                                                                                                                The state of the incoming object has not been changed                                                                                                                                |  The value of the organization after the change |
+| Results |                                                                                                                                                     Description                                                                                                                                                     |
+|:--------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|   True  | - The state of the incoming object has changed  <br> - The state of the incoming object has changed to CONFIG/ExpectedNewState  <br> - The state of the incoming object was changed from CONFIG/ExpectedOldState   <br>- The state of the incoming object has changed to CONFIG/ExpectedNewState   from CONFIG/ExpectedOldState
+|  False  |                                                                                                                                The state of the incoming object has not been changed                                                                                                                                |
 
 |   Configuration  | Required? |              Description             |
 |:-----------------|:----------|:-------------------------------------|
@@ -273,22 +274,22 @@ This activity adds a new argument to the workflow.
 
 ##### Datalookup
 Used to query the system for data.
-
+In case SortProperty and SortDirection are unset, the entire resultset will be selected<br> In case SortProperty and SortDirection are set, the first entry in the resultset will be selected                                                                                                                                        
 
 
 |                    Setting                   |                                                                                                                                                                                                                  Description                                                                                                                                                                                                                 |
-|:--------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|:---------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                  ContentType                 |                                                                                                                                                                                                             Object type to query                                                                                                                                                                                                            
 |                SelectProperty                |                                                                                                                                                  The property to select from the result. If this setting is left empty, the entire result object or collection will be placed in an argument                                                                                                                                                
 |                 SortProperty                 |                                                                                                                                                                                                    The property to sort the result set on                                                                                                                                                                                                    
 |                 SortDirection                |                                                                                                                                                                                                        The direction in which to sort                                                                                                                                                                                                        
-|                   Criteria                   |                                                                                                                                         Dynamic linq statement <br> If you want to set criteria on DynamicProperties you should use the syntax as described in ['Dynamic properties'](#dynamic-properties) <br> In case SortProperty and SortDirection are unset, the entire resultset will be selected<br> In case SortProperty and SortDirection are set, the first entry in the resultset will be selected                                                                                                                                        
+|                   Criteria                   |                                                                                                                                         Dynamic linq statement <br> If you want to set criteria on DynamicProperties you should use the syntax as described in ['Dynamic properties'](#dynamic-properties) 
 | Create a collection of the selected property | Works in combination with SelectProperty. When set, an array will be created with the values of the SelectProperty property from all objects returned by Criteria<br> <br>For example, when<br> <br>- ContentType: Idossier<br> <br>- SelectProperty: _42_01_Persoon_IdmNummer<br> <br>- Criteria: ID != null<br> <br>an array of strings will be created with the values of _42_01_Persoon_IdmNummer of all Idossiers where ID is not null. 
 
 ###### Dynamic properties
 
 | DataType |                                                                                                 Example                                                                                                 |
-|:--------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|:---------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | String   | DynamicProperties["PropertyName"] == """stringvalue"""                                                                                                                                                  |
 | Boolean  | DynamicProperties["PropertyName"] == “””true”””                                                                                                                                                         |
 | Int      | DynamicProperties["PropertyName"] == 123                                                                                                                                                                |
@@ -306,7 +307,7 @@ data lookup and functions.
 ##### RegularExpression
 
 |    Configuration   | Required? |                                                                                                                 Description                                                                                                                 |
-|:------------------:|:---------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|:-------------------|:----------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Regular expression |  Required |                                                                                                       The regular expression to execut                                                                                                      |
 |   Expression type  |  Required | The action to perform:<br> <br>- Match: Check if the source meets the regex<br> <br>- Matches: Returns all matches of regex<br> <br>- FirstMatch: Returns the first match or regex<br> <br>- Replace: Replaces matches in source with regex |
 |   Source argument  |  Required |                                                                   The argument which contains the string to execute the regular expression on.<br> <br>Use {@ArgumentName}                                                                  |
@@ -319,7 +320,7 @@ objects. The objects will have the properties according to the columns
 from the sql statement result.
 
 |                   Configuration                  | Required? |                                                                                   Description                                                                                  |
-|:------------------------------------------------:|:---------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|:-------------------------------------------------|:----------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                 ConnectionString                 |  Required |                                                                      The connectionstring to the database                                                                      |
 | Use value from the first column of the first row |  Optional | When this is checked, the value from the first column of the first row will be placed in the argument. So the result will be single value instead of an collection of objects. |
 |                       Query                      |  Required |                                            The SQL query statement<br> <br>Example: SELECT * FROM Table WHERE Column = ‘{@argument}’                                           |
@@ -328,7 +329,7 @@ from the sql statement result.
 This will lookup an Attribute value from TreeManager.
 
 | Configuration |                         Description                        |
-|:-------------:|:----------------------------------------------------------:|
+|:--------------|:-----------------------------------------------------------|
 |    Base URI   |      Location of the TreeManager api “Treemanager/Api”     |
 |     ApiKey    |            ApiKey of the user accessing the Api            |
 |    Password   |                   Password for the ApiKey                  |
@@ -834,7 +835,7 @@ dossier:
 |:---------------------|:----------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   IdmNumberLocation  |  Required |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    The property which contains the IDM number to perform the activity on                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | AliasDossierArgument |  Optional |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      The argument name to place the created / updated alias dossier in                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|     Configuration    |  Required | Activity configuration XML<br> <br><?xml version="1.0"?> <br> <br><AliasDossier><br> <br><CompleetDossierStatus>1</CompleetDossierStatus><br> <br><IDossierFilter>DienstverbandWerkduurMeesteUren</IDossierFilter><br> <br><MailDomain>domain.tld</MailDomain><br> <br><DomainNetbiosNaam>AD</DomainNetbiosNaam><br> <br><Upn>domain.tld</Upn><br> <br><UseAanmeldnaamEnAanmelddomeinUitiDossier>false</UseAanmeldnaamEnAanmelddomeinUitiDossier><br> <br><UseMailAdresUitiDossier>false</UseMailAdresUitiDossier><br> <br><MaximaleAanmeldnaamLengte>20</MaximaleAanmeldnaamLengte><br> <br><CreateMailAddressBasedOnDirectoryAccountSetting>false</CreateMailAddressBasedOnDirectoryAccountSetting><br> <br><AlleenMastersVerwerken>false</AlleenMastersVerwerken><br> <br><AantalDagenUitdienstVoorVerwijderenAccount>365</AantalDagenUitdienstVoorVerwijderenAccount><br> <br><ExchangeProvisioningViaPlugin>true</ExchangeProvisioningViaPlugin><br> <br><ExchangeKeepOffExistingMailboxes>false</ExchangeKeepOffExistingMailboxes><br> <br><ExchangeDatabaseDeterminationMethod>Automatic</ExchangeDatabaseDeterminationMethod><br> <br><ExchangePowerShellUri></ExchangePowerShellUri><br> <br><ExchangePoweShellUser></ExchangePoweShellUser><br> <br><ExchangePowerShellPassword></ExchangePowerShellPassword><br> <br><ExchangeControllers><br> <br><ExchangeControllerConfiguration><br> <br><Aanmeldsysteem>AD</Aanmeldsysteem><br> <br><ExchangePowerShellUri>http://server.domain.tld/PowerShell</ExchangePowerShellUri><br> <br><ExchangePoweShellUser></ExchangePoweShellUser><br> <br><ExchangePowerShellPassword></ExchangePowerShellPassword><br> <br><ExchangeDatabaseDeterminationMethod>Automatic</ExchangeDatabaseDeterminationMethod><br> <br></ExchangeControllerConfiguration><br> <br></ExchangeControllers><br> <br><ExchangNewMailboxActiveSyncEnabled>true</ExchangNewMailboxActiveSyncEnabled><br> <br><ExchangNewMailboxOwaEnabled>true</ExchangNewMailboxOwaEnabled><br> <br><ExchangNewMailboxOwaForDevicesEnabled>true</ExchangNewMailboxOwaForDevicesEnabled><br> <br><ExchangNewMailboxPopEnabled>false</ExchangNewMailboxPopEnabled><br> <br><ExchangNewMailboxImapEnabled>false</ExchangNewMailboxImapEnabled><br> <br><IgnoreOrganizationMandatoryValidation>false</IgnoreOrganizationMandatoryValidation><br> <br><HomeFoldersAanmaken>false</HomeFoldersAanmaken><br> <br><HomeFoldersAanmakenUsername></HomeFoldersAanmakenUsername><br> <br><HomeFoldersAanmakenPassword></HomeFoldersAanmakenPassword><br> <br></AliasDossier> |
+|     Configuration    |  Required | Activity configuration XML<br> <br>```<?xml version="1.0"?> <br> <br><AliasDossier><br> <br><CompleetDossierStatus>1</CompleetDossierStatus><br> <br><IDossierFilter>DienstverbandWerkduurMeesteUren</IDossierFilter><br> <br><MailDomain>domain.tld</MailDomain><br> <br><DomainNetbiosNaam>AD</DomainNetbiosNaam><br> <br><Upn>domain.tld</Upn><br> <br><UseAanmeldnaamEnAanmelddomeinUitiDossier>false</UseAanmeldnaamEnAanmelddomeinUitiDossier><br> <br><UseMailAdresUitiDossier>false</UseMailAdresUitiDossier><br> <br><MaximaleAanmeldnaamLengte>20</MaximaleAanmeldnaamLengte><br> <br><CreateMailAddressBasedOnDirectoryAccountSetting>false</CreateMailAddressBasedOnDirectoryAccountSetting><br> <br><AlleenMastersVerwerken>false</AlleenMastersVerwerken><br> <br><AantalDagenUitdienstVoorVerwijderenAccount>365</AantalDagenUitdienstVoorVerwijderenAccount><br> <br><ExchangeProvisioningViaPlugin>true</ExchangeProvisioningViaPlugin><br> <br><ExchangeKeepOffExistingMailboxes>false</ExchangeKeepOffExistingMailboxes><br> <br><ExchangeDatabaseDeterminationMethod>Automatic</ExchangeDatabaseDeterminationMethod><br> <br><ExchangePowerShellUri></ExchangePowerShellUri><br> <br><ExchangePoweShellUser></ExchangePoweShellUser><br> <br><ExchangePowerShellPassword></ExchangePowerShellPassword><br> <br><ExchangeControllers><br> <br><ExchangeControllerConfiguration><br> <br><Aanmeldsysteem>AD</Aanmeldsysteem><br> <br><ExchangePowerShellUri>http://server.domain.tld/PowerShell</ExchangePowerShellUri><br> <br><ExchangePoweShellUser></ExchangePoweShellUser><br> <br><ExchangePowerShellPassword></ExchangePowerShellPassword><br> <br><ExchangeDatabaseDeterminationMethod>Automatic</ExchangeDatabaseDeterminationMethod><br> <br></ExchangeControllerConfiguration><br> <br></ExchangeControllers><br> <br><ExchangNewMailboxActiveSyncEnabled>true</ExchangNewMailboxActiveSyncEnabled><br> <br><ExchangNewMailboxOwaEnabled>true</ExchangNewMailboxOwaEnabled><br> <br><ExchangNewMailboxOwaForDevicesEnabled>true</ExchangNewMailboxOwaForDevicesEnabled><br> <br><ExchangNewMailboxPopEnabled>false</ExchangNewMailboxPopEnabled><br> <br><ExchangNewMailboxImapEnabled>false</ExchangNewMailboxImapEnabled><br> <br><IgnoreOrganizationMandatoryValidation>false</IgnoreOrganizationMandatoryValidation><br> <br><HomeFoldersAanmaken>false</HomeFoldersAanmaken><br> <br><HomeFoldersAanmakenUsername></HomeFoldersAanmakenUsername><br> <br><HomeFoldersAanmakenPassword></HomeFoldersAanmakenPassword><br> <br></AliasDossier> ```|
 
 ##### Homefolder creation
 
@@ -1504,7 +1505,7 @@ This activity can execute an IBIS Connector operation or runprofile.
 <br><br>
 
 | Configuration | Required? |                Description                |
-|:-------------:|:---------:|:-----------------------------------------:|
+|:--------------|:----------|:------------------------------------------|
 |   RunProfile  |  Required |         The runprofile to execute         |
 |   Connector   |  Required |          The connector to execute         |
 |   Operation   |  Required | The operation to execute on the connector |

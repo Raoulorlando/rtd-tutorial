@@ -2,7 +2,7 @@ root: index.rst
 
 subtrees:
 - maxdepth: 4
-  titlesonly: True
+  titlesonly: False
   caption: Table of Contents
   entries: 
   - file: Documentation
