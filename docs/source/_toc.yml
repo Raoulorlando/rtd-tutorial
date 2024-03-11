@@ -6,7 +6,8 @@ subtrees:
   entries: 
   - file: Documentation
     subtrees:
-    - entries:
+    - titlesonly: True
+      entries:
       - file: Documentatie/Connectors
         subtrees:
         - titlesonly: True
@@ -21,7 +22,8 @@ subtrees:
             - file: Documentatie/Connectoren/SysPage_AbacStagingArea
             - file: Documentatie/Connectoren/SysPage_Connector
               subtrees:
-              - entries:
+              - titlesonly: True
+                entries:
                 - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_ABACAPI
                 - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_Afas
                 - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_Aspos
@@ -57,7 +59,8 @@ subtrees:
       - file: Documentatie/HelpPageODataApi
       - file: Documentatie/Connectoren/IBIS_Connectoren/SysPage_RunProfile
         subtrees:
-        - entries:
+        - titlesonly: True
+          entries:
           - file: Documentatie/Connectoren/IBIS_Connectoren/SysPage_RunProfile_Settings
       - file: Documentatie/SysPage_Workflow
   - file: Functionaliteiten/Functionaliteiten
