@@ -64,6 +64,7 @@ the Dynamic LINQ language.
 .. note::  Match rules result in one or more database queries for each object that is being processed. To speed up the process, add database indexes to the table in question for the fields on which you are matching.
 ```
 <br>
+
 #### Examples
 
 
