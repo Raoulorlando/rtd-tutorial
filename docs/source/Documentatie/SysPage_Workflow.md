@@ -469,109 +469,41 @@ This activity creates a unique value
 | AllowDiacritics              | Required  | Tells if the expressionresult can have diacritics.                                                                                                                                                                                    |
 | Target Argument              | Required  | The result of the expression is placed in the argument. This argument must be used in Conflict filter to query on it.<br> <br>Write name without ‘@’<br> <br>When all expressions result in a conflict Target argument will be empty. |
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Conflict Providers</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>IBIS</p></td>
-<td><p>Used to query IBIS for conflicts. Only available in IBIS</p>
-<table class="table table-bordered">
-<thead class="thead-light">
-<tr class="header">
-<th>Setting</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>ObjectType</p></th>
-<th><p>Object type to query</p></th>
-</tr>
-<tr class="header">
-<th><p>Criteria</p></th>
-<th><p>Dynamic linq statement</p></th>
-</tr>
-</thead>
-&#10;</table></td>
-</tr>
-<tr class="even">
-<td><p>SQL</p></td>
-<td><p>Used to query an SQL source</p>
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Setting</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>ConnectionString</p></th>
-<th><p>The connectionstring to the SQL Server database</p></th>
-</tr>
-<tr class="header">
-<th><p>Criteria</p></th>
-<th><p>SQL Statement to check for results.</p>
-<p>Example: SELECT * FROM table WHERE Column =
-‘{@createdvalue}’</p></th>
-</tr>
-</thead>
-&#10;</table></td>
-</tr>
-<tr class="odd">
-<td><p>PowerShell</p></td>
-<td><p>Execute a PowerShell script to check for duplicates. A duplicate
-is found if the script returns one or more result objects</p>
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Setting</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Agent</p></td>
-<td><p>Optional, the PowerShell agent to use</p></td>
-</tr>
-<tr class="even">
-<td><p>Hostname</p></td>
-<td><p>Optional, the name of the host to connect to</p></td>
-</tr>
-<tr class="odd">
-<td><p>Username</p></td>
-<td><p>The username of the account to use for authentication. This
-cannot be the same as the IBIS app pool account</p></td>
-</tr>
-<tr class="even">
-<td><p>Password</p></td>
-<td><p>The password of above user account</p></td>
-</tr>
-<tr class="odd">
-<td><p>Script</p></td>
-<td><p>The PowerShell command to execute. Dynamic expressions may be
-used</p>
-<p>For example: Get-LocalGroup -Name {@argumentNameWithValue}
--ErrorAction Ignore</p></td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table>
+
+#### Conflict Providers
+
+##### IBIS
+
+Used to query IBIS for conflicts. Only available in IBIS.
+
+|   Setting  |       Description      |
+|:----------:|:----------------------:|
+| ObjectType |  Object type to query  |
+|  Criteria  | Dynamic linq statement |
+
+##### SQL
+
+Used to query an SQL source.
+
+|      Setting     |                                             Description                                             |
+|:----------------:|:---------------------------------------------------------------------------------------------------:|
+| ConnectionString |                           The connectionstring to the SQL Server database                           |
+|     Criteria     | SQL Statement to check for results.   Example: ```SELECT * FROM table WHERE Column = ‘{@createdvalue}’``` |
+
+
+##### PowerShell
+
+Execute a PowerShell script to check for duplicates. A duplicate is found if the script returns one or more result objects.
+
+|  Setting |                                                                        Description                                                                        |
+|:--------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Agent    | Optional, the PowerShell agent to use                                                                                                                     |
+| Hostname | Optional, the name of the host to connect to                                                                                                              |
+| Username | The username of the account to use for authentication. This cannot be the same as the IBIS app pool account                                               |
+| Password | The password of above user account                                                                                                                        |
+| Script   | The PowerShell command to execute. Dynamic expressions may be used<br> <br>For example: ```Get-LocalGroup -Name {@argumentNameWithValue} -ErrorAction Ignore``` |
+
+
 
 ### Decision
 
@@ -584,36 +516,12 @@ filter criteria.
 |  False  | The content does not satisfy the filter criteria |
 
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Content type</p></td>
-<td><p>Required</p></td>
-<td><p>The type of object expected in workflow content</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p>Criteria</p></td>
-<td><p>Required</p></td>
-<td><p>Dynamic linq statement to which the content should satisfy</p>
-<p>Example:</p>
-<p>· _16_10_Dossier_Nummer == “{_16_98_Dossier_Master}”</p>
-<p>If you want to set criteria on DynamicProperties you should use the
-following syntax:</p>
+| Configuration | Required? |                                                                                                               Description                                                                                                               |
+|:-------------:|:---------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Content type  | Required  | The type of object expected in workflow content                                                                                                                                                                                         |
+| Criteria      | Required  | Dynamic linq statement to which the content should satisfy<br> <br>Example:<br> <br>· _16_10_Dossier_Nummer == “{_16_98_Dossier_Master}”<br> <br>If you want to set criteria on DynamicProperties you should use the following syntax:  |
+
+
 <table>
 <thead class="thead-light">
 <tr class="header">
@@ -637,10 +545,6 @@ Convert.ToBoolean(DynamicProperties["PropertyName"]) == true</p></td>
 <td><p>Int</p></td>
 <td><p>DynamicProperties.ContainsKey("PropertyName") &amp;&amp;
 Convert.ToInt32(DynamicProperties["PropertyName"]) == 123</p></td>
-</tr>
-</tbody>
-</table></td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -754,7 +658,7 @@ query returned zero results.
 | Configuration | Required? |                                                             Description                                                            |
 |:-------------:|:---------:|:----------------------------------------------------------------------------------------------------------------------------------:|
 |  Content type |  Required |                                                     The type of object to query                                                    |
-|    Criteria   |  Required | Dynamic linq statement with a criteria to filter on.   If you want to set criteria on DynamicProperties you should use the following syntax: <br> String: ```DynamicProperties["PropertyName"] == """stringvalue"""``` <br> Boolean: ```DynamicProperties["PropertyName"] == “””true”””```  <br> Int: ```DynamicProperties["PropertyName"] == 123``` <br> Date: ```DynamicProperties["PropertyName"] == """2021-12-31"""``` <br> ```{eval-rst} .. note:: Check in the DynamicPropertyValues table in which format dates are stored. In this example we're using the 'yyyy-MM-dd' format.```|
+|    Criteria   |  Required | Dynamic linq statement with a criteria to filter on.   If you want to set criteria on DynamicProperties you should use the following syntax: <br> String: ```DynamicProperties["PropertyName"] == """stringvalue"""``` <br> Boolean: ```DynamicProperties["PropertyName"] == “””true”””```  <br> Int: ```DynamicProperties["PropertyName"] == 123``` <br> Date: ```DynamicProperties["PropertyName"] == """2021-12-31"""``` <br> ```{eval-rst} <br> .. note:: Check in the DynamicPropertyValues table in which format dates are stored. In this example we're using the 'yyyy-MM-dd' format.```|
 
 
 ### IdentityDossier
