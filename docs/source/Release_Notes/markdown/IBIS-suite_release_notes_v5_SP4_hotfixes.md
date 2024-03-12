@@ -1,6 +1,6 @@
 ## Hotfix 1 - 8
 
-Hotfix 1
+### Hotfix 1
 
 - **Added functionalities:**
     - IBIS Connector
@@ -21,7 +21,7 @@ Hotfix 1
     - 11951: Linq statements do not support '.com'.
     - 11967: Pages: toggle button sometimes does not work from grid.
 
-Hotfix 2
+### Hotfix 2
 
 - **Added functionalities:**
     - Include IBIS Connector module documentation as a help file in IBIS.
@@ -31,18 +31,18 @@ Hotfix 2
     - 11984: IBIS AD Connector: End Date interpretation sometimes goes wrong with AD Connector (agent).
     > *Note: Before installing the hotfix, turn off the Run Profiles. After installing the hotfix, perform a Sync on all connectors first so that the Dates in the Staging Area are re-evaluated. Only then can an Export be done to the connected target systems. So, never perform an Export immediately after installing the hotfix.*
 
-Hotfix 3
+### Hotfix 3
 
 - **Added functionalities:**
     - Performance improvements.
 
-Hotfix 5
+### Hotfix 5
 
 - **Added functionalities:**
     - IBIS Connector:
         > *Enable join functionality between external system and staging area object.*
 
-Hotfix 7
+### Hotfix 7
 
 - **Added functionalities:**
     - IBIS-IBIS Connector:
@@ -50,7 +50,7 @@ Hotfix 7
         >
         > *The data*
 
-Hotfix 8
+### Hotfix 8
 
 - **Resolved bugs:**
     - 12228: Workflow does not retrieve organization data for iDossiers where field 02_60 is filled.
