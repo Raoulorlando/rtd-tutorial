@@ -28,7 +28,7 @@ expressions ( {propertyname} ).
 |:-------------|:---------|:-----------------------------------------------------------------------------------------------------------------------|
 | Content type | Required | The type of object to act on. If the incoming object does not correspond to this type the workflow will not be executed|
 
-<br><br>
+<br>
 
 |        Available workflow arguments       |
 |:------------------------------------------|
@@ -44,11 +44,15 @@ expressions ( {propertyname} ).
 |:-------|:-----------------------------------------------------------------------------------|
 | Done   | The incoming object corresponds to the type specified in the activity configuration|
 
+<br>
+
 | Configuration | Required? |                                                                                 Description                                                                                 |
 |:-------------|:---------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Content type  | Required  | The type of object to act on. If the incoming object does not correspond to this type the workflow will not be executed                                                     |
 | Mode          | Required  | Defines the way to handle property changes:<br> <br> <br>- AND : All specified properties must be changed<br> <br>- OR : Any of the specified properties must be changed        |
 | Property      | Optional  | Defines the properties to filter on in combination with the ***Mode*** setting. If specified, the workflow will only be executed when on or more of these properties have changed |
+
+<br>
 
 | Available workflow arguments |                                                                                                                                                                                                                                   |
 |:-----------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -64,9 +68,13 @@ expressions ( {propertyname} ).
 |:--------|:------------------------------------------------------------------------------------|
 | Done    | The incoming object corresponds to the type specified in the activity configuration |
 
+<br>
+
 | Configuration | Required? |                                                       Description                                                       |
 |:--------------|:----------|:------------------------------------------------------------------------------------------------------------------------|
 | Content type  | Required  | The type of object to act on. If the incoming object does not correspond to this type the workflow will not be executed |
+
+<br>
 
 |        Available workflow arguments        |
 |:-------------------------------------------|
@@ -81,10 +89,13 @@ expressions ( {propertyname} ).
 | Results |                                 Description                                |
 |:--------|:---------------------------------------------------------------------------|
 | Done    | The incoming object is added to the dataset specified in the configuration | 
+<br>
 
 | Configuration | Required? |      Description      |
 |:--------------|:----------|:----------------------|
 |  Dateset name |  Required | The dataset to act on |
+
+<br>
 
 |        Available workflow arguments        |
 |:-------------------------------------------|
@@ -100,9 +111,13 @@ expressions ( {propertyname} ).
 |:--------|:-------------------------------------------------------------------------------|
 |   Done  | The incoming object is removed from the dataset specified in the configuration |
 
+<br>
+
 | Configuration | Required? |      Description      |
 |:--------------|:----------|:----------------------|
 |  Dateset name |  Required | The dataset to act on |
+
+<br>
 
 |        Available workflow arguments        |
 |:-------------------------------------------|
@@ -121,10 +136,14 @@ data lookup expressions ( {propertyname} ).
 |   True  | - The organization of the incoming object has changed  <br> - The organization of the incoming object has changed to CONFIG/TargetOrganization <br>  - The organization of the incoming object was changed from CONFIG/SourceOrganization  <br> - The organization of the incoming object has changed to CONFIG/TargetOrganization   from CONFIG/SourceOrganization|
 |  False  |                                                                                                                                               The organization of the incoming object has not been changed                                                                                                                                              
 
+<br>
+
 |    Configuration   | Required? |                   Description                   |
 |:-------------------|:----------|:------------------------------------------------|
 | SourceOrganization |  Optional | The value of the organization before the change |
 | TargetOrganization |  Optional |  The value of the organization after the change |
+
+<br>
 
 | Available workflow arguments |                                              |
 |:-----------------------------|:---------------------------------------------|
@@ -143,10 +162,14 @@ workflow content and available with the data lookup expressions (
 |   True  | - The state of the incoming object has changed  <br> - The state of the incoming object has changed to CONFIG/ExpectedNewState  <br> - The state of the incoming object was changed from CONFIG/ExpectedOldState   <br>- The state of the incoming object has changed to CONFIG/ExpectedNewState   from CONFIG/ExpectedOldState
 |  False  |                                                                                                                                The state of the incoming object has not been changed                                                                                                                                |
 
+<br>
+
 |   Configuration  | Required? |              Description             |
 |:-----------------|:----------|:-------------------------------------|
 | ExpectedNewState |  Optional | The value of state before the change |
 | ExpectedOldState |  Optional |  The value of state after the change |
+
+<br>
 
 | Available workflow arguments |                                      |
 |:-----------------------------|:-------------------------------------|
@@ -161,9 +184,13 @@ This event fires at specific intervals.
 |:---------|:----------------------|
 | Executed | The timer is executed |
 
+<br>
+
 | Configuration | Required? |                          Description                          |
 |:--------------|:----------|:--------------------------------------------------------------|
 |    Interval   |  Required | The interval (in minutes) at which the timer must be executed |
+
+<br>
 
 |        Available workflow arguments        |
 |:-------------------------------------------|
@@ -186,9 +213,13 @@ when the workflow is finished.
 |:--------|:----------------------------------------|
 |   Done  | The event is of type ManualEventTrigger |
 
+<br>
+
 |                    Configuration                   |
 |:---------------------------------------------------|
 | This event does not have any configurable settings |
+
+<br>
 
 |        Available workflow arguments        |
 |:-------------------------------------------|
@@ -204,11 +235,13 @@ This event fires for custom events in the system.
 |         |                                           **Event**                                          |                    **Description**                  |
 |         |                                ImportTresholdValueExceeded                                   |   Fires when a configured threshold value exceeds   |
 
-
+<br>
 
 |                    Configuration                   |
 |:---------------------------------------------------|
 | This event does not have any configurable settings |
+
+<br>
 
 |        Available workflow arguments        |
 |:-------------------------------------------|
@@ -230,6 +263,8 @@ organization.
 |       Failure       |       Something went wrong in the workflow (error)      |
 | NoProductsAvailable |          There are no products available to add         |
 
+<br>
+
 |        Configuration        | Required? |                                                                                                                                   Description                                                                                                                                  |
 |:---------------------------|:---------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ApplicationDossier Argument | Required  | The argument which contains the applicationDossier to add the products to                                                                                                                                                                                                      |
@@ -249,6 +284,8 @@ constant value.
 |       False      |   The argument does not match the specified criteria  |
 | ArgumentNotFound | The specified argument is not present in the workflow |
 
+<br>
+
 | Configuration | Required? |                      Description                     |
 |:--------------|:----------|:-----------------------------------------------------|
 | Argument      | Required  | The name of the argument to perform the check on     |
@@ -263,6 +300,8 @@ This activity adds a new argument to the workflow.
 |:--------|:-----------------------------------------------------------------------------------|
 | Success |                        The argument is added to the workflow                       |
 | Failure | An error occurred while adding the argument. Check the Reason argument for details |
+
+<br>
 
 | Configuration | Required? |                Description               |
 |:--------------|:----------|:-----------------------------------------|
@@ -348,6 +387,8 @@ This activity creates a new resource in the system.
 | Success | The new resource is succesfully created                                                                          |
 | Failure | An error occurred while creating the new resource.<br> <br>The error description is added to the Reason argument |
 
+<br>
+
 | Configuration | Required? |                       Description                       |
 |:--------------|:----------|:--------------------------------------------------------|
 | Content type  | Required  | The type of resource to create                          |
@@ -370,6 +411,8 @@ decrypt the encrypted value.
 |:--------|:-------------------------------------------------------------------------------------------|
 | Success | The password was successfully generated.                                                   |
 | Failure | An error occurred during password generation. Details are available in the Error argument. |
+
+<br>
 
 |     Configuration    | Required? |                                                                                                                                                                 Description                                                                                                                                                                 |
 |:---------------------|:----------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -415,6 +458,8 @@ This activity creates a unique value
 |     Success    |        A unique value is created and available in the given target attribute.        |
 |     Failure    | An error has occurred.<br> <br>The error description is added to the Reason argument |
 | NoValueCreated |             When all expression result in a conflict no value is created.            |
+
+<br>
 
 |         Configuration        | Required? |                                                                                                              Description                                                                                                              |
 |:-----------------------------|:----------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -609,6 +654,8 @@ Deletes a resource from the system.
 |  Succes |                                     The resource was succesfully deleted                                    |
 | Failure | An error occurred while deleting the object.<br> <br>The error description is added to the Reason argument. |
 
+<br>
+
 | Configuration | Required? |                                                                                                                                             Description                                                                                                                                            |
 |:--------------|:----------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     Entry     |  Required | Type of resource to delete. Options are:<br> <br>- Current object à The resource present in workflow content<br> <br>- Object from argument à An resource present in a workflow argument<br> <br>Please note that deleting the current object also removes the resource from the workflow content! |
@@ -623,6 +670,8 @@ Creates a notification.
 |         Sent         |              The notification is created              |
 |        Failed        | An error occurred during creation of the notification |
 | RecipientNotResolved |       The specified recipient cannot be resolved      |
+
+<br>
 
 |  Configuration  | Required? |                             Description                            |
 |:----------------|:----------|:-------------------------------------------------------------------|
@@ -644,6 +693,8 @@ abuse of the IBIS service account.
 | Success |                                      The script was succesfully executed                                     |
 | Failure | An error occurred while executing the script.<br> <br>The error description is added to the Reason argument. |
 
+<br>
+
 | Configuration | Required? |                                                                                                                                                                                                                                    Description                                                                                                                                                                                                                                   |
 |:--------------|:----------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Script path  |  Optional |                                                                        The full path to a Powershell scipt file. Parameters can be added using the \| symbol<br> <br>For example: C:\Script files\Run.ps1\|{Id}\|{Name} will call the script contained in file C:\Scripts files\Run.ps1 with 2 parameters. The parameters in the example will be replaced with the values from the Id and Name properties.                                                                       |
@@ -663,6 +714,8 @@ workflow content.
 |   Done  |                                      The task was succesfully executed                                      |
 |  Error  | An error occurred while processing the task.<br> <br>The error description is added to the Reason argument. |
 
+<br>
+
 | Configuration | Required? |                            Description                            |
 |:--------------|:----------|:------------------------------------------------------------------|
 |    Argument   |  Required | The argument whichs contains the collection of objects to process |
@@ -677,6 +730,8 @@ Executes an activity for each object in an argument.
 |:--------|:------------------------------------------------------------------------------------------------------------|
 |   Done  |                                      The task was succesfully executed                                      |
 |  Error  | An error occurred while processing the task.<br> <br>The error description is added to the Reason argument. |
+
+<br>
 
 |      Configuration     | Required? |                                                                             Description                                                                            |
 |:-----------------------|:----------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -696,66 +751,11 @@ query returned zero results.
 |   True  |      The query returned no results     |
 |  False  | The query returned one or more results |
 
-<table class="table table-bordered">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th>Configuration</th>
-<th>Required?</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><p>Content type</p></th>
-<th><p>Required</p></th>
-<th><p>The type of object to query</p></th>
-</tr>
-<tr class="header">
-<th><p>Criteria</p></th>
-<th><p>Required</p></th>
-<th><p>Dynamic linq statement with a criteria to filter on</p>
-<p>If you want to set criteria on DynamicProperties you should use the
-following syntax:</p>
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead class="thead-light">
-<tr class="header">
-<th><p><strong>DataType</strong></p></th>
-<th><p><strong>Example</strong></p></th>
-</tr>
-<tr class="odd">
-<th><p>String</p></th>
-<th><p>DynamicProperties["PropertyName"] == """stringvalue"""</p></th>
-</tr>
-<tr class="header">
-<th><p>Boolean</p></th>
-<th><p>DynamicProperties["PropertyName"] == “””true”””</p></th>
-</tr>
-<tr class="odd">
-<th><p>Int</p></th>
-<th><p>DynamicProperties["PropertyName"] == 123</p></th>
-</tr>
-<tr class="header">
-<th><p>Date</p></th>
-<th><p>DynamicProperties["PropertyName"] == """2021-12-31"""</p>
-<p><em> </em></p>
-<p><em>Check in the DynamicPropertyValues table in which format dates
-are stored. In this example we're using the 'yyyy-MM-dd'
-format.</em></p></th>
-</tr>
-</thead>
-&#10;</table></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+| Configuration | Required? |                                                             Description                                                            |
+|:-------------:|:---------:|:----------------------------------------------------------------------------------------------------------------------------------:|
+|  Content type |  Required |                                                     The type of object to query                                                    |
+|    Criteria   |  Required | Dynamic linq statement with a criteria to filter on.   If you want to set criteria on DynamicProperties you should use the following syntax: <br> String: ```DynamicProperties["PropertyName"] == """stringvalue"""``` <br> Boolean: ```DynamicProperties["PropertyName"] == “””true”””```  <br> Int: ```DynamicProperties["PropertyName"] == 123``` <br> Date: ```DynamicProperties["PropertyName"] == """2021-12-31"""``` <br> ```{eval-rst} .. note:: Check in the DynamicPropertyValues table in which format dates are stored. In this example we're using the 'yyyy-MM-dd' format.```|
+
 
 ### IdentityDossier
 
@@ -781,6 +781,8 @@ the following properties:
 |:--------|:---------------------------------------------------------------------------------------------------------------------------------|
 |   Done  |                                            The IdentityDossier was succesfully created                                           |
 |  Error  | An error occurred while creating or updating the IdentityDossier.<br> <br>The error description is added to the Reason argument. |
+
+<br>
 
 |                Configuration                | Required? | Description |
 |:--------------------------------------------|:----------|:------------|
@@ -907,6 +909,8 @@ resolvers’.
 |             _09_77_Alias_ADprofileFolderPad             |        AliasADprofileFolderResolver        |
 |            _09_78_Alias_ADinitieelWachtwoord            |      AliasADinitieelWachtwoordResolver     |
 |                _09_79_Alias_ADcommonName                |          AliasADcommonNameResolver         |
+
+<br>
 
 |        Alias dossier property        |          Source property or mapping logic          |
 |:-------------------------------------|:---------------------------------------------------|
@@ -1059,7 +1063,6 @@ Returns:
 -   The result of the default property creator (can be overriden in
     customer DLL):
     -   \[\_42\_11\_Persoon\_Geslachtsnaam\]
-    -   ,
     -   \[\_42\_30\_Persoon\_Aanhef\]
     -   \[\_42\_31\_Persoon\_TitelsVoor \_42\_24\_Persoon\_Voorletters\]
     -   \[\_42\_32\_Persoon\_TitelsAchter\]
@@ -1124,7 +1127,7 @@ Returns:
     -   The result of the default property creator (can be overriden in
         customer DLL):
         1.  \_09\_33\_Alias\_Aanmeldnaam @
-            \_04\_78\_Organisatie\_Admaildomein from the organisation
+            \[_04\_78\_Organisatie\_Admaildomein from the organisation
             when available\]
         2.  \_09\_33\_Alias\_Aanmeldnaam @ \[the value of *MailDomain*
             from the configuration when set\]
@@ -1222,6 +1225,8 @@ Writes a message to the system log.
 |:--------|:--------------------------|
 |   Done  | The activity was finished |
 
+<br>
+
 | Configuration | Required? |                                Description                               |
 |:--------------|:----------|:-------------------------------------------------------------------------|
 |    LogLevel   |  Required |                   The loglevel to write the message in                   |
@@ -1238,6 +1243,8 @@ specified organization.
 |   True  |   The resource in the workflow content is a member of the specified organization or a child of the specified organization.   |
 |  False  | The resource in the workflow content is NOT a member of the specified organization or a child of the specified organization. |
 
+<br>
+
 |    Configuration   | Required? |                             Description                             |
 |:-------------------|:----------|:--------------------------------------------------------------------|
 | OrganisationNumber |  Required |                 The organization number to check on                 |
@@ -1252,6 +1259,8 @@ workflow argument.
 |:--------|:---------------------------------------------------------------------|
 | Success | The regular expression was executed succesfully or a match was found |
 | Failure |          The regular expression failed or no match was found         |
+
+<br>
 
 |    Configuration   | Required? |                                                                                                                 Description                                                                                                                 |
 |:-------------------|:----------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1328,6 +1337,8 @@ present in the workflow content.
 | Success |                             The notification was succesfully sent                             |
 | Failure | An error occurred during send.<br> <br>The error description is added to the Reason argument. |
 
+<br>
+
 | Configuration | Required? |                     Description                    |
 |:--------------|:----------|:---------------------------------------------------|
 |      Host     |  Required |             Hostname of the SMTP server            |
@@ -1344,6 +1355,8 @@ the user initiating the workflow action button.
 | Results |           Description          |
 |:--------|:-------------------------------|
 | Done    | When the activity is fisnished |
+
+<br>
 
 |  Configuration | Required? |                                                 Description                                                 |
 |:---------------|:----------|:------------------------------------------------------------------------------------------------------------|
@@ -1363,6 +1376,8 @@ Retrieves the value of a TreeManager attribute for a specified node
 | Success | The value was succesfully retrieved, and stored in the following argument(s):<br> <br>- TmResolvedValue à Single value result<br> <br>- TmResolvedValues à Multiple values |
 | Failure |                                An error occurred while retrieving the value.<br> <br>The error description is added to the Reason argument.                                |
 
+<br>
+
 | Configuration | Required? |                                                                     Description                                                                     |
 |:--------------|:----------|:----------------------------------------------------------------------------------------------------------------------------------------------------|
 |    Base URI   |  Required |                                                              URL of the TreeManager API                                                             |
@@ -1379,6 +1394,8 @@ Updates on or more properties on the specified resource.
 |:--------|:----------------------------------------------------------------------------------------------------|
 | Success |                                 The property was succesfully updated                                |
 | Failure | An error occurred during the update.<br> <br>The error description is added to the Reason argument. |
+
+<br>
 
 |          Configuration          | Required? |                                                               Description                                                              |
 |:--------------------------------|:----------|:---------------------------------------------------------------------------------------------------------------------------------------|
@@ -1397,6 +1414,8 @@ Creates withdraw dossiers for all assets of the specified iDossier.
 | Success |                               The activity was succesfully executed.                               |
 | Failure | An error occurred during execution.<br> <br>The error description is added to the Reason argument. |
 
+<br>
+
 |           Configuration          | Required? |                                                   Description                                                  |
 |:---------------------------------|:----------|:---------------------------------------------------------------------------------------------------------------|
 |         IDossier argument        |  Optional | The argument whicht contains the iDossier. When left empty, the iDossier in the workflow content will be used. |
@@ -1406,6 +1425,8 @@ Creates withdraw dossiers for all assets of the specified iDossier.
 |   Verwerk handmatig aangemaakte  |  Required |                                  Should manually assigned assets be withdrawn?                                 |
 |      AanvraagDossier status      |  Required |                                      The status for the withdraw dossiers                                      |
 |   AanvraagDossierProduct status  |  Required |                                  The status for the withdraw dossier products                                  |
+
+<br>
 
 |          Result Parameters          |                                                                  |
 |:------------------------------------|:-----------------------------------------------------------------|
@@ -1419,6 +1440,8 @@ This activity sends an email message using the specified mailserver.
 |:--------|:---------------------------------------------------------------------------------------------------|
 | Success |                               The activity was succesfully executed.                               |
 | Failure | An error occurred during execution.<br> <br>The error description is added to the Reason argument. |
+
+<br>
 
 |     Configuration     | Required? |                                             Description                                             |
 |:----------------------|:----------|:----------------------------------------------------------------------------------------------------|
@@ -1447,7 +1470,7 @@ abuse of the IBIS service account.
 | Success |                                The activity was succesfully executed<br> <br>***OR***<br> <br>In case the action is FolderOrFileExists, the folder or file exists                               |
 | Failure | An error occurred during execution. The error description is added to the Reason argument.<br> <br>***OR***<br> <br>In case the action is FolderOrFileExists, the folder or file does not exist |
 
-
+<br>
 
 |  Configuration  |   Required?  |                                                                                                                                                                                                                                                                                                                                                                                                  Description                                                                                                                                                                                                                                                                                                                                                                                                 |
 |:----------------|:-------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1469,6 +1492,8 @@ with the data resolution functions.
 | Success | The activity was succesfully executed, and the object is stored in the destination argument. Propertyvalues from this object can be accessed like:<br> <br>- {@targetArgumentName.property}<br> <br>- {@targetArgumentName.property.property}<br> <br>- {@targetArgumentName.property.property.property} |
 | Failure |                                                                             The activity failed, either because of a configuration error or an invalid JSON file. The exact reason is added to the workflow argument @Reason.                                                                            |
 
+<br>
+
 |    Configuration    | Required? |                              Description                              |
 |:--------------------|:----------|:----------------------------------------------------------------------|
 |    SourceArgument   |  Required |    The name of the workflow argument which contains the JSON string   |
@@ -1485,13 +1510,15 @@ False path based on the script output.
 |  False  |                                           The script returned a ReturnValue of 'False'                                          |
 |  Error  | An error occurred during script execution. The error message is in the error log and in the workflow argument 'PowerShellError' |
 
+<br>
+
 | Configuration | Required? |                                                                                                                                                                     Description                                                                                                                                                                     |
 |:--------------|:----------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Agent         |           | If set, the script will be executed on this PowerShell agent                                                                                                                                                                                                                                                                                        |
 | Hostname      |           | If set, the script will be executed on this server                                                                                                                                                                                                                                                                                                  |
 | Username      | X         | The username of the account to use for executing the script                                                                                                                                                                                                                                                                                         |
 | Password      | X         | The password of above username                                                                                                                                                                                                                                                                                                                      |
-| Script        | X         | The script to execute<br> <br>The script must return an object with a boolean 'ReturnValue' property. Curly braces must be escaped using a '\'. For example:<br> <br>if ([int]{_16_99_Dossier_Status} -eq 0) \{ return New-Object PSObject -Property (@\{ReturnValue=$true\}) \} else \{ New-Object PSObject -Property (@\{ReturnValue=$false\}) \} |
+| Script        | X         | The script to execute<br> <br>The script must return an object with a boolean 'ReturnValue' property. Curly braces must be escaped using a '\'. For example:<br> <br>```if ([int]{_16_99_Dossier_Status} -eq 0) \{ return New-Object PSObject -Property (@\{ReturnValue=$true\}) \} else \{ New-Object PSObject -Property (@\{ReturnValue=$false\}) \}``` |
 
 ### ExecuteIbisConnector
 
@@ -1502,7 +1529,7 @@ This activity can execute an IBIS Connector operation or runprofile.
 | Success |                   The operation or runprofile was successfully executed                   |
 | Failure | An error occurred during execution. The reason is added to the workflow argument @Reason. |
 
-<br><br>
+<br>
 
 | Configuration | Required? |                Description                |
 |:--------------|:----------|:------------------------------------------|
