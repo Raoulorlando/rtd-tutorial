@@ -57,7 +57,7 @@
                                    
 
 
-## Features update 1
+## Features update 
 
 
 ### Registration page enhancements
@@ -109,7 +109,7 @@
 
 
 
- ### UI/UX Enhancements {#uiux-enhancements .unnumbered}               
+ ### UI/UX Enhancements        
 
  -   The setting 'Remove audit entries older dan (days)" has been      
      removed from the IBIS settings page. It can now be found in the   
@@ -170,7 +170,7 @@
                                                                       
  -   The IBIS register has been extended with field DomainName        
 
- ### Security {#security .unnumbered}                                 
+ ### Security                           
 
  -   The 'Change password' button is now available in the User account
      registration, under the 'Options' menu                           
@@ -190,7 +190,7 @@
 
 
 
- ### Connectors {#connectors .unnumbered}                              
+ ### Connectors                           
  -   A connector will now prevent an export if a previous export was   
      incomplete                                                        
                                                                        
