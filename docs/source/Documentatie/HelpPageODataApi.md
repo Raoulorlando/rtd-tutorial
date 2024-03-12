@@ -184,18 +184,26 @@ parameter. The *$filter* parameter supports the following operators:
 ### Examples
 
 Retrieve all iDossiers with 01.40 greater than or equal to 2018-10-01:  
-/OData/IDossiers?$filter=\_01\_40\_Dienstverband\_DatumIngangGeldigheid
-ge 2018-10-01T00:00:00Z
+```
+/OData/IDossiers?$filter=\_01\_40\_Dienstverband\_DatumIngangGeldigheid ge 2018-10-01T00:00:00Z
+```
 
 Retrieve all iDossiers with 02.32 set to true:  
-/OData/IDossiers?$filter=\_02\_32\_Plaatsing\_DirectoryBeheerAccountAanmaken
-eq true
+```
+/OData/IDossiers?$filter=\_02\_32\_Plaatsing\_DirectoryBeheerAccountAanmaken eq true
+```
 
 Retrieve all iDossiers with 03.50 set to true:  
+```
 /OData/IDossiers?$filter=\_03\_50\_Formatieplaats\_IsEenManager eq true
+```
 
 Retrieve all iDossiers with 06.11 not equal to 'NL':  
+```
 /OData/IDossiers?$filter=\_06\_11\_Document\_NationaliteitsCode ne 'NL'
+```
 
 Retrieve all iDossiers with ModifiedDate greater than or equal to 2018-10-30 23:59:59.99:  
+```
 /OData/IDossiers?$filter=ModifiedDate ge 2018-10-30T23:59:59.99Z"
+```
