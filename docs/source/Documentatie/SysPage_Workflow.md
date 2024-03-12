@@ -658,7 +658,11 @@ query returned zero results.
 | Configuration | Required? |                                                             Description                                                            |
 |:-------------:|:---------:|:----------------------------------------------------------------------------------------------------------------------------------:|
 |  Content type |  Required |                                                     The type of object to query                                                    |
-|    Criteria   |  Required | Dynamic linq statement with a criteria to filter on.   If you want to set criteria on DynamicProperties you should use the following syntax: <br> String: ```DynamicProperties["PropertyName"] == """stringvalue"""``` <br> Boolean: ```DynamicProperties["PropertyName"] == “””true”””```  <br> Int: ```DynamicProperties["PropertyName"] == 123``` <br> Date: ```DynamicProperties["PropertyName"] == """2021-12-31"""``` <br> ```{eval-rst} <br> .. note:: Check in the DynamicPropertyValues table in which format dates are stored. In this example we're using the 'yyyy-MM-dd' format.```|
+|    Criteria   |  Required | Dynamic linq statement with a criteria to filter on.   If you want to set criteria on DynamicProperties you should use the following syntax: <br> String: ```DynamicProperties["PropertyName"] == """stringvalue"""``` <br> Boolean: ```DynamicProperties["PropertyName"] == “””true”””```  <br> Int: ```DynamicProperties["PropertyName"] == 123``` <br> Date: ```DynamicProperties["PropertyName"] == """2021-12-31"""``` |
+
+```{eval-rst}
+.. note:: Check in the DynamicPropertyValues table in which format dates are stored. In this example we're using the 'yyyy-MM-dd' format.
+```
 
 
 ### IdentityDossier
