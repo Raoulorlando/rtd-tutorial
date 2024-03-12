@@ -1,14 +1,14 @@
 ## Hotfix 11
 
-**Opgeloste bugs**
+**Resolved bugs**
 
-  **Reference**  |**Bug fix**
-  |:--------------|:---------------------------------------------------------------|
-  |12618           |Opzoek functie naar een bestaande register waarde is hoofdlettergevoelig bij het opslaan van een nieuwe waarde.|
-  |12655           |Opzoek functie naar smtp alias is hoofdlettergevoelig bij het toevoegen of wijzigen van een smtp alias|
-  |12511           |Wissen van de DataSet laatste verwerkte records is niet mogelijk.
-  |12499           |DataSet wordt meerdere keren opgeslagen indien niet gekozen voor de knop "Opslaan" bij het opslaan van een nieuwe dataset.| 
-  |12621           |IBIS manager opzoeken geeft een willekeurig manager indien de hoogste manager is bereikt|
-  |12558           |IBIS instellingen toont de verkeerde keuze bij standaard AVD aanvraag/intrek status. Zie IBIS instellingen -\> Bedrijfsmiddelen -\> Bedrijfsmiddelen in bezit -\> Standaard AVD status voor product aanvraag **EN** Standaard AVD status voor product intrek                     |
-  |12556           |Universal Search Index rebuilder werkt de geïndexeerde gegevens niet goed bij                                                  |
-  |12582           |IBIS functie werkt niet indien de input voor de functie de tekst 'code' bevat.                                                 | 
+| **Reference** | **Bug fix** |
+|:-------------|:---------------------------------------------------------------|
+| 12618        | Search function for an existing register value is case-sensitive when saving a new value. |
+| 12655        | Search function for SMTP alias is case-sensitive when adding or modifying an SMTP alias. |
+| 12511        | Deleting the DataSet last processed records is not possible. |
+| 12499        | DataSet is saved multiple times if "Save" button is not chosen when saving a new dataset. |
+| 12621        | IBIS manager search returns a random manager when the top manager is reached. |
+| 12558        | IBIS settings display the wrong choice for default AVD request/withdraw status. See IBIS settings -> Assets -> Assets in possession -> Default AVD status for product request **AND** Default AVD status for product withdrawal. |
+| 12556        | Universal Search Index rebuilder does not properly update indexed data. |
+| 12582        | IBIS function does not work if the input for the function contains the text 'code'. |
