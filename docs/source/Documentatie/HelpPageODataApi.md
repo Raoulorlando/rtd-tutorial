@@ -163,7 +163,7 @@ example) 20. Then, raise the *$skip* parameter after each succesful
 request, until the number of results is lower than the *$top* count.
 
 ### Examples
-
+|                                    |                                                                  |
 |:-----------------------------------|:-----------------------------------------------------------------|
 |   /OData/IDossiers?$top=20&skip=0  |          Retrieve the first 20 IDossiers from the server         |
 |  /OData/IDossiers?$top=20&skip=40  |  Retrieve 20 IDossiers from the server, starting at position 41  |
