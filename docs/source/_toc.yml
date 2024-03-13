@@ -6,8 +6,7 @@ subtrees:
   entries: 
   - file: Documentation
     subtrees:
-    - titlesonly: True
-      entries:
+    - entries:
       - file: Documentatie/Connectors
         subtrees:
         - entries:
