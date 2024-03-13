@@ -1,6 +1,8 @@
-# IBIS Connectoren
-
-```{eval-rst} .. toctree:: <br>   :hidden: <br>   ABAC API <./IBIS_Connectoren/Connector_ABACAPI>              
+```{eval-rst} 
+.. toctree::
+   :hidden:    
+   
+   ABAC API <./IBIS_Connectoren/Connector_ABACAPI>              
    Afas <./IBIS_Connectoren/Connector_Afas>                     
    ASPOS <./IBIS_Connectoren/Connector_Aspos>                   
    Booq <./IBIS_Connectoren/Connector_Booq>                     
@@ -30,7 +32,6 @@
    VrijwilligersDossier <./IBIS_Connectoren/Connector_VrijwilligersDossier> 
    Youforce <./IBIS_Connectoren/Connector_Youforce>            
    ZO case management <./IBIS_Connectoren/Connector_ZO> 
-
 ```
 
 Below table displays the modules are available in a standard IBIS
