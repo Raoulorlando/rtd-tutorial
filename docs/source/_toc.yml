@@ -22,7 +22,7 @@ subtrees:
             - file: Documentatie/Connectoren/SysPage_Connector
               subtrees:
               - entries:
-                - file: Documentatie/Connectoren/IBIS_Connectoren
+                - file: Documentatie/Connectoren/IBIS_Connectors
                   subtrees: 
                   - entries:
                     - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_ABACAPI
