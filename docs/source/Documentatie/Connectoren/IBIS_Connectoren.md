@@ -1,6 +1,5 @@
 ```{eval-rst} 
-.. toctree::
-   :hidden:    
+.. toctree::   
    
    ABAC API <./IBIS_Connectoren/Connector_ABACAPI>              
    Afas <./IBIS_Connectoren/Connector_Afas>                     
