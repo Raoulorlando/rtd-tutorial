@@ -280,7 +280,7 @@ data-helpkey="SysPage_RunProfile">Run profiles</a> documentation
 
 ## <span id="Modules"></span>Modules
 
-```{include} ./IBIS_Connectoren.md
+```{include} ./IBIS_Connectors.md
 ```
 
 ## <span id="Agent"></span>Agent
