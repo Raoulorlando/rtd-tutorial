@@ -1,13 +1,13 @@
 root: index.rst
 
 subtrees:
-- maxdepth: 5
-  titlesonly: True
+- maxdepth: 4
   caption: Table of Contents
   entries: 
   - file: Documentation
     subtrees:
-    - entries:
+    - titlesonly: True
+      entries:
       - file: Documentatie/Connectors
         subtrees:
         - entries:
