@@ -40,14 +40,14 @@ This chapter contains a instructions for each of the modules.
 
 |                       Module                                                         | Full Import | Delta Import | Export       |
 |:------------------------------------------------------------------------------------:|:-----------:|:------------:|:------------:|
-| [ABAC API](IBIS_Connectoren/Connector_ABACAPI)                                   | X           | X            | X            |
-| [Afas](../IBIS_Connectoren/Connector_Afas)                                          | X           |              | X<sup>1</sup>|
-| [ASPOS](../IBIS_Connectoren/Connector_Aspos)                                        | X           |              | X            |
-| [Booq](../IBIS_Connectoren/Connector_Booq)                                          |             |              | X            |
-| [Cash 360](../IBIS_Connectoren/Connector_Cash360)                                   |             |              | X            |
-| [Conclusion Class LMS](../IBIS_Connectoren/Connector_Conclusion_Class_LMS)          |             |              | X            |
-| [Facility<sub>2</sub> Wish](../IBIS_Connectoren/Connector_Facility2WISH)            | X           |              | X            |
-| [Flat File (CSV)](../IBIS_Connectoren/Connector_FlatFile(CSV))                      | X           | X            | X            |
+| [ABAC API](./IBIS_Connectoren/Connector_ABACAPI)                                   | X           | X            | X            |
+| [Afas](./IBIS_Connectoren/Connector_Afas)                                          | X           |              | X<sup>1</sup>|
+| [ASPOS](./IBIS_Connectoren/Connector_Aspos)                                        | X           |              | X            |
+| [Booq](./IBIS_Connectoren/Connector_Booq)                                          |             |              | X            |
+| [Cash 360](./IBIS_Connectoren/Connector_Cash360)                                   |             |              | X            |
+| [Conclusion Class LMS](./IBIS_Connectoren/Connector_Conclusion_Class_LMS)          |             |              | X            |
+| [Facility<sub>2</sub> Wish](./IBIS_Connectoren/Connector_Facility2WISH)            | X           |              | X            |
+| [Flat File (CSV)](./IBIS_Connectoren/Connector_FlatFile(CSV))                      | X           | X            | X            |
 | [Google Workspace](./IBIS_Connectoren/Connector_GoogleWorkspace)                   | X           |              | X            |
 | [IBIS API](./IBIS_Connectoren/Connector_IBISAPI)                                   | X           | X            | X            |
 | [Microsoft Active Directory](./IBIS_Connectoren/Connector_MicrosoftActiveDirectory)| X           | X            | X            |
