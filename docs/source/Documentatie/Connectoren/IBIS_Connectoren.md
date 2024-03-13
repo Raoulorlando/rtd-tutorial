@@ -1,3 +1,38 @@
+```{eval-rst} 
+.. toctree::
+   :hidden:    
+   
+   ABAC API <./IBIS_Connectoren/Connector_ABACAPI>              
+   Afas <./IBIS_Connectoren/Connector_Afas>                     
+   ASPOS <./IBIS_Connectoren/Connector_Aspos>                   
+   Booq <./IBIS_Connectoren/Connector_Booq>                     
+   Cash 360 <./IBIS_Connectoren/Connector_Cash360>              
+   Conclusion Class LMS <./IBIS_Connectoren/Connector_Conclusion_Class_LMS> 
+   Facility<sub>2</sub> Wish <./IBIS_Connectoren/Connector_Facility2WISH> 
+   Flat File (CSV) <./IBIS_Connectoren/Connector_FlatFile\<CSV\>> 
+   Google Workspace <./IBIS_Connectoren/Connector_GoogleWorkspace> 
+   IBIS API <./IBIS_Connectoren/Connector_IBISAPI>              
+   Microsoft Active Directory <./IBIS_Connectoren/Connector_MicrosoftActiveDirectory> 
+   Microsoft Exchange <./IBIS_Connectoren/Connector_MicrosoftExchange> 
+   Microsoft Graph <./IBIS_Connectoren/Connector_MicrosoftGraph> 
+   Microsoft SQL Server <./IBIS_Connectoren/Connector_MicrosoftSQLServer> 
+   Mobaro <./IBIS_Connectoren/Connector_Mobaro>                
+   NETIQ eDirectory <./IBIS_Connectoren/Connector_NetIQ_eDirectory> 
+   PowerShell <./IBIS_Connectoren/Connector_PowerShell>        
+   PeopleInc <./IBIS_Connectoren/Connector_PeopleInc>          
+   Raet IAM <./IBIS_Connectoren/Connector_RaetIAM>             
+   SAP CUA <./IBIS_Connectoren/Connector_SAP_CUA>              
+   SAP HR / HCM <./IBIS_Connectoren/Connector_SAPHR_HCM>       
+   SAP SuccessFactors <./IBIS_Connectoren/Connector_SAPSuccessFactors> 
+   SCIM V2 <./IBIS_Connectoren/Connector_SCIMV2>               
+   Simons Voss LSM <./IBIS_Connectoren/Connector_SimonsVossLSM> 
+   SmartQ <./IBIS_Connectoren/Connector_SmartQ>                
+   TopDesk <./IBIS_Connectoren/Connector_Topdesk>              
+   TreeManager <./IBIS_Connectoren/Connector_TreeManager>      
+   VrijwilligersDossier <./IBIS_Connectoren/Connector_VrijwilligersDossier> 
+   Youforce <./IBIS_Connectoren/Connector_Youforce>            
+   ZO case management <./IBIS_Connectoren/Connector_ZO> 
+```
 
 Below table displays the modules are available in a standard IBIS
 installation.
