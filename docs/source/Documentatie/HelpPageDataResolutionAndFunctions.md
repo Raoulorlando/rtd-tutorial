@@ -4,7 +4,7 @@
 -   [Functions](#Functions) -->
 
 ```{eval-rst} 
-.. contents::
+.. contents:: Table of Contents
 ```
 
 ## <span id="Data resolution"></span>Data resolution
