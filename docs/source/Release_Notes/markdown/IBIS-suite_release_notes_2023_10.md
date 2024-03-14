@@ -1,0 +1,31 @@
+# October 2023
+
+- Various usability improvements have been implemented.
+- In an identity registration, after setting the start date, it cannot be changed anymore. The end date follows the end date of the (specified) leading employee registration.
+- Entitlement management:
+  - ABAC background tasks and provisioning connectors can be run from IBIS.
+  - The ABAC connectors are now also visible in the task history page.
+  - ABAC connector audit data is stored upon successful execution of provisioning. For example, when adding/removing members from an AD group.
+  - More information about a selected employee (targets) can be seen on the "Continue with request" overlay page.
+  - An "Updated on" column has been added to the Resource properties (in the overlay), indicating when the value was last modified.
+  - The filter tab in connectors has been expanded to allow the use of resources. External objects can be created for IBIS objects that are members of certain resources. Provisioning based on resource membership makes the setup more flexible.
+  - Improvement in the processing of requests between IBIS and ABAC. There is always a request present in the Entitlement process, and ABAC no longer creates Queued RoleAssignments.
+  - Before a RoleAssignment is created in ABAC, consideration is also given to the number of days in advance a resource can be assigned.
+- Connector:
+  - Update made for the Raet IAM connector.
+- Conflict policy (Segregation of Duties):
+  - Conflict rules can be added and managed on the conflict policy page (/ResourceConflictRule).
+  - Classifications can be created and managed on the Resource page (/Resource). This can be found under the hamburger menu option "Resource risk classifications".
+  - In the resource itself, you can configure in the "Conflict" tab which risk classification it belongs to.
+  - With the "Test conflict rule" hamburger menu option, you can view the result of a configured conflict rule.
+- StartDate and EndDate fields have been added to DataSet, Querylizer, and in the workflow.
+- Emails can be sent when OAuth 2.0 authentication is used.
+
+**Resolved bugs**
+  - Resource cannot be added to a resource set.
+  - In a resource set, filtering in the resource tab does not work.
+  - Task history - Run profile steps are not shown if there is an error in one of the steps.
+  - TreeManager connector with OAuth authentication is not saved.
+  - Microsoft Graph password module. OAuth - application secret is plaintext readable.
+  - ACL restrictions give an error on a new employee registration page.
+  - In the LiveLog, scrolling is no longer possible.

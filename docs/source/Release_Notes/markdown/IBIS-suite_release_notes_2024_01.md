@@ -1,0 +1,47 @@
+# January 2024
+
+- Various security improvements implemented.
+- Various performance improvements implemented.
+- Various usability improvements implemented:
+  - Segregation of duties conflict policy.
+  - Read-only fields have gray background instead of white background.
+  - Resource selection made browsable.
+- Connector:
+  - ASPOS plugin has been converted to Connector.
+  - Booq plugin has been converted to Connector.
+  - In the ABAC connectors, it is now possible to import only the managed objects.
+  - TOPdesk connector has been expanded with Assets (CMDB) - export.
+- Logged-in user made available as a variable for use in reporting filters.
+- Removed OData API endpoints that are no longer in use:
+  - ProductGroupFilterTypes
+  - ProductGroupFilters
+  - ProductGroupFilterOrganisations
+  - ProductGroupProducts
+  - ProductGroups
+  - ProductOrganisations
+  - Products
+  - ProductStates
+  - ProductSuppliers
+  - ApplicationDossierProducts
+  - ApplicationDossiers
+  - Assets
+  - OrderMethods
+  - Contracts
+  - MailTemplates
+  - LocationData
+  - EstablishmentPositions
+  - DossierStates
+  - Remarks
+  - SysInputFields
+  - Transitions
+- Removed legacy ASPX pages:
+  - Tools.aspx
+  - Embed.aspx
+- Fixed:
+  - Raet Youforce IAM API export issues.
+  - Diacritic "ß" (Eszett) not replaced in removediacritics function and activity CreateUniqueValue.
+  - RealtimeSyncAndExportWorker now processes singular requests instead of batches.
+  - Run profile not opened when ABAC is disabled.
+  - Registration status field is not authorizable.
+  - Agent information not shown when a shared agent is used.
+  - When withdrawing an assigned resource, RequireManualApproval is not set correctly.

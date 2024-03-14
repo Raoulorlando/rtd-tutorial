@@ -1,0 +1,49 @@
+# November 2023
+
+- New dropdown list component applied to various screens to enable better filtering.
+- In the registration pages, the country dropdown lists are now also displayed in Dutch.
+- The Audit page now also displays the Object type information in the overlay.
+- Connector:
+  - The request body for the SCIM connector has been further expanded.
+  - TOPdesk connector has been expanded for importing Assets (CMDB).
+- Entitlement management:
+  - For a resource, it is now possible to configure a separate Condition group operator for:
+    - Rules for automatic assignment
+    - Rules for manual assignment
+    - Rules for approval
+  - The start date and end date validations for Resource requests and allocations have been optimized for:
+    - Manual requests
+    - Open requests
+    - Changes in the (target) registrations
+    - Allocations
+  - It is now possible to specify a start and end date per resource for automatically created requests in ABAC. The mapping of the start and end date properties can be done in the IBIS settings > ABAC > TreeManager relations.
+  - In a resource, the 'Path' dropdown list has been renamed to 'Map', and you can now also view/use the tree structure.
+- A background task is available for managing identity registration for situations where an employee registration has expired or a new one is starting.
+- The 'Country of Birth' field is now a dropdown list instead of an input field.
+- The fields 'Nationality' and 'Second nationality' can now use the Countries table in the setup.
+- Various usability improvements have been implemented.
+- Various API performance improvements have been implemented.
+- License:
+  - /license screens have been removed in Treemanager and ABAC. Instead, a license check is performed when a certain action is performed requiring TM or ABAC. License management for IBIS, Treemanager, and ABAC can be found in IBIS on the /licensing page.
+  - Treemanager:
+    - If you create a new tree in TreeDesigner and you do not have a license, no tree will be created. Nothing happens with existing trees.
+    - Notifications for invalid TM licenses are shown in TM logging.
+    - To resolve a TM license issue, you can press the 'Update TreeManager license' button on the IBIS /licensing page.
+    - TreeManager\App_Data\license.lic is then created/updated.
+    - IBIS does not indicate whether a TM license is valid or invalid.
+  - ABAC:
+    - If the ABAC background task 'Worker' starts running and there is no valid license, the worker will not perform its tasks.
+    - Notifications for invalid ABAC licenses are shown in ABAC logging.
+    - To resolve an ABAC license issue, you can press the 'Update ABAC license' button on the IBIS /licensing page.
+    - ABAC\App_Data\license.lic is then created/updated.
+    - IBIS does not indicate whether an ABAC license is valid or invalid.
+- Conflict policy:
+  - If there is an active blockade of a resource for a specific employee, this will be mentioned to the requester during the (manual) request process. This prevents unnecessary requests that will be blocked again.
+
+**Resolved Bugs**:
+  - The argument name is shown instead of the display name in the action buttons.
+  - ABAC memory usage is not optimal.
+  - Clicking on the job description field in the employee registration page before selecting an organization displays an error in the log.
+  - ABAC connector indicates that it is still running in the task history even when there are no hangfire tasks.
+  - Deleted Target loaders columns are shown again after being deleted.
+  - MemberOf is not available in the AD connector schema.

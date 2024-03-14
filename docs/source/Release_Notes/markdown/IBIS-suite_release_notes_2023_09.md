@@ -1,0 +1,31 @@
+# September 2023 (from 21st)
+
+- StartDate and EndDate properties have been added as fields to all types of registrations. These properties are automatically filled in by IBIS.
+- IBIS settings:
+  - A "Connections (Internal modules)" card has been added for managing TreeManager, SmartQ, and ABAC connections.
+  - The "Entitlement management" card has been reorganized in terms of settings.
+  - In the "Identity" card, configuration can be done to create/update identity registrations from the leading employee registration. A leading registration that is valid now or in the future within a certain period can be chosen. The order for searching the leading employee registration can also be determined here.
+  - The "Organization management" card has been reorganized in terms of settings.
+  - Various usability improvements.
+- Entitlement management:
+  - When making a resource request, today's date is used as the start date if the (target) registration date is in the past.
+  - The determination to remove selected resources is only done when the "Continue with request" button is clicked (and not when adding an employee).
+- Default search fields and search result fields have been added to the setup.
+- The /ResourceRequestCache page has been renamed to /ResourceRequest.
+- Conflict policy (Segregation of Duties) rules apply to manual and automatic requests:
+  - After the request is approved, the request is checked against the (SoD) conflict rules.
+  - If no conflict is found, the allocation is executed.
+  - If a conflict is found but is allowed, the allocation is executed (and if applicable, the resolution action is executed).
+  - If a conflict is found but needs to be blocked, the allocation is not executed (and if applicable, the resolution action is executed).
+
+ **Resolved issues**
+ 
+  - The filter on the Resource page does not work properly.
+  - Comparison of the JSON collections for the SCIM connector.
+  - Staging area object cannot be opened with pending export with a brace.
+  - Setting the _param_InactiveTransponderGroupId in the Simonsvoss connector results in an error.
+  - Order of run profile steps cannot be changed.
+  - Target loaders plugin does not import multi-values if "update only" is set.
+  - Topdesk connector cannot export optional fields.
+  - Handling workflow tasks in Hangfire is slow.
+  - A connector schema refresh resets the properties filtering.
