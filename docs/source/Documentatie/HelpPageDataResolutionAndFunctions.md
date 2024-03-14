@@ -4,7 +4,7 @@
 -   [Functions](#Functions) -->
 
 ```{eval-rst} 
-.. contents:: 
+.. note:: \"Bloody hell\", Ron said 
 
 ```
 
