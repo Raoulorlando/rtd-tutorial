@@ -4,7 +4,8 @@
 -   [Functions](#Functions) -->
 
 ```{eval-rst} 
-.. contents::  
+.. contents::
+   :local:
 
 ```
 
