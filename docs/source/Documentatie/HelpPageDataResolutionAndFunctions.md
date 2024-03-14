@@ -1,15 +1,7 @@
 # <span id="index"></span>Data resolution and supported functions
 
-<!-- -   [Data resolution](#Data%20resolution)
--   [Functions](#Functions) -->
-
-```{eval-rst} 
-.. contents::
-   :local:
-```
-
-Header
------------------------------------------
+-   [Data resolution](#Data%20resolution)
+-   [Functions](#Functions)
 
 ## <span id="Data resolution"></span>Data resolution
 
