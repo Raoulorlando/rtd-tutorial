@@ -1,4 +1,4 @@
-# September 2023 (from 21st)
+## September 2023 (from 21st)
 
 - StartDate and EndDate properties have been added as fields to all types of registrations. These properties are automatically filled in by IBIS.
 - IBIS settings:
@@ -17,9 +17,7 @@
   - If no conflict is found, the allocation is executed.
   - If a conflict is found but is allowed, the allocation is executed (and if applicable, the resolution action is executed).
   - If a conflict is found but needs to be blocked, the allocation is not executed (and if applicable, the resolution action is executed).
-
- **Resolved issues**
- 
+- Fixed:
   - The filter on the Resource page does not work properly.
   - Comparison of the JSON collections for the SCIM connector.
   - Staging area object cannot be opened with pending export with a brace.

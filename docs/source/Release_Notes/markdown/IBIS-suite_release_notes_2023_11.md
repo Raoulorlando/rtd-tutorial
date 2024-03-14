@@ -1,4 +1,4 @@
-# November 2023
+## November 2023
 
 - New dropdown list component applied to various screens to enable better filtering.
 - In the registration pages, the country dropdown lists are now also displayed in Dutch.
@@ -39,8 +39,7 @@
     - IBIS does not indicate whether an ABAC license is valid or invalid.
 - Conflict policy:
   - If there is an active blockade of a resource for a specific employee, this will be mentioned to the requester during the (manual) request process. This prevents unnecessary requests that will be blocked again.
-
-**Resolved Bugs**:
+- Fixed:
   - The argument name is shown instead of the display name in the action buttons.
   - ABAC memory usage is not optimal.
   - Clicking on the job description field in the employee registration page before selecting an organization displays an error in the log.

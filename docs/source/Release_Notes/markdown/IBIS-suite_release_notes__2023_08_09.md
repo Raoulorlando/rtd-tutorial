@@ -1,4 +1,4 @@
-# IBIS-suite 6.01 Updates until 21st of September 2023
+## IBIS-suite 6.01 Updates until 21st of September 2023
 
 #### Compared to IBIS-suite version 6.0
 

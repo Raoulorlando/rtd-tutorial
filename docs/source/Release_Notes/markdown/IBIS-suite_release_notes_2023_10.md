@@ -1,4 +1,4 @@
-# October 2023
+## October 2023
 
 - Various usability improvements have been implemented.
 - In an identity registration, after setting the start date, it cannot be changed anymore. The end date follows the end date of the (specified) leading employee registration.
@@ -20,8 +20,7 @@
   - With the "Test conflict rule" hamburger menu option, you can view the result of a configured conflict rule.
 - StartDate and EndDate fields have been added to DataSet, Querylizer, and in the workflow.
 - Emails can be sent when OAuth 2.0 authentication is used.
-
-**Resolved bugs**
+- Fixed:
   - Resource cannot be added to a resource set.
   - In a resource set, filtering in the resource tab does not work.
   - Task history - Run profile steps are not shown if there is an error in one of the steps.

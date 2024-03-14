@@ -1,4 +1,4 @@
-# January 2024
+## January 2024
 
 - Various security improvements implemented.
 - Various performance improvements implemented.
