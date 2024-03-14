@@ -1,4 +1,4 @@
-# <span id="Modules"></span>Modules
+# <span id="Modules"></span>IBIS Modules
 
 Below table displays the modules are available in a standard IBIS
 installation.
@@ -6,7 +6,7 @@ installation.
 This chapter contains a instructions for each of the modules.
 
 |                       Module                                                         | Full Import | Delta Import | Export       |
-|:------------------------------------------------------------------------------------:|:-----------:|:------------:|:------------:|
+|:------------------------------------------------------------------------------------|:-----------:|:------------:|:------------:|
 | [ABAC API](./IBIS_Connectoren/Connector_ABACAPI)                                   | X           | X            | X            |
 | [Afas](./IBIS_Connectoren/Connector_Afas)                                          | X           |              | X<sup>1</sup>|
 | [ASPOS](./IBIS_Connectoren/Connector_Aspos)                                        | X           |              | X            |

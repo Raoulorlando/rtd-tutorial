@@ -281,7 +281,7 @@ data-helpkey="SysPage_RunProfile">Run profiles</a> documentation
 
 
 ## <span id="Modules"></span>Modules
-For more information about the available modules, see ['Modules'](./IBIS_Connectors.md)
+For more information about the available modules, see ['IBIS Modules'](./IBIS_Connectors.md)
 
 ## <span id="Agent"></span>Agent
 
