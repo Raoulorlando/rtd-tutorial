@@ -5,7 +5,7 @@
 
 ```{eval-rst} 
 .. contents:: Table of Contents
-   :local:
+    :local:
 ```
 
 ## <span id="Data resolution"></span>Data resolution
