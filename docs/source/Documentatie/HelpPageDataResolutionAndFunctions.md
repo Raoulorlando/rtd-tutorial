@@ -3,8 +3,7 @@
 <!-- -   [Data resolution](#Data%20resolution)
 -   [Functions](#Functions) -->
 
-```{eval-rst} .. contents:: :local:
-```
+```{eval-rst} .. contents:: ```
 
 ## <span id="Data resolution"></span>Data resolution
 
