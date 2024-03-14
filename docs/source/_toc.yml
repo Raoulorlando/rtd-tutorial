@@ -19,7 +19,7 @@ subtrees:
                 - file: Documentatie/Connectoren/ABAC_Connectoren/AbacConnector_MicrosoftEntraId
             - file: Documentatie/Connectoren/SysPage_AbacStagingArea
             - file: Documentatie/Connectoren/SysPage_Connector
-            - file: Documentatie/Connectoren/IBIS_Connectors
+            - file: Documentatie/Connectoren/IBIS_Modules
               subtrees: 
               - entries:
                 - file: Documentatie/Connectoren/IBIS_Connectoren/Connector_ABACAPI
