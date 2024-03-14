@@ -8,3 +8,4 @@ Next to that, under functionalities we will provide you with several tutorials o
 
 
 .. tableofcontents::
+    :depth: 4
