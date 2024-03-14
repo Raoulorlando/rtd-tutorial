@@ -9,6 +9,8 @@
 
 ```
 
+Header
+-----------------------------------------
 ## <span id="Data resolution"></span>Data resolution
 
 Data resolution provides the ability to translate an expression to an
