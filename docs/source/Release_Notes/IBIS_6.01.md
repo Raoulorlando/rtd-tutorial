@@ -1,5 +1,8 @@
 # IBIS V6.01
 
+```{include} ./markdown/IBIS-suite_release_notes_2023_08_09.md
+```
+
 ```{include} ./markdown/IBIS-suite_release_notes_2023_09.md
 ```
 
