@@ -68,7 +68,7 @@ subtrees:
     subtrees:
     - titlesonly: False
       entries:
-      - file: Release_NOtes/IBIS_6.01
+      - file: Release_Notes/IBIS_6.01
       - file: Release_Notes/IBIS_5.4
       - file: Release_Notes/markdown/Release_notes_5.3(commonmark)
   # - file: Release_Notes/markdown/Release_notes_5.3(commonmark)
