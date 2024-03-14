@@ -109,14 +109,5 @@ Processes all pending exports in the connected system.
 (modules)=
 ## <span id="Modules"></span>Modules
 
-Below table displays the modules are available in a standard
-installation.
-
-| Module                          | Full Import | Delta Import |
-|---------------------------------|-------------|--------------|
-| Microsoft Active Directory      | X           | X            |
-| [Microsoft Entra Id](./ABAC_Connectoren/AbacConnector_MicrosoftEntraId.md)              | X           | X            |
-| [Google Groups](./ABAC_Connectoren/AbacConnector_GoogleGroup)                 | X           |              |
-| [Google Calendar](./ABAC_Connectoren/AbacConnector_GoogleCalendar)                 | X           |              |
-| [Google Mailbox](./ABAC_Connectoren/AbacConnector_GoogleMailbox)                 | X           |              |
+For more information about the available modules, see ['ABAC Modules'](./ABAC_Modules.md)
 

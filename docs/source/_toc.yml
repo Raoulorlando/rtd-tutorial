@@ -11,6 +11,7 @@ subtrees:
         subtrees:
         - entries:
             - file: Documentatie/Connectoren/SysPage_AbacConnector
+            - file: Documentatie/Connectoren/ABAC_Modules
               subtrees:
               - entries:
                 - file: Documentatie/Connectoren/ABAC_Connectoren/AbacConnector_GoogleCalendar
