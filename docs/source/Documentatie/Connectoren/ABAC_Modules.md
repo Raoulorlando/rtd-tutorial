@@ -1,4 +1,4 @@
-# ABAC Modules
+# ABAC Connector Modules
 
 The table below displays the available modules in a standard
 installation.
