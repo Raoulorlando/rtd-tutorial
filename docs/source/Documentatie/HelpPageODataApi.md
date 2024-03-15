@@ -81,7 +81,7 @@ When an object does not exist, a 404 statuscode will be returned.
 |:---------------------------------------------------------------|:-------------------------------------------------------------------------------|
 |   ```GET /OData/IDossiers(89702cb1-49b3-4bdf-8888-bac6cdb477a9)```   |   Retrieve the IDossier with ID<br> <br>89702cb1-49b3-4bdf-8888-bac6cdb477a9   |
 |                    ```GET /OData/AliasDossiers```                    |                           Retrieve all AliasDossiers                           |
-| GET /OData/AliasDossiers(9d5d0705-dfcd-4fd3-ade1-790a84b01053) | Retrieve the Aliasdossier with ID<br> <br>9d5d0705-dfcd-4fd3-ade1-790a84b01053 |
+| ```GET /OData/AliasDossiers(9d5d0705-dfcd-4fd3-ade1-790a84b01053)``` | Retrieve the Aliasdossier with ID<br> <br>9d5d0705-dfcd-4fd3-ade1-790a84b01053 |
 
 ### DELETE
 
