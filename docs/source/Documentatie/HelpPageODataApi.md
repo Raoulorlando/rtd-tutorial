@@ -11,20 +11,20 @@ The following headers are mandatory:
 
 ## Supported entities
 
-|  Resource type  |       Resource URL      |         Supported methods         |
-|:----------------|:------------------------|:----------------------------------|
-| AliasDossier    | /OData/AliasDossiers    | GET, PUT, POST, DELETE            |
-| EpicDossier     | /OData/EpicDossiers     | GET, PUT, POST, DELETE – Optional |
-| FmhDossier      | /OData/fmhDossiers      | GET, PUT, POST, DELETE            |
-| IBISQueue       | /OData/IBISQueues       | GET, PUT, POST, DELETE            |
-| IDossier        | /OData/IDossiers        | GET, PUT, POST, DELETE            |
-| IdentityDossier | /OData/IdentityDossiers | GET, PUT, POST, DELETE            |
-| Organisatie     | /OData/Organisaties     | GET, PUT, POST, DELETE            |
-| PbsDossier      | /OData/PbsDossiers      | GET, PUT, POST, DELETE - Optional |
-| Register        | /OData/Registers        | GET. PUT, Post. DELETE            |
-| TgDossier       | /OData/TgDossiers       | GET, PUT, POST, DELETE            |
-| WidDossier      | /OData/WidDossiers      | GET, PUT, POST, DELETE            |
-| Workflow        | /OData/Workflows        | GET, PUT, POST, DELETE            |
+|  Resource type  |       Resource URL            |         Supported methods         |
+|:----------------|:------------------------------|:----------------------------------|
+| AliasDossier    | ```/OData/AliasDossiers```    | GET, PUT, POST, DELETE            |
+| EpicDossier     | ```/OData/EpicDossiers```     | GET, PUT, POST, DELETE – Optional |
+| FmhDossier      | ```/OData/fmhDossiers```      | GET, PUT, POST, DELETE            |
+| IBISQueue       | ```/OData/IBISQueues```       | GET, PUT, POST, DELETE            |
+| IDossier        | ```/OData/IDossiers```        | GET, PUT, POST, DELETE            |
+| IdentityDossier | ```/OData/IdentityDossiers``` | GET, PUT, POST, DELETE            |
+| Organisatie     | ```/OData/Organisaties```     | GET, PUT, POST, DELETE            |
+| PbsDossier      | ```/OData/PbsDossiers```      | GET, PUT, POST, DELETE - Optional |
+| Register        | ```/OData/Registers```        | GET. PUT, Post. DELETE            |
+| TgDossier       | ```/OData/TgDossiers```       | GET, PUT, POST, DELETE            |
+| WidDossier      | ```/OData/WidDossiers```      | GET, PUT, POST, DELETE            |
+| Workflow        | ```/OData/Workflows```        | GET, PUT, POST, DELETE            |
 
 ## Authentication and authorization
 
@@ -67,7 +67,7 @@ the hardcoded system default of 10 items.
 In order to retrieve an object by it's unique identifier, use the GET
 method on the resource URL followed by the object identifier (between
 parenthesis). For example,
-/OData/IDossiers(89702cb1-49b3-4bdf-8888-bac6cdb477a9 ) will return the
+```/OData/IDossiers(89702cb1-49b3-4bdf-8888-bac6cdb477a9 )``` will return the
 IDossier with ID 89702cb1-49b3-4bdf-8888-bac6cdb477a9.
 
 The GET method will return HTTP status code 200 in case the request was
@@ -79,8 +79,8 @@ When an object does not exist, a 404 statuscode will be returned.
 
 |                      GET /OData/IDossiers                      |                             Retrieve all IDossiers                             |
 |:---------------------------------------------------------------|:-------------------------------------------------------------------------------|
-|   GET /OData/IDossiers(89702cb1-49b3-4bdf-8888-bac6cdb477a9)   |   Retrieve the IDossier with ID<br> <br>89702cb1-49b3-4bdf-8888-bac6cdb477a9   |
-|                    GET /OData/AliasDossiers                    |                           Retrieve all AliasDossiers                           |
+|   ```GET /OData/IDossiers(89702cb1-49b3-4bdf-8888-bac6cdb477a9)```   |   Retrieve the IDossier with ID<br> <br>89702cb1-49b3-4bdf-8888-bac6cdb477a9   |
+|                    ```GET /OData/AliasDossiers```                    |                           Retrieve all AliasDossiers                           |
 | GET /OData/AliasDossiers(9d5d0705-dfcd-4fd3-ade1-790a84b01053) | Retrieve the Aliasdossier with ID<br> <br>9d5d0705-dfcd-4fd3-ade1-790a84b01053 |
 
 ### DELETE
@@ -101,8 +101,8 @@ will be returned.
 
 |      |      |
 |:------------------------------------------------------------------|:-----------------------------------------------------------------------------|
-|   DELETE /OData/IDossiers(89702cb1-49b3-4bdf-8888-bac6cdb477a9)   |   Delete the IDossier with ID<br> <br>89702cb1-49b3-4bdf-8888-bac6cdb477a9   |
-| DELETE /OData/AliasDossiers(9d5d0705-dfcd-4fd3-ade1-790a84b01053) | Delete the AliasDossier with ID<br> <br>9d5d0705-dfcd-4fd3-ade1-790a84b01053 |
+|   ```DELETE /OData/IDossiers(89702cb1-49b3-4bdf-8888-bac6cdb477a9)```   |   Delete the IDossier with ID<br> <br>89702cb1-49b3-4bdf-8888-bac6cdb477a9   |
+|``` DELETE /OData/AliasDossiers(9d5d0705-dfcd-4fd3-ade1-790a84b01053)``` | Delete the AliasDossier with ID<br> <br>9d5d0705-dfcd-4fd3-ade1-790a84b01053 |
 
 ### PUT
 
@@ -114,9 +114,9 @@ request should contain a JSON serialized object.
 
 The recommended way to update an object is:
 
--   Fetch the object using the GET method : GET /OData/IDossiers(id)
+-   Fetch the object using the GET method : ```GET /OData/IDossiers(id)```
 -   Update the required properties
--   Store the object using the PUT method : PUT /OData/IDossiers(id)
+-   Store the object using the PUT method : ```PUT /OData/IDossiers(id)```
 
 The PUT method returns HTTP statuscode 200 after a succesful update.
 
@@ -127,8 +127,8 @@ will be returned.
 
 |                                                                                                                                                                                                                                                                                                                            |                                                                              |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| PUT /OData/IDossiers(89702cb1-49b3-4bdf-8888-bac6cdb477a9)<br> <br>{<br> <br>"ID": "a9af6b17-9371-4d30-9543-0201be5cf4ae",<br> <br>"_02_05_Plaatsing_PlaatsingNummer": "605-DN-902008",<br> <br>"_02_30_Plaatsing_DirectoryAccountAanmaken": "yes", & "_02_31_Plaatsing_EmailAdresAanmaken": "yes",<br> <br>etc.<br> <br>} |   Update the IDossier with ID<br> <br>89702cb1-49b3-4bdf-8888-bac6cdb477a9   |
-|                                                                                                                              DELETE /OData/AliasDossiers(9d5d0705-dfcd-4fd3-ade1-790a84b01053)                                                                                                                             | Delete the AliasDossier with ID<br> <br>9d5d0705-dfcd-4fd3-ade1-790a84b01053 |
+| ```PUT /OData/IDossiers(89702cb1-49b3-4bdf-8888-bac6cdb477a9)```<br> <br>```{```<br> <br>"```ID": "a9af6b17-9371-4d30-9543-0201be5cf4ae",```<br> <br>```"_02_05_Plaatsing_PlaatsingNummer": "605-DN-902008",```<br> <br>```"_02_30_Plaatsing_DirectoryAccountAanmaken": "yes", & "_02_31_Plaatsing_EmailAdresAanmaken": "yes",```<br> <br>```etc.```<br> <br>} |   Update the IDossier with ID<br> <br>89702cb1-49b3-4bdf-8888-bac6cdb477a9   |
+|                                                                                                                              ```DELETE /OData/AliasDossiers(9d5d0705-dfcd-4fd3-ade1-790a84b01053) ```                                                                                                                            | Delete the AliasDossier with ID<br> <br>9d5d0705-dfcd-4fd3-ade1-790a84b01053 |
 
 ### POST
 
@@ -145,7 +145,7 @@ will be returned.
 
 |  |  |
 |:---------------------:|:---------------------:|
-| POST /OData/IDossiers | Create a new IDossier |
+| ```POST /OData/IDossiers``` | Create a new IDossier |
 
 ## Paging
 
@@ -165,9 +165,9 @@ request, until the number of results is lower than the *$top* count.
 ### Examples
 |                                    |                                                                  |
 |:-----------------------------------|:-----------------------------------------------------------------|
-|   /OData/IDossiers?$top=20&skip=0  |          Retrieve the first 20 IDossiers from the server         |
-|  /OData/IDossiers?$top=20&skip=40  |  Retrieve 20 IDossiers from the server, starting at position 41  |
-| /OData/IDossiers?$top=10&skip=1200 | Retrieve 20 IDossiers form the server, starting at position 1201 |
+|   ```/OData/IDossiers?$top=20&skip=0```  |          Retrieve the first 20 IDossiers from the server         |
+|  ```/OData/IDossiers?$top=20&skip=40```  |  Retrieve 20 IDossiers from the server, starting at position 41  |
+| ```/OData/IDossiers?$top=10&skip=1200``` | Retrieve 20 IDossiers form the server, starting at position 1201 |
 
 ## Filtering
 
