@@ -11,7 +11,7 @@
 -   [Thresholds](#Thresholds)
 -   [IDM Number](#IDM%20Number)
 -   [Run Profiles](#Run%20Profiles)
--   [Modules](#Modules)
+-   [Modules](#ModulesIBIS)
 -   [Agent](#Agent)
 
 ## <span id="Introductie"></span>Introduction
@@ -280,8 +280,8 @@ data-helpkey="SysPage_RunProfile">Run profiles</a> documentation
 
 
 
-## <span id="Modules"></span>Modules
-For more information about the available modules, see ['IBIS Modules'](./IBIS_Modules.md)
+## <span id="ModulesIBIS"></span>Modules
+For more information about the available modules, see ['IBIS Connector Modules'](./IBIS_Modules.md)
 
 ## <span id="Agent"></span>Agent
 
