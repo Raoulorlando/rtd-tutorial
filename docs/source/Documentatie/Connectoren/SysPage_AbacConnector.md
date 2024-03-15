@@ -3,7 +3,7 @@
 
 -   [Introduction](#introduction)
 -   [Staging area](#staging-area)
--   [Settings](#Settings)
+-   [Settings](#GeneralSettings)
 -   [Thresholds](#thresholds)
 -   [Operations](#operations)
 -   [Modules](#modules)
