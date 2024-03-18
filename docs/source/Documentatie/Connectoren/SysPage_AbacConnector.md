@@ -109,5 +109,5 @@ Processes all pending exports in the connected system.
 (modules)=
 ## <span id="Modules"></span>Modules
 
-For more information about the available modules, see ['ABAC Modules'](./ABAC_Modules.md)
+For more information about the available modules, see ['ABAC Connector Modules'](./ABAC_Modules.md)
 
