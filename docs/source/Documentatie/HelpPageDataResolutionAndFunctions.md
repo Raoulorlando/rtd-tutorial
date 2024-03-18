@@ -312,7 +312,7 @@ This function checks if a date or datetime field has the year 9999.
 | Date / Datetime | Required | The date or datetime to check if it contains the year 9999 |
 
 |              Examples             |                     |                     |
-|:-------------------------------0--|:--------------------|:--------------------|
+|:-----------------------------------|:--------------------|:--------------------|
 |             **Markup**            |  **Incoming value** |   **Result value**  |
 | `{?{EndDate},IsIndefiniteDate()}` | 31-12-9999 12:10:00 |         True        |
 | `{?{EndDate},IsIndefiniteDate()}` |      31-12-2021     |        False        |
