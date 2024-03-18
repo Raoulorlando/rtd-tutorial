@@ -319,7 +319,7 @@ This function checks if a date or datetime field has the year 9999.
 
 * *
 
-### IsNull
+### Isnull
 
 This function can be used to replace a null (or empty) value with
 another value.
@@ -327,6 +327,13 @@ another value.
 |     Parameters    |          |                                                                 |
 |:------------------|:---------|:----------------------------------------------------------------|
 | Replacement value | Required | The value to replace the input with in case it is null or empty |
+
+|                           Examples                      |                                                 |                                                 |
+|:--------------------------------------------------------|:------------------------------------------------|:------------------------------------------------|
+| Markup                                                  | Incoming value                                  | Result value                                    |
+| {?{DisplayName},isnull(Sample displayname)}             | Test Displayname                                | Test DisplayName                                |
+| {?{DisplayName},isnull(Sample displayname)}             | [null]                                          | Sample DisplayName                              |
+| {?{DisplayName},isnull({Id})}                           | [null]                                          | The value of the Id property                    |
 
 * *
 
