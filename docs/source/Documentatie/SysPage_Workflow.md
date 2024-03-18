@@ -201,8 +201,8 @@ This event fires at specific intervals.
 This event is used for workflows that need to be triggered manually
 through the API. The endpoints for manually triggering a workflow are:
 
--   Synchronous : /odata/workflows(workflow id)/TriggerWorkflow
--   Asynchronous : /odata/workflows(workflow id)/TriggerWorkflowAsync
+-   Synchronous : `/odata/workflows(workflow id)/TriggerWorkflow`
+-   Asynchronous : `/odata/workflows(workflow id)/TriggerWorkflowAsync`
 
 The asynchronous method will execute the workflow in the background and
 immediately return a HTTP 200 result. The synchronous method will
@@ -329,10 +329,10 @@ In case SortProperty and SortDirection are unset, the entire resultset will be s
 
 | DataType |                                                                                                 Example                                                                                                 |
 |:---------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| String   | DynamicProperties["PropertyName"] == """stringvalue"""                                                                                                                                                  |
-| Boolean  | DynamicProperties["PropertyName"] == “””true”””                                                                                                                                                         |
-| Int      | DynamicProperties["PropertyName"] == 123                                                                                                                                                                |
-| Date     | DynamicProperties["PropertyName"] == """2021-12-31"""<br> <br> <br> <br>Check in the DynamicPropertyValues table in which format dates are stored. In this example we're using the 'yyyy-MM-dd' format. |
+| String   | `DynamicProperties["PropertyName"] == """stringvalue"""`                                                                                                                                                  |
+| Boolean  | `DynamicProperties["PropertyName"] == “””true”””`                                                                                                                                                         |
+| Int      | `DynamicProperties["PropertyName"] == 123`                                                                                                                                                                |
+| Date     | `DynamicProperties["PropertyName"] == """2021-12-31"""`<br> <br> <br> <br>Check in the DynamicPropertyValues table in which format dates are stored. In this example we're using the 'yyyy-MM-dd' format. |
 
 
 
