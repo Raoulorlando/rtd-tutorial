@@ -3,7 +3,7 @@
 ###### General settings
 
 |              Setting             |                  Description                 |
-|:--------------------------------|:--------------------------------------------|
+|:---------------------------------|:---------------------------------------------|
 | Name                             | The name of run profile                      |
 | Schedule (CRON)                  | The schedule                                 |
 | Temporarily turn off run profile | If set, the run profile will not be executed |
