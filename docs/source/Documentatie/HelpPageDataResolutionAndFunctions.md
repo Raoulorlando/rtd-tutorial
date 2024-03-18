@@ -37,7 +37,7 @@ will return
 It is possible to reference linked objects using data resolution. A
 linked object is specified using a dot (.) in the markup. For example,
 {Tree.DisplayName} will return the DisplayName of the Tree for the
-incoming node.
+incoming node.a
 
 The following table describes the relations in the different products.
 
