@@ -15,7 +15,7 @@ IBIS. IBIS will process all files that do not have the extension
 ## Parameters
 
 |   Parameter   | Required |                                                        Description                                                        |
-|:-------------|:--------:|:-------------------------------------------------------------------------------------------------------------------------|
+|:--------------|:--------:|:--------------------------------------------------------------------------------------------------------------------------|
 |  IDoc version |     X    |             The expected IDoc version. In case the IDoc contains a different version it will not be processed             |
 | System number |          |                                                        [future use]                                                       |
 | Client number |     X    | The client number the connector must handle. In case the IDoc contains a different client number it will not be processed |

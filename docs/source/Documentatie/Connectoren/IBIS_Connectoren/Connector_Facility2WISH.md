@@ -12,10 +12,6 @@ API.
 |               Password              |     X    |                                                       The password of above username                                                      |
 | Translation file for function codes |          | Optional, the full path of a semicolon separated textfile (CSV) which contains function code translations. See chapter 9.8.1 for details. |
 |  Target property for function code  |          |                                  Optional, the target property to apply the function code translation to                                  |
-| Store location                      | X        | The resource URI for stores. For example:   partner/onboarding/v1/stores                                                                  |
-|           RowFilter fields          |          |                                                                                                                                           |
-|           RowFilter types           |          |                                                                                                                                           |
-|           RowFilter values          |          |                                                                                                                                           |
 
 ## Function code translation
 

@@ -7,7 +7,7 @@
 Employee is mapped as following
 
 |                                 Source (employee)                                 |       Target (PeopleIncModel)       |  Type  |
-|:---------------------------------------------------------------------------------|:-----------------------------------|:------|
+|:----------------------------------------------------------------------------------|:------------------------------------|:-------|
 |                                 activity_fte.Value                                |         Employee_ActivityFte        | String |
 |                               activity_status.Value                               |       Employee_ActivityStatus       | String |
 |                               business_language.code                              |    Employee_BusinessLanguage_Code   | String |
@@ -72,7 +72,7 @@ Employee is mapped as following
 Contract is mapped as following
 
 |                                                                                     Source (contract)                                                                                    |          Target (PeopleIncModel)         |    Type   |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------|:---------|
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------|:----------|
 |                                                                    When no contract is available this property is true                                                                   |            Contract_NotPresent           |    bool   |
 |                                                                             allocation_employment_entity.code                                                                            | Contract_AllocationEmploymentEntity_Code |   String  |
 |                                                                              allocation_employment_entity.cs                                                                             |  Contract_AllocationEmploymentEntity_Cs  |   String  |

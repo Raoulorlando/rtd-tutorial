@@ -6,7 +6,7 @@ users to Unit4 Coda using the Coda SOAP/XML webservice.
 ## Parameters
 
 |     Parameter    | Required |                                Description                               |
-|:----------------:|:--------:|:------------------------------------------------------------------------:|
+|:-----------------|:--------:|:-------------------------------------------------------------------------|
 | Url              | X        | The URL of the Coda endpoint                                             |
 | Username         | X        | The username of the account to use when connecting to Coda               |
 | Password         | X        | The password for the above user account                                  |

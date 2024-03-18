@@ -6,7 +6,7 @@ PowerShell command
 ## Parameters
 
 |     Parameter    | Required |                                                      Description                                                      |
-|:----------------|:--------:|:---------------------------------------------------------------------------------------------------------------------|
+|:-----------------|:--------:|:----------------------------------------------------------------------------------------------------------------------|
 |     Hostname     |          |                            Optional, the name of the Windows or Exchange host to connect to                           |
 | PowerShell Agent |          |              Optional, the PowerShell agent to use. Cannot be used in conjunction with a connector agent              |
 |       Mode       |     X    |                                    Used to determine the shell URI if a host is set                                   |

@@ -36,7 +36,7 @@ In the main page you can:
 #### Check the status of a run profile
 
 | Status |              Description              |
-|:------|:-------------------------------------|
+|:-------|:--------------------------------------|
 |  Gray  | No run has been executed yet          |
 |  Green | All steps have been run succesfully   |
 |  Red   | There have been errors during the run |

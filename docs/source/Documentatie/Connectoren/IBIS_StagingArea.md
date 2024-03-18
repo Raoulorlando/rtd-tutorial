@@ -6,7 +6,7 @@ objects.
 A staging area object consists of 4 major parts:
 
 |      Component      |                                       Description                                      |
-|:-------------------|:--------------------------------------------------------------------------------------|
+|:--------------------|:---------------------------------------------------------------------------------------|
 | General information | Information about connection state, exclusion, external ID, schema, etc.               |
 | Hologram            | The representation of the object as imported from the external system                  |
 | Pending export      | A list of property/value combinations that needs to be exported to the external system |

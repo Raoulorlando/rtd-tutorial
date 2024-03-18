@@ -10,7 +10,7 @@ The primary key for objects delivered by this module is stored in the
 representation of the Topdesk id property, which is a Guid.
 
 |      Parameter     | Required |                                               Description                                               |
-|:------------------|:--------:|:-------------------------------------------------------------------------------------------------------|
+|:-------------------|:--------:|:--------------------------------------------------------------------------------------------------------|
 |         Url        |     X    |                                        The URL of the Topdesk API                                       |
 |      Username      |     X    |                                     The username for the connection                                     |
 |      Password      |     X    |                                      The password of above username                                     |

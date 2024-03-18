@@ -7,7 +7,7 @@ operations, and has the ability to create a transponder for new persons.
 ## Parameters
 
 |               Parameter               | Required |                                      Description                                     |
-|:-------------------------------------|:--------:|:------------------------------------------------------------------------------------|
+|:--------------------------------------|:--------:|:-------------------------------------------------------------------------------------|
 |       Authentication service URL      |     X    |                    The full URL to the authentication service API                    |
 |         Management service URL        |     X    |                      The full URL to the management service API                      |
 |                Username               |     X    |                 The username of the account to use to connect to LSM                 |
@@ -23,7 +23,7 @@ supported by this connector through an export flow.
 <br>
 
 |               Parameter               | Required |                                      Description                                     |
-|:-------------------------------------|:--------:|:------------------------------------------------------------------------------------|
+|:--------------------------------------|:--------:|:-------------------------------------------------------------------------------------|
 |       Authentication service URL      |     X    |                    The full URL to the authentication service API                    |
 |         Management service URL        |     X    |                      The full URL to the management service API                      |
 |                Username               |     X    |                 The username of the account to use to connect to LSM                 |

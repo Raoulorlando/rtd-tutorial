@@ -13,7 +13,7 @@ this, you can made an import filter which excludes accounts where the
 ## Parameters
 
 | Parameter | Required |                                                Description                                               |
-|:---------|:--------:|:--------------------------------------------------------------------------------------------------------|
+|:----------|:--------:|:---------------------------------------------------------------------------------------------------------|
 |    URL    |     X    | The URL of the ZO API endpoint, without any resource part.<br> <br>For example: https://zoapi.domain.tld |
 |  Username |     X    |                                 The username for API Basic authentication                                |
 |  Password |     X    |                                    The password of above user account                                    |
