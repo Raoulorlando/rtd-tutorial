@@ -72,3 +72,10 @@ For a list of other available directives in Restructured Text (RST), view [this 
 ## How to transform existing HTML-tables to markdown?
 
 To transform existing HTML-tables to markdown it is recommended to use [this site](https://www.tablesgenerator.com/markdown_tables). Make sure to enable the option "line breaks as \<br\>"
+
+## How to transform text files in different formats to markdown?
+
+We use [pandoc](https://pandoc.org/MANUAL.html) to achieve this.
+For example if we want to transform a Word-document \(.docx\) to commonmark \(markdown\_strict\) and extract the media to the speficied folder "Release 5.3".
+
+```pandoc "Release notes 5.3.docx" -o "Release notes 5.3.md" -t markdown_strict --extract-media "./Release 5.3"```
