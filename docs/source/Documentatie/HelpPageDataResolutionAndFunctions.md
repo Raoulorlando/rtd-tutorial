@@ -331,9 +331,9 @@ another value.
 |                           Examples                      |                                                 |                                                 |
 |:--------------------------------------------------------|:------------------------------------------------|:------------------------------------------------|
 | Markup                                                  | Incoming value                                  | Result value                                    |
-| {?{DisplayName},isnull(Sample displayname)}             | Test Displayname                                | Test DisplayName                                |
-| {?{DisplayName},isnull(Sample displayname)}             | [null]                                          | Sample DisplayName                              |
-| {?{DisplayName},isnull({Id})}                           | [null]                                          | The value of the Id property                    |
+| `{?{DisplayName},isnull(Sample displayname)}`           | Test Displayname                                | Test DisplayName                                |
+| `{?{DisplayName},isnull(Sample displayname)}`           | [null]                                          | Sample DisplayName                              |
+| `{?{DisplayName},isnull({Id})}`                         | [null]                                          | The value of the Id property                    |
 
 * *
 
@@ -399,8 +399,6 @@ with the specified value.
 |:------------------------------------------------------------|:-----------------|:-----------------------------------------------------------------------------------|
 |                          expression                         |     Required     |               The value which the incoming property has to start with              |
 |                        caseSensitive                        |     Optional     | false to turn off case sensitivity. In case not specified, case sensitivity is on. |
-|           `{?{DisplayName},iif(Test,Waar,Onwaar)}`          | Test Displayname |                                       Onwaar                                       |
-| `{?{DisplayName},iif(Test Displayname,{Id},{DisplayName})}` | Test Displayname |                              The value of property Id                              |
 
 |                   Examples                  |                      |                  |
 |:--------------------------------------------|:---------------------|:-----------------|
