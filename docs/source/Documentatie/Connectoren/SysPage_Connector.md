@@ -1,19 +1,5 @@
 # <span id="index"></span>IBIS Connectors
 
--   [Introduction](#Introductie)
--   [Staging Area](#Staging%20area)
--   [Join / Project / Disconnect](#Join%20/%20Project%20/%20Disconnect)
--   [Project](#Project)
--   [Disconnect](#Disconnect)
--   [Attribute mappings](#Attribute%20mappings)
--   [Import / Export actions](#Import%20/%20Export%20actions)
--   [Filters](#Filters)
--   [Thresholds](#Thresholds)
--   [IDM Number](#IDM%20Number)
--   [Run Profiles](#Run%20Profiles)
--   [Modules](#ModulesIBIS)
--   [Agent](#Agent)
-
 ## <span id="Introductie"></span>Introduction
 
 The IBIS connector framework enables import and export of data from and
