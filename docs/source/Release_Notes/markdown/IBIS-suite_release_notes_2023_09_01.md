@@ -75,7 +75,7 @@
     settings for searching and generating IDM number.
     
     ```{eval-rst}
-    If you start using this functionality, you must disable the workflows/connectors that manage the identity registrations.
+    .. note:: If you start using this functionality, you must disable the workflows/connectors that manage the identity registrations.
     ```
 
 -   IBIS settings \-\> Identity card has been reorganized. Two
