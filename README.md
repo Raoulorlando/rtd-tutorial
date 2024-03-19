@@ -68,3 +68,7 @@ The same applies for using warnings with the directive `.. warning::` instead of
 ## What other directives can be used?
 
 For a list of other available directives in Restructured Text (RST), view [this page](https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html)
+
+## How to transform existing HTML-tables to markdown?
+
+To transform existing HTML-tables to markdown it is recommended to use [this site](https://www.tablesgenerator.com/markdown_tables). Make sure to enable the option "line breaks as \<br\>"
